@@ -40,3 +40,26 @@ public:
         // space complexity: O(1)
     }
 };
+
+
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        // method 2: recursive memorize 
+        // top -> bottom
+        // m[i] = max(rob[i - 2] + nums[i], rob[i - 1])
+
+        const int n = nums.size();
+        m = vector<int>(n, -1);
+        return rob(nums, n - 1);
+    }
+private:
+    vector<int> m;
+    int rob(vector<int>& nums, int i) {
+        if(i < 0) return 0;
+        if(m[i] != -1) return m[i];
+        return m[i] = max(rob(nums, i - 2) + nums[i], rob(nums, i - 1));
+    }
+    // time complexity: O(n)
+    // space complexity: O(n)
+};
