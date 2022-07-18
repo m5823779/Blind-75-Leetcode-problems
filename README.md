@@ -2,7 +2,7 @@
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
 ### Array
-- [x] ![Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] Best Time to Buy and Sell Stock
 - [x] Contains Duplicate
 - [x] Product of Array Except Self
