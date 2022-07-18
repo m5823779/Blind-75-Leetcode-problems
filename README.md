@@ -3,15 +3,15 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 
 ### Array
 - [x] Two Sum
-Best Time to Buy and Sell Stock
-Contains Duplicate
-Product of Array Except Self
-Maximum Subarray
-Maximum Product Subarray
-Find Minimum in Rotated Sorted Array
-Search in Rotated Sorted Array
-3 Sum
-Container With Most Water
+- [x] Best Time to Buy and Sell Stock
+- [x] Contains Duplicate
+- [x] Product of Array Except Self
+- [x] Maximum Subarray
+- [x] Maximum Product Subarray
+- [x] Find Minimum in Rotated Sorted Array
+- [] Search in Rotated Sorted Array
+- [x] 3 Sum
+- [x] Container With Most Water
 ### Binary
 Sum of Two Integers
 Number of 1 Bits
