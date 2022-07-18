@@ -3,33 +3,33 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 
 ### Array
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [x] Best Time to Buy and Sell Stock
-- [x] Contains Duplicate
-- [x] Product of Array Except Self
-- [x] Maximum Subarray
-- [x] Maximum Product Subarray
-- [x] Find Minimum in Rotated Sorted Array
-- [ ] Search in Rotated Sorted Array
-- [x] 3 Sum
-- [x] Container With Most Water
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [x] [3 Sum](https://leetcode.com/problems/3sum/)
+- [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ### Binary
-- [x] Sum of Two Integers
-- [x] Number of 1 Bits
-- [x] Counting Bits
-- [x] Missing Number
-- [x] Reverse Bits
+- [x] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+- [x] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
+- [x] [Missing Number](https://leetcode.com/problems/missing-number/)
+- [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 ### Dynamic Programming
-- [x] Climbing Stairs
-- [x] Coin Change
-- [x] Longest Increasing Subsequence
-- [x] Longest Common Subsequence
-- [ ] Word Break Problem
-- [x] Combination Sum
-- [x] House Robber
-- [x] House Robber II
-- [ ] Decode Ways
-- [ ] Unique Paths
-- [ ] Jump Game
+- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [x] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
+- [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+- [x] [House Robber](https://leetcode.com/problems/house-robber/)
+- [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 ### Graph
 - [ ] Clone Graph
 - [ ] Course Schedule
@@ -46,12 +46,12 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 - [ ] Meeting Rooms (Leetcode Premium)
 - [ ] Meeting Rooms II (Leetcode Premium)
 ### Linked List
-- [x] Reverse a Linked List
-- [x] Detect Cycle in a Linked List
-- [x] Merge Two Sorted Lists
-- [ ] Merge K Sorted Lists
-- [x] Remove Nth Node From End Of List
-- [ ] Reorder List
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
 ### Matrix
 - [ ] Set Matrix Zeroes
 - [ ] Spiral Matrix
