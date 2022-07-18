@@ -2,7 +2,7 @@
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
 ### Array
--[x] Two Sum
+- [x] Two Sum
 Best Time to Buy and Sell Stock
 Contains Duplicate
 Product of Array Except Self
