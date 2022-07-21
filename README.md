@@ -38,8 +38,8 @@
 - [ ] Graph Valid Tree (Leetcode Premium)
 - [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium)
 ### Interval
-- [ ] Insert Interval
-- [ ] Merge Intervals
+- [ ] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] Non-overlapping Intervals
 - [ ] Meeting Rooms (Leetcode Premium)
 - [ ] Meeting Rooms II (Leetcode Premium)
