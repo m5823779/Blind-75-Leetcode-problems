@@ -16,6 +16,19 @@
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+### Interval
+- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
+- [ ] Non-overlapping Intervals
+- [ ] Meeting Rooms (Leetcode Premium)
+- [ ] Meeting Rooms II (Leetcode Premium)
+### Linked List
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
 ### Dynamic Programming
 - [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [x] [Coin Change](https://leetcode.com/problems/coin-change/)
@@ -37,19 +50,6 @@
 - [ ] Alien Dictionary (Leetcode Premium)
 - [ ] Graph Valid Tree (Leetcode Premium)
 - [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium)
-### Interval
-- [ ] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
-- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [ ] Non-overlapping Intervals
-- [ ] Meeting Rooms (Leetcode Premium)
-- [ ] Meeting Rooms II (Leetcode Premium)
-### Linked List
-- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
-- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-- [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
 ### Matrix
 - [ ] Set Matrix Zeroes
 - [ ] Spiral Matrix
