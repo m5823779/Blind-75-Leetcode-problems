@@ -42,10 +42,10 @@
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 ### Matrix
-- [x] Set Matrix Zeroes
-- [ ] Spiral Matrix
-- [ ] Rotate Image
-- [ ] Word Search
+- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [ ] [Word Search](https://leetcode.com/problems/word-search/)
 ### Graph
 - [ ] Clone Graph
 - [ ] Course Schedule
