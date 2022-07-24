@@ -41,6 +41,11 @@
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+### Matrix
+- [x] Set Matrix Zeroes
+- [ ] Spiral Matrix
+- [ ] Rotate Image
+- [ ] Word Search
 ### Graph
 - [ ] Clone Graph
 - [ ] Course Schedule
@@ -50,11 +55,6 @@
 - [ ] Alien Dictionary (Leetcode Premium)
 - [ ] Graph Valid Tree (Leetcode Premium)
 - [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium)
-### Matrix
-- [ ] Set Matrix Zeroes
-- [ ] Spiral Matrix
-- [ ] Rotate Image
-- [ ] Word Search
 ### String
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
