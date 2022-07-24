@@ -20,8 +20,8 @@
 - [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [x] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
-- [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
+- [ ] ~~[Meeting Rooms (Leetcode Premium)]~~(https://leetcode.com/problems/meeting-rooms/)
+- [ ] ~~[Meeting Rooms II (Leetcode Premium)]~~(https://leetcode.com/problems/meeting-rooms-ii/)
 ### Linked List
 - [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
