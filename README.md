@@ -82,7 +82,7 @@
 - [ ] Add and Search Word
 - [ ] Word Search II
 ### Heap
-- [ ] Merge K Sorted Lists
+- [x] Merge K Sorted Lists
 - [ ] Top K Frequent Elements
 - [ ] Find Median from Data Stream
 
