@@ -63,3 +63,51 @@ public:
     // time complexity: O(nklogk) k: number of list / n: length of exah list
     // space complexity: O(k)
 };
+
+
+class Solution {
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        // method 2: divide and conquer
+        // example:
+        //            a+b+c+d
+        //          /         \
+        //       a+b           c+d
+        //      /   \         /    \
+        //    a       b     c        d 
+        return solve(lists, 0, lists.size() - 1);
+    }
+private:
+    ListNode* solve(vector<ListNode*>& lists, int l, int r) {
+        if (l > r) return nullptr;  // to avoid empty lists
+        if (l == r) return lists[l];
+        if (r - l == 1) return mergeTwoList(lists[l], lists[r]);
+        int m = l + (r - l) / 2;
+        
+        ListNode* l1 = solve(lists, l, m);
+        ListNode* l2 = solve(lists, m + 1, r);
+        return mergeTwoList(l1, l2);
+    }
+    
+    ListNode* mergeTwoList(ListNode* l1, ListNode* l2) {
+        ListNode dummy(0);
+        ListNode* tail = &dummy;
+        
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
+                tail->next = l1;
+                l1 = l1->next;
+            }
+            else {
+                tail->next = l2;
+                l2 = l2->next;
+            }
+            tail = tail->next;
+        }
+        
+        tail->next = l1 ? l1 : l2;
+        return dummy.next;
+    }
+    // time complexity: O(nklogk) k: number of list / n: length of exah list
+    // space complexity: O(logk)
+};
