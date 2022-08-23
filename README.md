@@ -58,16 +58,16 @@
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
 ### Graph
-- [ ] Clone Graph
-- [ ] Course Schedule
-- [ ] Pacific Atlantic Water Flow
-- [ ] Number of Islands
-- [ ] Longest Consecutive Sequence
-- [ ] Alien Dictionary (Leetcode Premium)
-- [ ] Graph Valid Tree (Leetcode Premium)
-- [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium)
+- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
+- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
+- [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
+- [ ] ~~[Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)~~
 ### Tree
-- [ ] Maximum Depth of Binary Tree
+- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [ ] Same Tree
 - [ ] Invert/Flip Binary Tree
 - [ ] Binary Tree Maximum Path Sum
