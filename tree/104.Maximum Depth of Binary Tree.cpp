@@ -21,3 +21,34 @@ public:
     // time complexity: O(n)
     // space complexity: O(h)
 };
+
+
+class Solution {
+public:
+    int maxDepth(TreeNode* root) {
+        // method 2: BFS (Breadth first search)
+        // 1. return 0, if root is null
+        // 2. create queue to store root node
+        // 3. pop out original root node, then push next (left, right) node into queue, while queue is not empty
+        if (!root) return 0;
+        int ans = 0;
+        queue<TreeNode*> q;
+        q.push(root);
+        
+        while(!q.empty()) {
+            ans++;
+            int s = q.size();
+            
+            for (int i = 0; i < s; ++i) {
+                TreeNode* tmp = q.front();
+                q.pop();
+                
+                if (tmp->right) q.push(tmp->right);
+                if (tmp->left) q.push(tmp->left);
+            }
+        }
+        return ans;
+    }
+    // time complexity: O(n)
+    // space complexity: O(n) 
+};
