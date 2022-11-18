@@ -75,7 +75,7 @@
 - [ ] Serialize and Deserialize Binary Tree
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [ ] Validate Binary Search Tree
+- [x] Validate Binary Search Tree
 - [ ] Kth Smallest Element in a BST
 - [ ] Lowest Common Ancestor of BST
 - [ ] Implement Trie (Prefix Tree)
