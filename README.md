@@ -78,9 +78,9 @@
 - [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-- [ ] Implement Trie (Prefix Tree)
-- [ ] Add and Search Word
-- [ ] Word Search II
+- [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] [Add and Search Word](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 ### Heap
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [x] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
