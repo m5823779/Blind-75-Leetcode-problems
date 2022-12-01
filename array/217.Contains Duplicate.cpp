@@ -38,7 +38,25 @@ public:
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        // method 3. sorting (while)
+        // method 2.1 hash table
+        // 1. create map (hash table), record the number of each number
+        // 2. enumerate map, if the value > 1, return true
+        map<int, int> mp; // key: nunmber, value: number of a number
+        for (int n : nums) mp[n]++;
+        for (std::pair m : mp) 
+            if (m.second > 1) return true;
+        
+        return false;
+        // time complexity: O(n)
+        // space complexity: O(n)
+    }
+};
+
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        // method 3. sorting (two pointer)
         // 1. sorting 
         // 2. define <i, j> pointer, which j = i + 1
         // 3. return "true" if nums[i] == nums[j] else return "false"
@@ -77,6 +95,20 @@ public:
             if (nums[i] == nums[j]) return true;
         }
         return false;
+        // time complexity: O(n)
+        // space complexity: O(1)
+    }
+};
+
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        // method 4. set
+        set<int> s;
+        for (int n : nums) s.insert(n);
+        if (nums.size() == s.size()) return false;
+        else return true;
         // time complexity: O(n)
         // space complexity: O(1)
     }
