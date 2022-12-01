@@ -71,3 +71,33 @@ public:
         // space complexity: O(1)
     }
 };
+
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        // method 3: two pointer
+        // 1. define left & right pointer (left: buy, right: sell)
+        // 2. if buying days price > selling days price -> move left pointer
+        // 3. if buying days price < selling days price -> calculate profit -> update to ans
+        // 4. repeat step 2, 3, until right pointer reach the end of array
+        const int len = prices.size();
+        int l = 0;
+        int r = l + 1;
+        int ans = 0;
+        
+        while (r < len) {
+            if (prices[l] > prices[r]) {
+                l++;
+                r = l + 1;
+            }
+            else {
+                ans = max(ans, prices[r] - prices[l]);
+                r++;
+            }
+        }
+        return ans;
+    }
+    // time complexity: O(n)
+    // space complexity: O(1)
+};
