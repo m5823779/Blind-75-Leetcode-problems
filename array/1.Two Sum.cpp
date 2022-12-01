@@ -48,3 +48,26 @@ public:
         // space complexity: O(n)
     }
 };
+
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        // method 2: hash table: Allow O(1) to get the target value
+        // The answer return index not value, hash set is unorder, we use hash map
+        
+        // 1. create map (hash table)
+        // 2. store <element, index>
+        // 3. enumerate all element var, find (target - ver) is in the map or not
+        map<int, int> m;  // key: num, value: index
+        
+        for (int i = 0; i < nums.size(); ++i) {
+            int left = target - nums[i];
+            if (m.find(left) != m.end() && m[left] != i) return {i, m[left]};
+            else m[nums[i]] = i;
+        }
+        return {};
+        // time complexity: O(n)
+        // space complexity: O(n)
+    }
+};
