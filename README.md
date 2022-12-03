@@ -1,14 +1,14 @@
 # Blind 75 Leetcode problems
 ### Array
-- [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) [solution](./array/1.Two%20Sum.cpp)  `Hash table`
-- [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) `Dynamic programming` 
-- [x] ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) [solution](./array/217.Contains%20Duplicate.cpp) `Hash table` `Sorting` 
-- [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp) `Prefix sum`
-- [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [solution](./array/53.Maximum%20Subarray.cpp) `Dynamic programming` 
-- [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) [solution](./array/152.Maximum%20Product%20Subarray.cpp)
+- [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) `Hash table` [solution](./array/1.Two%20Sum.cpp)
+- [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Dynamic programming` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
+- [x] ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Hash table` `Sorting` [solution](./array/217.Contains%20Duplicate.cpp)
+- [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp)
+- [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Dynamic programming`  [solution](./array/53.Maximum%20Subarray.cpp)
+- [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Dynamic programming` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
 - [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) `Hash table` `Two pointer`
+- [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) `Hash table` `Two pointer` [solution](./array/15.3Sum.cpp)
 - [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ### Binary
 - [x] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
