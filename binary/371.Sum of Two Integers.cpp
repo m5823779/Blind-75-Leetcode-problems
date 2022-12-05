@@ -34,6 +34,7 @@ public:
   
         
 		while (b) {
+			// Leetcode 編譯器 不能對負數進行左移，就是說最高位符號位必須要為0
             int carry = (a & b & 0x7fffffff) << 1;
 			a = (a ^ b);
 			b = carry;
