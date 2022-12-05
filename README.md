@@ -13,7 +13,7 @@
 
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND`
-- [x] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Bitwise` `AND` 
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
