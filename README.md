@@ -9,7 +9,8 @@
 - [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Dynamic programming` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
-- [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointer` [solution](./array/11.Container%20With%20Most%20Water.cpp)
+
 ### Binary
 - [x] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 - [x] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
