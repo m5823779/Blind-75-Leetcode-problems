@@ -12,14 +12,14 @@
 - [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointer` [solution](./array/11.Container%20With%20Most%20Water.cpp)
 
 ### Binary
-- [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND`
-- [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Bitwise` `AND` 
-- [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `Dynamic programming` 
-- [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) `Bitwise` `XOR` `Hash table`
+- [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
+- [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
+- [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `Dynamic programming` [solution](./binary/338.Counting%20Bits.cpp) 
+- [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) `Bitwise` `XOR` `Hash table` [solution](./binary/268.Missing%20Number.cpp)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 ### Interval
-- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
 - [x] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
