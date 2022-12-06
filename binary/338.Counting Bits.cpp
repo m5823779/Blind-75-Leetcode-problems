@@ -8,7 +8,6 @@ public:
             int count = 0;
 
             int tmp = i;
-            int tmp = i;
             while(tmp) {
                 count += (tmp % 2);
                 tmp /= 2;
