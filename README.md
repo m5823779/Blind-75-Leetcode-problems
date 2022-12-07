@@ -20,7 +20,7 @@
 
 ### Interval
 - [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
-- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
+- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) [solution](./interval/57.Insert%20Interval.cpp)
 - [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
 - [ ] ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
