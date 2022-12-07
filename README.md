@@ -1,7 +1,7 @@
 # Blind 75 Leetcode problems
 ### Array
 - [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) `Hash table` [solution](./array/1.Two%20Sum.cpp)
-- [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) `Hash table` `Two pointer` [solution](./array/15.3Sum.cpp)
+- [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) `Hash table` `Two pointers` [solution](./array/15.3Sum.cpp)
 - [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Dynamic programming` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
 - [x] ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Hash table` `Sorting` [solution](./array/217.Contains%20Duplicate.cpp)
 - [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp)
@@ -9,7 +9,7 @@
 - [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Dynamic programming` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
-- [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointer` [solution](./array/11.Container%20With%20Most%20Water.cpp)
+- [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointers` [solution](./array/11.Container%20With%20Most%20Water.cpp)
 
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
@@ -26,7 +26,7 @@
 - [ ] `Premium` ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
 ### Linked List
 - [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
-- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+- [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
