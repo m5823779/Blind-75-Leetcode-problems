@@ -20,12 +20,12 @@
 
 ### Interval
 - [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
-- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) [solution](./interval/57.Insert%20Interval.cpp)
+- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) `Array` [solution](./interval/57.Insert%20Interval.cpp)
 - [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [ ] ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
-- [ ] ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
+- [ ] `Premium` ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
+- [ ] `Premium` ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
 ### Linked List
-- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
 - [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
