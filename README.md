@@ -16,11 +16,11 @@
 - [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
 - [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `Dynamic programming` [solution](./binary/338.Counting%20Bits.cpp) 
 - [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) `Bitwise` `XOR` `Hash table` [solution](./binary/268.Missing%20Number.cpp)
-- [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+- [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
 
 ### Interval
 - [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
-- [x] [Insert Interval](https://leetcode.com/problems/reverse-linked-list/)
+- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
 - [ ] ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
