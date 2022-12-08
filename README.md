@@ -10,6 +10,7 @@
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointers` [solution](./array/11.Container%20With%20Most%20Water.cpp)
+****
 
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
@@ -17,13 +18,16 @@
 - [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `Dynamic programming` [solution](./binary/338.Counting%20Bits.cpp) 
 - [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) `Bitwise` `XOR` `Hash table` [solution](./binary/268.Missing%20Number.cpp)
 - [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
+****
 
 ### Interval
 - [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
 - [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) `Array` [solution](./interval/57.Insert%20Interval.cpp)
-- [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+- [x] `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) `Sorting` `Greedy` [solution](./interval/435.Non-overlapping%20Intervals.cpp)
 - [ ] `Premium` ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
 - [ ] `Premium` ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
+****
+
 ### Linked List
 - [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
 - [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
@@ -31,6 +35,8 @@
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
+****
+
 ### Dynamic Programming
 - [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [x] [Coin Change](https://leetcode.com/problems/coin-change/)
