@@ -33,7 +33,7 @@
 - [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 - [x] ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
 - [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
 ****
 
