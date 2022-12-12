@@ -38,7 +38,7 @@
 ****
 
 ### Dynamic Programming
-- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [x] ` Easy ` [x] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 - [x] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
@@ -49,6 +49,8 @@
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+****
+
 ### Matrix
 - [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 - [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
