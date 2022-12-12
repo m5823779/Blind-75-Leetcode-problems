@@ -56,6 +56,8 @@
 - [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [x] [Word Search](https://leetcode.com/problems/word-search/)
+****
+
 ### String
 - [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [x] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
@@ -67,6 +69,8 @@
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
+****
+
 ### Graph
 - [x] [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [x] [Course Schedule](https://leetcode.com/problems/course-schedule/)
@@ -76,6 +80,8 @@
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
 - [ ] ~~[Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)~~
+****
+
 ### Tree
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
@@ -91,9 +97,11 @@
 - [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [x] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+****
+
 ### Heap
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [x] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-
+****
 
