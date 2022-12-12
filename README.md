@@ -38,7 +38,7 @@
 ****
 
 ### Dynamic Programming
-- [x] ` Easy ` [x] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 - [x] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
@@ -73,7 +73,7 @@
 
 ### Graph
 - [x] `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) 
-- [x] [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
 - [x] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [x] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
