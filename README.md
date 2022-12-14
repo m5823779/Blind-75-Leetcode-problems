@@ -10,6 +10,7 @@
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointers` [solution](./array/11.Container%20With%20Most%20Water.cpp)
+- [x] `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp)
 ****
 
 ### Binary
@@ -76,7 +77,6 @@
 - [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
 - [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 - [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
-- [x] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
 - [ ] ~~[Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)~~
