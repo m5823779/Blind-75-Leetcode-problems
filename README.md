@@ -75,7 +75,7 @@
 - [x] `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) 
 - [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
 - [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
-- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
 - [x] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
