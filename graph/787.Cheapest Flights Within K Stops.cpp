@@ -36,3 +36,32 @@ private:
     // time complexity: O(n^k+1)
     // space complexity: O(k+1)
 };
+
+
+class Solution {
+public:
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+        int ans = INT_MAX;
+
+        unordered_map<int, vector<pair<int, int>>> mp;
+        for (auto f : flights) mp[f[0]].push_back( {f[1], f[2]} );
+
+        queue<pair<int, int>> q;
+        q.push( {src, 0} );  // current node, current cost
+
+        while (!q.empty() && k-- >= 0) {
+            int cur_node = q.front().first;
+            int cur_cost = q.front().second;
+
+            q.pop();
+
+            for (pair<int, int> neighbor : mp[cur_node]) {
+                if (cur_cost + neighbor.second > ans) continue;
+                q.push( {neighbor.first, cur_cost + neighbor.second} );
+                if (neighbor.first == dst) 
+                    ans = min(ans, cur_cost + neighbor.second);
+            }
+        }
+        return (ans == INT_MAX) ? -1 : ans;
+    }
+};
