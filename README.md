@@ -77,6 +77,7 @@
 - [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
 - [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 - [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
+- [] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)  `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
 - [ ] ~~[Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)~~
