@@ -40,7 +40,7 @@
 
 ### Dynamic Programming
 - [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
-- [x] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) `Recursion` `Dynanic programming` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
 - [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)

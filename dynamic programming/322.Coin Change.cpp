@@ -1,6 +1,23 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
+        // method 1: brute force
+        if (amount == 0) return 0;
+        int ans = INT_MAX;
+
+        for (auto coin : coins) 
+            if (coin <= amount)
+                ans = min(ans, coinChange(coins, amount - coin) + 1);
+        
+        return ans;
+    }
+	// time complexity: O(amount^n)
+	// space complexity: O(amount)
+};
+
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
         // method 1. dynamic programming
 		// [1, 3, 4, 5]
 		// amount: 7
