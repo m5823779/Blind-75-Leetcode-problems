@@ -41,8 +41,8 @@
 ### Dynamic Programming
 - [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 - [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) `Recursion` `Dynanic programming` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
-- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Recursion` `Dynanic programming` `Tree` `Greedy` `binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
-- [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Recursion` `Dynanic programming` `Greedy` `binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
+- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
 - [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [x] [House Robber](https://leetcode.com/problems/house-robber/)
