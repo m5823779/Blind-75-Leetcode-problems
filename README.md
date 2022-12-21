@@ -45,7 +45,9 @@
 - [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
 - [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) `Hash table` `Recursion` `Dynanic programming` [solution](./dynamic%20programming/139.Word%20Break.cpp)
 - [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) `Recursion` `Tree` `Dynanic programming` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
-- [x] [House Robber](https://leetcode.com/problems/house-robber/)
+- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
+        `Recursion` `Tree` `Dynanic programming` [solution](./dynamic%20programming/198.House%20Robber.cpp)
+        
 - [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
