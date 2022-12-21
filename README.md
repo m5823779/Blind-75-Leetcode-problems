@@ -177,7 +177,8 @@
 - [x] ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
 
-- [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [x] ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
 
 - [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
