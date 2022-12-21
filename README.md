@@ -149,7 +149,7 @@
 
 ### Graph
 - [x] `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp)
 
 - [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
@@ -157,10 +157,10 @@
 - [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 
-- [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  
+- [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
         `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
 
-- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)  
+- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
 
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
@@ -174,9 +174,9 @@
 - [x] ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
-- [x] ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)  
+- [x] ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
-
+        
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 - [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
