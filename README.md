@@ -2,11 +2,11 @@
 ### Array
 - [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) `Hash table` [solution](./array/1.Two%20Sum.cpp)
 - [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) `Hash table` `Two pointers` [solution](./array/15.3Sum.cpp)
-- [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `Dynamic programming` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
+- [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `DP` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
 - [x] ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) `Hash table` `Sorting` [solution](./array/217.Contains%20Duplicate.cpp)
 - [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp)
-- [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `Dynamic programming`  [solution](./array/53.Maximum%20Subarray.cpp)
-- [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `Dynamic programming` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
+- [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
+- [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) `DP` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
 - [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) `Two pointers` [solution](./array/11.Container%20With%20Most%20Water.cpp)
@@ -16,7 +16,7 @@
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
 - [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
-- [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `Dynamic programming` [solution](./binary/338.Counting%20Bits.cpp) 
+- [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) `Bitwise` `AND` `DP` [solution](./binary/338.Counting%20Bits.cpp) 
 - [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) `Bitwise` `XOR` `Hash table` [solution](./binary/268.Missing%20Number.cpp)
 - [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
 ****
@@ -30,24 +30,45 @@
 ****
 
 ### Linked List
-- [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
-- [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
-- [x] ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
+- [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) 
+        `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
+
+- [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
+        `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
+
+- [x] ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
+        `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
+
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [x] `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
+
+- [x] `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
+        `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
+
 - [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
 ****
 
 ### Dynamic Programming
-- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
-- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) `Recursion` `Dynanic programming` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
-- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) `Recursion` `Dynanic programming` `Greedy` `binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
-- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) `Recursion` `Dynanic programming` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
-- [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) `Hash table` `Recursion` `Dynanic programming` [solution](./dynamic%20programming/139.Word%20Break.cpp)
-- [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) `Recursion` `Tree` `Dynanic programming` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
-- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
-        `Recursion` `Tree` `Dynanic programming` [solution](./dynamic%20programming/198.House%20Robber.cpp)
+- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+
+- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
+        `Recursion` `DP` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
+
+- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
+        `Recursion` `DP` `Greedy` `Binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
+
+- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
+
+- [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
+        `Hash table` `Recursion` `DP` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+
+- [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
         
+- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)
+
 - [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
