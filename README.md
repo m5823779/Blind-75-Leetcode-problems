@@ -176,7 +176,7 @@
 
 - [x] ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
-        
+
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 - [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
@@ -209,4 +209,10 @@
 
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 ****
+
+### Other
+- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+        `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
