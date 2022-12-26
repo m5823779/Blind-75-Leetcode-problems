@@ -217,3 +217,6 @@
 - [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
+- [x] [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
+        `Hash table` [solution](./other/706.Design%20HashMap.cpps)
+
