@@ -180,7 +180,8 @@
 - [x] ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
 
-- [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [x] ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+        `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp)
 
 - [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
