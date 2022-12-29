@@ -1,16 +1,46 @@
+
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        // method 1: brute force
+        // method 1: brute force (pick not-pick approach)
+        int ans = util(coins, amount, 0);
+        return ans == INT_MAX ? -1 : ans;
+    }
+private:
+    int util(vector<int>& coins, int amount, int current) {
+        if (current >= coins.size() || amount <= 0)
+            return (amount == 0) ? 0 : INT_MAX; 
+
+        int num_coin;
+        int pick = util(coins, amount - coins[current], current);
+        if (pick != INT_MAX) {
+            pick += 1;
+        }
+
+        int nopick = util(coins, amount, current + 1);
+        num_coin = min(pick, nopick);
+        return num_coin;
+    }
+    // time complexity: O(2^n)
+    // space complexity: O(amount)
+};
+
+class Solution {
+public:
+	int coinChange(vector<int>& coins, int amount) {
         if (amount == 0) return 0;
+        
         int ans = INT_MAX;
 
         for (auto coin : coins) 
-            if (coin <= amount)
-                ans = min(ans, coinChange(coins, amount - coin) + 1);
+            if (coin <= amount) {
+                int sub_res = coinChange(coins, amount - coin);
+                if (sub_res != -1)
+                    ans = min(ans, sub_res + 1);
+            }
         
-        return ans;
-    }
+        return ans == INT_MAX ? -1 : ans;
+	}
 	// time complexity: O(amount^n)
 	// space complexity: O(amount)
 };
