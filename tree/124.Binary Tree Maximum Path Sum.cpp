@@ -29,12 +29,13 @@ public:
 private:
     int maxPathSum(TreeNode* root, int& ans) {  // b + a or c + a or b + a + c
         if (!root) return 0;
-        int left = max(0, maxPathSum(root->left, ans));
-        int right = max(0, maxPathSum(root->right, ans));
-        int left_mid_right = left + root->val + right;
-        int leftright_mid = max(left, right) + root->val;
-        ans = max(ans, max(left_mid_right, leftright_mid));
-        return leftright_mid;
+        int left_subtree = max(solve(root->left, ans), 0);
+        int right_subtree = max(solve(root->right, ans), 0);
+        ans = max({ ans, 
+                    root->val + left_subtree,
+                    root->val + right_subtree,
+                    root->val + left_subtree + right_subtree });
+        return root->val + max(left_subtree, right_subtree);
     }
     
     // time complexity: O(n)
