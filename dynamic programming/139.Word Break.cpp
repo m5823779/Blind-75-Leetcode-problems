@@ -100,3 +100,25 @@ public:
     // time complexity: O(n * m)
     // space complexity: O(n)
 };
+
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        // method 2: dynamic programming
+        const int n = s.size();
+        vector<bool> dp(n + 1, false);
+        dp[n] = true;
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (string word : wordDict) {
+                if (n - i + 1 >= word.size() && s.substr(i, word.size()) == word && dp[i + word.size()]) {
+                    dp[i] = true;
+                }
+            }
+        }
+        return dp[0];
+    }
+    // time complexity: O(n * m)
+    // space complexity: O(n)
+};
