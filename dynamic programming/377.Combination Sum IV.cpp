@@ -10,7 +10,7 @@ public:
             }
         }
         return ans;
-        // space complexity: O(n^target)
+        // time complexity: O(n^target)
         // space complexity: O(target)
     }
 };

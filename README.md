@@ -106,7 +106,8 @@
 - [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)
 
-- [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [x] `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
 
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 
