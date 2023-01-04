@@ -112,7 +112,8 @@
 - [x] `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp)
 
-- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [x] `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
 
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 ****
