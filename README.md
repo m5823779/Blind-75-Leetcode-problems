@@ -115,7 +115,8 @@
 - [x] `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
 
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+- [x] `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
+        `Recursion` `Tree` `DP` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) 
 ****
 
 ### Matrix
