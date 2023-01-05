@@ -122,3 +122,66 @@ public:
     // time complexity: O(n * m)
     // space complexity: O(n)
 };
+
+
+class Solution {
+public:
+    struct trieNode {
+        bool isEnd;
+        vector<trieNode*> child;
+        trieNode () : isEnd(false), child(26, nullptr) {}
+    };
+    
+    bool wordBreak(string s, vector<string>& wordDict) {
+        // method 3: trie tree (prefix tree)
+        // 1. generate trie tree
+        // 2. depth first search traversal trie tree
+
+        root = new trieNode();
+        memo = vector<int>(s.size(), -1);
+
+        for (string word : wordDict) {
+            trieNode* cur = root;
+            
+            for (char c : word) {
+                if (!cur->child[c - 'a']) {
+                    cur->child[c - 'a'] = new trieNode();
+                }
+                cur = cur->child[c - 'a'];
+            }
+            cur->isEnd = true;
+        }
+
+        return dfs(s, 0);
+    }
+private:
+    trieNode* root = nullptr;
+    vector<int> memo;
+    bool dfs(string s, int cur) {
+        const int n = s.size();
+        if (cur == n) return true;
+        if (memo[cur] == 0) return false;
+
+        trieNode* p = root;
+
+        for (int i = cur; i < n; ++i) {
+            if (p->child[s[i] - 'a']) {
+                p = p->child[s[i] - 'a'];
+
+                if (p->isEnd && dfs(s, i + 1)) {
+                    return true;
+                }
+            }
+            else {
+                break;
+            }
+        } 
+        return memo[cur] = false;
+    }
+
+    // time complexity: O(wl) to generate trie + O(nl)
+    // space complexity: O(wl)
+    // n: s length
+    // w: dic length
+    // l: longest string length in dict
+};

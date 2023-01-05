@@ -98,7 +98,7 @@
         `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
 
 - [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Hash table` `Recursion` `DP` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+        `Hash table` `Recursion` `DP` `trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
 
 - [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
