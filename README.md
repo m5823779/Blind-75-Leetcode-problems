@@ -219,9 +219,12 @@
 ### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+- [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
-- [x] [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
+- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` [solution](./other/706.Design%20HashMap.cpps)
+
+- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+        `Hash table` `Recursion` `DP` `trie` [solution]()
 

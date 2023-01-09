@@ -31,6 +31,31 @@ public:
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        int ans = 0;  // longest substring's length
+        const int len = s.size();
+        for (int i = 0; i < len; i++) {
+            vector<bool> seen(128, false); // ASCI
+            int tmp = 0;
+            for (int j = i; j < len; j++) {
+                if (seen[s[j]]) {
+                    ans = max(ans, tmp);
+                    break;
+                }
+                tmp++;
+                seen[s[j]] = true;
+            }
+            ans = max(ans, tmp);
+        } 
+        return ans;
+    }
+    // time complexity: O(n * 128)
+    // space complexity: O(128)
+};
+
+
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
         // method 2: sliding window
         // example:
         // 0 1 2 3 4 5 6 7
