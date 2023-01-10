@@ -225,17 +225,20 @@
 
 ### tree
 - [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `Recursion` `Binary search tree`
+        `Tree` `Recursion` `Binary search tree` [solution](./other/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
 
--[x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking`
+- [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+        `Tree` `Recursion` `Backtracking` [solution](./other/39.Combination%20Sum.cpp)
+
+- [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+        `Tree` `Recursion` `Backtracking` [solution](./other/40.Combination%20Sum%20II.cpp)
 
 ### string
 - [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
         `String` `Recursion` `Backtracking`
 
 - [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `trie` [solution]()
+        `Hash table` `Recursion` `DP` `trie` [solution](./other/140.Word%20Break%20II.cpp)
 
 ### Math
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
