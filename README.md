@@ -239,6 +239,9 @@
 
 - [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
         `Recursion` `Backtracking` [solution](./other/78.Subsets.cpp)
+
+- [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+        `Recursion` `Backtracking` [solution](./other/90.Subsets%20II.cpp)
 ****
 
 ### string
