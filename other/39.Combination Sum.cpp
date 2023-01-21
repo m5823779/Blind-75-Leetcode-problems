@@ -3,29 +3,31 @@ public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         // method : recursion
         vector<int> sub_ans;
-        solve(candidates, target, 0, sub_ans);
+        solve(candidates, target, sub_ans, 0);
         return ans;
     }
 
 private:
     vector<vector<int>> ans;
-    void solve(vector<int>& candidates, int target, int cur, vector<int> sub_ans) {
+    void solve(vector<int>& candidates, int target, vector<int> sub_ans, int cur) {
         // base case
-        if (target == 0) {
-            ans.push_back(sub_ans);
-        }
-        if (target < 0) {
+        if (cur >= candidates.size()) {
             return;
         }
 
-        // recursion relation
-        while (cur < candidates.size()) {
-            sub_ans.push_back(candidates[cur]);
-            solve(candidates, target - candidates[cur], cur, sub_ans);
-            sub_ans.pop_back();
-            cur++;
+        if (target == 0) {
+            ans.push_back(sub_ans);
         }
-        // time complexity: O(n ^ (target) / M) // M: minium number in candidates
-        // space complexity: O(target / M)
+
+        // recursion relation
+        for (int i = cur; i < candidates.size(); i++) {
+            if (target - candidates[i] >= 0) {
+                sub_ans.push_back(candidates[i]);
+                solve(candidates, target - candidates[i], sub_ans, i);
+                sub_ans.pop_back();
+            }
+        }
     }
+    // time complexity: O(n ^ (target) / M) // M: minium number in candidates
+    // space complexity: O(target / M)
 };
