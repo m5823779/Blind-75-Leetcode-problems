@@ -247,6 +247,9 @@
 
 - [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
         `Recursion` `Backtracking` [solution](./other/46.Permutations.cpp)
+
+- [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+        `Recursion` `Backtracking` [solution](./other/47.Permutations%20II.cpp)
 ****
 
 ### string

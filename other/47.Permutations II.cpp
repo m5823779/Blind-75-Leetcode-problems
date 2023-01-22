@@ -1,7 +1,8 @@
 class Solution {
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
         // method: recursive (backtracking)
+        sort(nums.begin(), nums.end());
         vector<int> sub_ans;
         used = vector<bool>(nums.size(), false);
         solve(nums, sub_ans);
@@ -20,6 +21,10 @@ private:
                 continue;
             }
 
+            if ( i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) {
+                continue;
+            }
+
             used[i] = true;
 
             sub_ans.push_back(nums[i]);
@@ -32,4 +37,4 @@ private:
     // time complxity: O(n!)
     // space complexity: O(n)
 };
-
+Console
