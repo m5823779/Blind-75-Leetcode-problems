@@ -72,7 +72,7 @@ using namespace std;
 
 #define VERTEX_NUM 9
 
-typedef pair<int, int> PII;
+// bool comp = [](pair<int, int> a, pair<int, int> b){return a.first < b.first;};
 
 void printArray(int* array, int length){
     cout << "Vertex\t\t Distance from source" << endl;
@@ -83,11 +83,13 @@ void printArray(int* array, int length){
 
 void dijkstra(int graph[VERTEX_NUM][VERTEX_NUM], int start) {
     vector<int> dist(VERTEX_NUM, INT_MAX);
-    priority_queue<PII, vector<PII>, greater<PII>> pq;
     vector<bool> visited(VERTEX_NUM, false);
+    // priority_queue<pair<int, int>, vector<pair<int, int> >, decltype(comp)> pq(comp);
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > pq;
+
 
     dist[start] = 0;
-    pq.push({0, start});
+    pq.push(make_pair(0, start));
 
     while (!pq.empty()) {
         int u = pq.top().second;
@@ -98,11 +100,10 @@ void dijkstra(int graph[VERTEX_NUM][VERTEX_NUM], int start) {
         }
 
         visited[u] = true;
-
         for (int v = 0; v < VERTEX_NUM; v++) {
             if (graph[u][v] && dist[u] + graph[u][v] < dist[v]) {
                 dist[v] = dist[u] + graph[u][v];
-                pq.push({dist[v], v});
+                pq.push(make_pair(dist[v], v));
             }
         }
     }
