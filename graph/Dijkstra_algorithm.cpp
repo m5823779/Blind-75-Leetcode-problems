@@ -65,12 +65,6 @@
 // }
 
 
-
-Yes, one way to improve the efficiency of this implementation of the Dijkstra algorithm is to use a priority queue (such as a heap) to keep track of the unvisited vertices instead of iterating through all of them at each step. By using a priority queue, the time complexity of the algorithm can be reduced to O(E + V log V), which is much more efficient for large graphs.
-
-Here's an example of how the Dijkstra algorithm can be implemented using a min-priority queue:
-
-Copy code
 #include <iostream>
 #include <vector>
 #include <queue>
