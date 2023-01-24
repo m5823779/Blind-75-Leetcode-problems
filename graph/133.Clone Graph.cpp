@@ -22,7 +22,7 @@ public:
 class Solution {
 public:
     Node* cloneGraph(Node* node) {
-        // method 1.1: DFS
+        // method 1: DFS
         // 1. create hash map, to record which node has been visited
         // 2. deep copy (use new operator) node
         // 3. mapping old node, and new node (which just created in step2) into hash map
@@ -61,23 +61,27 @@ private:
 class Solution {
 public:
     Node* cloneGraph(Node* node) {
-        // method 1.2: DFS
-        if (!node) return NULL;
-        if (visited.count(node))
-            return visited[node];
+        // method 2: BFS
+        if (!node) return nullptr;
+        unordered_map<Node*, Node*> old2new;
+        old2new[node] = new Node(node->val);
+
+        queue<Node*> q;
+        q.push(node);
         
-        Node* cloned = new Node(node->val);
-        visited[node] = cloned;
-        for (Node* n : node->neighbors) {
-            cloned->neighbors.push_back(cloneGraph(n));
+        while (!q.empty()) {
+            Node* org = q.front();
+            q.pop();
+
+            for (Node* neighbor : org->neighbors) {
+                if (old2new.find(neighbor) == old2new.end()) {
+                    Node* clone = new Node(neighbor->val);
+                    old2new[neighbor] = clone;
+                    q.push(neighbor);
+                }
+                old2new[org]->neighbors.push_back(old2new[neighbor]);
+            }
         }
-        
-        return cloned;
+        return old2new[node];
     }
-    
-private: 
-    unordered_map<Node*, Node*> visited;
-    
-    // time complexity: O(V + E)
-    // space complexity: O(V + E)
 };
