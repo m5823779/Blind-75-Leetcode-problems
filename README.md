@@ -168,8 +168,6 @@
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
 
-- [x] [Dijkstra's algorithm](./graph/Dijkstra_algorithm.cpp)
-
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
@@ -220,7 +218,37 @@
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 ****
 
+
+
 # Other
+### recursion
+- [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/39.Combination%20Sum.cpp)
+
+- [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/40.Combination%20Sum%20II.cpp)
+
+- [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
+        `Recursion` `Backtracking` [solution](./other/recursion/78.Subsets.cpp)
+
+- [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+        `Recursion` `Backtracking` [solution](./other/recursion/90.Subsets%20II.cpp)
+
+- [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
+        `Recursion` `Backtracking` [solution](./other/recursion/46.Permutations.cpp)
+
+- [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+        `Recursion` `Backtracking` [solution](./other/recursion/47.Permutations%20II.cpp)
+****
+
+### graph
+- [x] [Dijkstra's algorithm](./graph/Dijkstra_algorithm.cpp) 
+        `Graph` `Heap` `BFS` [solution](./other/graph/Dijkstra_algorithm.cpp)
+
+- [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+        `Graph` `BFS` `String` [solution](./other/graph/127.Word%20Ladder.cpp)
+****
+
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 ****
 
@@ -232,26 +260,6 @@
 ### tree
 - [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
         `Tree` `Recursion` `Binary search tree` [solution](./other/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
-****
-
-### recursion
-- [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/39.Combination%20Sum.cpp)
-
-- [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/40.Combination%20Sum%20II.cpp)
-
-- [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
-        `Recursion` `Backtracking` [solution](./other/78.Subsets.cpp)
-
-- [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-        `Recursion` `Backtracking` [solution](./other/90.Subsets%20II.cpp)
-
-- [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
-        `Recursion` `Backtracking` [solution](./other/46.Permutations.cpp)
-
-- [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
-        `Recursion` `Backtracking` [solution](./other/47.Permutations%20II.cpp)
 ****
 
 ### string
