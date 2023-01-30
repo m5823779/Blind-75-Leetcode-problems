@@ -32,27 +32,22 @@ public:
         // 7. return new node
         
         if (!node) return nullptr;
-        return dfs(node);
+        if (old2new.find(node) != old2new.end()) {
+            return old2new[node];
+        }
+
+        Node* clone = new Node(node->val);
+        old2new[node] = clone;
+        
+        for (Node* neighbor : node->neighbors) {
+            clone->neighbors.push_back(cloneGraph(neighbor));
+        }
+        
+        return clone;   
     }
     
 private:
     unordered_map<Node*, Node*> old2new;
-    
-    Node* dfs(Node* cur) {
-        Node* clone = new Node(cur->val);
-        old2new[cur] = clone;
-        
-        for (Node* it : cur->neighbors) {  
-            // neighbor have already been cloned
-            if (old2new.find(it) != old2new.end())  
-                clone->neighbors.push_back(old2new[it]);
-            
-            // neighbor have not been cloned
-            else                        
-                clone->neighbors.push_back(dfs(it));
-        }
-        return clone;
-    }
     // time complexity: O(V + E)
     // space complexity: O(V + E)
 };
