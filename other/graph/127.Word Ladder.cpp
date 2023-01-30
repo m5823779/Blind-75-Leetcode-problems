@@ -1,7 +1,7 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        // method: DFS
+        // method: BFS
         // 1. create hashset to store word list
         // 2. create hashmap to store the path from begin word to any
         // 3. create queue for BFS
@@ -35,5 +35,82 @@ public:
         return 0;
     }
     // time complexity: O(n * 26^m)
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        // method: BFS (Optimize)
+        unordered_set<string> word_list(wordList.begin(), wordList.end());
+        int path = 1;
+
+        queue<string> q;
+        q.push(beginWord);
+        while(!q.empty()) {
+            int s = q.size();
+            for (int c = 0; c < s; c++) {
+                string word = q.front();
+                q.pop();
+
+                if (word == endWord) { return path; }
+
+                for (int i = 0; i < word.size(); i++) {
+                    string new_word = word;
+                    for (int j = 'a'; j <= 'z'; j++) {
+                        new_word[i] = j;
+                        if (word_list.count(new_word) && new_word != word) {
+                            q.push(new_word);
+                            word_list.erase(new_word);
+                        }
+                    }
+                }
+            }
+            path += 1;
+        } 
+        return 0;
+    }
+    // time complexity: O(n * 26^m)
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        // method: BFS (Bidirectional)
+        unordered_set<string> word_list(wordList.begin(), wordList.end());
+        if (!word_list.count(endWord)) { return 0; }
+        int path = 1;
+
+        unordered_set<string> s1;
+        unordered_set<string> s2;
+        s1.insert(beginWord);
+        s2.insert(endWord);
+
+        while(!s1.empty() || !s2.empty()) {
+            swap(s1, s2);
+            unordered_set<string> s;
+
+            for (string word : s1) {
+                for (int i = 0; i < word.size(); i++) {
+                    string new_word = word;
+                    for (int j = 'a'; j <= 'z'; j++) {
+                        new_word[i] = j;
+                        if (s2.count(new_word)) { return path + 1; }
+                        if (word_list.count(new_word) && new_word != word) {
+                            s.insert(new_word);
+                            word_list.erase(new_word);
+                        }
+                    }
+                }
+            }
+            s1 = s;
+            path += 1;
+        } 
+        return 0;
+    }
+    // time complexity: O(n * 26^(m / 2))
     // space complexity: O(n)
 };
