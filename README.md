@@ -165,9 +165,6 @@
 - [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
         `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
 
-- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
-
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
@@ -247,6 +244,12 @@
 
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./other/graph/127.Word%20Ladder.cpp)
+
+- [x] `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
+        `Graph` `BFS` `DFS` [solution](./other/graph/490.The%20Maze.cpp)
+        
+- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
 ****
 
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
