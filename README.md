@@ -239,8 +239,11 @@
 ****
 
 ### graph
-- [x] [Dijkstra's algorithm](./graph/Dijkstra_algorithm.cpp) 
-        `Graph` `Heap` `BFS` [solution](./other/graph/Dijkstra_algorithm.cpp)
+- [x] `Medium` [Dijkstra's algorithm - find min path](./other/graph/Dijkstra_algorithm.cpp) 
+        `Graph` `Heap` `BFS` 
+
+- [x] `Medium` [Topological sort - pre-request task arrangment](./other/graph/Topoplogical_sort.cpp) 
+        `Graph` `BFS` `DFS` 
 
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./other/graph/127.Word%20Ladder.cpp)
