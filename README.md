@@ -250,6 +250,9 @@
 
 - [x] `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
         `Graph` `BFS` `DFS` [solution](./other/graph/490.The%20Maze.cpp)
+
+- [x] `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+        `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./other/graph/210.Course%20Schedule%20II.cpp)
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
