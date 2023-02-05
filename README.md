@@ -258,6 +258,15 @@
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
 ****
 
+### tree
+- [x] `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+        `Tree` `DFS` `Stack` [solution](./other/tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
+
+- [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+        `Tree` `Recursion` `Binary search tree` [solution](./other/tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
+****
+
+
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 ****
 
@@ -266,10 +275,6 @@
         `Hash table` [solution](./other/706.Design%20HashMap.cpps)
 ****
 
-### tree
-- [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `Recursion` `Binary search tree` [solution](./other/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
-****
 
 ### string
 - [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
