@@ -38,6 +38,9 @@
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
         `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
 
+- [x] `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+        `Bitwise` `XOR` [solution](./binary/29.Divide%20Two%20Integers.cpp)
+
 - [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
         `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
 
