@@ -265,6 +265,9 @@
 - [x] `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
         `Tree` `DFS` `Stack` [solution](./other/tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
 
+- [x] `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+        `Tree` `DFS` [solution](./other/tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)
+
 - [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
         `Tree` `Recursion` `Binary search tree` [solution](./other/tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
 ****
