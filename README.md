@@ -1,4 +1,5 @@
-# Blind 75 Leetcode problems
+# Leetcode problems
+
 ### Array
 - [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
         `Hash table` [solution](./array/1.Two%20Sum.cpp)
@@ -152,12 +153,18 @@
 
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
+- [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+        `String` `Recursion` `Backtracking` [solution](./string/22.Generate%20Parentheses.cpp)
+
+- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+        `Hash table` `Recursion` `DP` `trie` [solution](./string/140.Word%20Break%20II.cpp)
+
 - [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
 ****
 
 ### Graph
 - [x] `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
 - [x] `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/207.Course%20Schedule.cpp)
@@ -168,6 +175,24 @@
 - [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
         `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
 
+- [x] `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
+        `Graph` `Heap` `BFS` 
+
+- [x] `Medium` [Topological sort - pre-request task arrangment](./graph/Topoplogical_sort.cpp) 
+        `Graph` `BFS` `DFS` 
+
+- [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+        `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
+
+- [x] `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
+        `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
+
+- [x] `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+        `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
+        
+- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
+ 
 - [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
 
 - [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
@@ -192,14 +217,14 @@
         `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
 
 - [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./other/tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp)
+        `Tree` `DFS` `BFS` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 - [x] `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp)
+        `Tree` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 
 - [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
@@ -210,6 +235,15 @@
 - [x] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+
+- [x] `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+        `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp) :fire:
+
+- [x] `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
+
+- [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+        `Tree` `Recursion` `Binary search tree` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp) :fire:
 ****
 
 ### Heap
@@ -221,61 +255,25 @@
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 ****
 
-
-### recursion
+### Recursion
 - [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/39.Combination%20Sum.cpp) :fire:
+        `Tree` `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp) :fire:
 
 - [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/40.Combination%20Sum%20II.cpp) :fire:
+        `Tree` `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire:
 
 - [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
-        `Recursion` `Backtracking` [solution](./other/recursion/78.Subsets.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/78.Subsets.cpp) :fire:
 
 - [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-        `Recursion` `Backtracking` [solution](./other/recursion/90.Subsets%20II.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/90.Subsets%20II.cpp) :fire:
 
 - [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
-        `Recursion` `Backtracking` [solution](./other/recursion/46.Permutations.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/46.Permutations.cpp) :fire:
 
 - [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
-        `Recursion` `Backtracking` [solution](./other/recursion/47.Permutations%20II.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
 ****
-
-### graph
-- [x] `Medium` [Dijkstra's algorithm - find min path](./other/graph/Dijkstra_algorithm.cpp) 
-        `Graph` `Heap` `BFS` 
-
-- [x] `Medium` [Topological sort - pre-request task arrangment](./other/graph/Topoplogical_sort.cpp) 
-        `Graph` `BFS` `DFS` 
-
-- [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
-        `Graph` `BFS` `String` [solution](./other/graph/127.Word%20Ladder.cpp)
-
-- [x] `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
-        `Graph` `BFS` `DFS` [solution](./other/graph/490.The%20Maze.cpp)
-
-- [x] `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-        `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./other/graph/210.Course%20Schedule%20II.cpp)
-        
-- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp)
-****
-
-### tree
-- [x] `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-        `Tree` `DFS` `Stack` [solution](./other/tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
-
-- [x] `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-        `Tree` `DFS` [solution](./other/tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)
-
-- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./other/tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp)
-
-- [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `Recursion` `Binary search tree` [solution](./other/tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
-****
-
 
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 ****
@@ -285,14 +283,6 @@
         `Hash table` [solution](./other/706.Design%20HashMap.cpps)
 ****
 
-
-### string
-- [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-        `String` `Recursion` `Backtracking`
-
-- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./other/140.Word%20Break%20II.cpp)
-****
 
 ### Math
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
