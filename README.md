@@ -188,15 +188,18 @@
 - [x] ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp)
 
-- [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [x] `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+        `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
 
-- [ ] Serialize and Deserialize Binary Tree
+- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+        `Tree` `DFS` `BFS` [solution](./other/tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp)
 
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-- [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [x] `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp)
 
 - [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
@@ -267,6 +270,9 @@
 
 - [x] `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
         `Tree` `DFS` [solution](./other/tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)
+
+- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+        `Tree` `DFS` `BFS` [solution](./other/tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp)
 
 - [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
         `Tree` `Recursion` `Binary search tree` [solution](./other/tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
