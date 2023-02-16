@@ -222,26 +222,24 @@
 ****
 
 
-
-# Other
 ### recursion
 - [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/39.Combination%20Sum.cpp)
+        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/39.Combination%20Sum.cpp) :fire:
 
 - [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/40.Combination%20Sum%20II.cpp)
+        `Tree` `Recursion` `Backtracking` [solution](./other/recursion/40.Combination%20Sum%20II.cpp) :fire:
 
 - [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
-        `Recursion` `Backtracking` [solution](./other/recursion/78.Subsets.cpp)
+        `Recursion` `Backtracking` [solution](./other/recursion/78.Subsets.cpp) :fire:
 
 - [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-        `Recursion` `Backtracking` [solution](./other/recursion/90.Subsets%20II.cpp)
+        `Recursion` `Backtracking` [solution](./other/recursion/90.Subsets%20II.cpp) :fire:
 
 - [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
-        `Recursion` `Backtracking` [solution](./other/recursion/46.Permutations.cpp)
+        `Recursion` `Backtracking` [solution](./other/recursion/46.Permutations.cpp) :fire:
 
 - [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
-        `Recursion` `Backtracking` [solution](./other/recursion/47.Permutations%20II.cpp)
+        `Recursion` `Backtracking` [solution](./other/recursion/47.Permutations%20II.cpp) :fire:
 ****
 
 ### graph
