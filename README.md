@@ -275,16 +275,16 @@
         `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
 ****
 
-- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-****
+### Binary Search
+- [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
 
-### hash table
+### Other
+- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
 - [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` [solution](./other/706.Design%20HashMap.cpps)
-****
 
-
-### Math
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 ****
