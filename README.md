@@ -33,6 +33,9 @@
 
 - [x] `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
         `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp)
+
+- [x] `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
+        `Sorting` [solution](./array/324.Wiggle%20Sort%20II.cpp)
 ****
 
 ### Binary
@@ -278,6 +281,9 @@
 ### Binary Search
 - [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
+
+- [x] `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
+        `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
 
 ### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
