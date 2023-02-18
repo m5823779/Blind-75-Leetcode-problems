@@ -150,7 +150,8 @@
 
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-- [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [x] `Medium` [242. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+        `Hash table` `Sorting` [solution](./string/242.Valid%20Anagram.cpp) :fire:
 
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
@@ -220,7 +221,7 @@
         `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
 
 - [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
@@ -294,9 +295,14 @@
 ### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
-        `Hash table` [solution](./other/706.Design%20HashMap.cpps)
-
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 ****
+
+### Data Structure
+- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
+        `Hash table` `Design` [solution](./Data%20structure/706.Design%20HashMap.cpp)
+
+- [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/description/)
+        `Stack` `Design` [solution](./Data%20structure/155.Min%20Stack.cpp)
+
