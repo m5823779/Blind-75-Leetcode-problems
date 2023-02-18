@@ -301,8 +301,8 @@
 
 ### Data Structure
 - [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
-        `Hash table` `Design` [solution](./Data%20structure/706.Design%20HashMap.cpp)
+        `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
 
 - [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/description/)
-        `Stack` `Design` [solution](./Data%20structure/155.Min%20Stack.cpp)
+        `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp)
 
