@@ -303,6 +303,9 @@
 - [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
 
-- [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/description/)
-        `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp)
+- [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
+        `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
+
+- [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+        `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 
