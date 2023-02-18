@@ -276,14 +276,20 @@
 
 - [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
         `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
+
+- [x] `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+        `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
 ****
 
 ### Binary Search
 - [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
 
-- [x] `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
+- [x] `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
         `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
+
+- [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp)
 
 ### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
