@@ -289,7 +289,7 @@
         `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
 
 - [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp)
+        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
 ### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
