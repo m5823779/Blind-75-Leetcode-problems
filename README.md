@@ -254,11 +254,12 @@
 - [x] ` Hard ` [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
         `Link list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
         
-- [x] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [x] `Medium` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+        `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp)
 
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
-- [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [x] `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
 
 ****
