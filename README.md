@@ -80,6 +80,9 @@
 - [x] `Medium` [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
         `Link list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
 
+- [x] ` Easy ` [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+        `Link list` `Two pointers` [solution](./linked%20list/876.Middle%20of%20the%20Linked%20List.cpp) :fire:
+
 - [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
