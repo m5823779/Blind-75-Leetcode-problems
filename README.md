@@ -257,7 +257,8 @@
 - [x] `Medium` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
         `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp)
 
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [x] ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+        `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp)
 
 - [x] `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
