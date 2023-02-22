@@ -77,6 +77,9 @@
 - [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) 
         `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
 
+- [x] `Medium` [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+        `Link list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
+
 - [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
@@ -90,6 +93,9 @@
         `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
 
 - [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
+
+- [x] `Medium`[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+        `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp)
 ****
 
 ### Dynamic Programming
