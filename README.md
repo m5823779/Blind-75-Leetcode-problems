@@ -97,8 +97,11 @@
 
 - [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
 
-- [x] `Medium`[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+- [x] `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
         `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp)
+
+- [x] `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
+        `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp)
 ****
 
 ### Dynamic Programming
@@ -271,6 +274,9 @@
 
 - [x] `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
+
+- [x] `Hard` [Merge K Sorted Array](./heap/Merge%20K%20Sorted%20Array.cpp)
+        `Heap` :fire:
 
 ****
 
