@@ -95,7 +95,8 @@
 - [x] `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
         `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
 
-- [x] [Reorder List](https://leetcode.com/problems/reorder-list/)
+- [x] `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
+        `Link list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire:
 
 - [x] `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
         `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp)
