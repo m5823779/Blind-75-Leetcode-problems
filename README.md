@@ -151,8 +151,6 @@
 ****
 
 ### String
-- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-
 - [x] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
@@ -330,4 +328,12 @@
 
 - [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
+***
+
+### Pointer Manipulation (Two pointers / sliding window)
+- [x] `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
+        `Hash table` `Two pointers` `Sliding window` `String` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
+
+- [x] `Medium` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+        `Two pointers` `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp)
 
