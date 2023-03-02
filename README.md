@@ -83,6 +83,9 @@
 - [x] ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
+- [x] `Medium` [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+        `Link list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp)
+
 - [x] ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
         `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
 
@@ -340,3 +343,5 @@
 - [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) :fire:
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp)
 
+- [x] `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+        `Two pointers` `Floyd` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp)
