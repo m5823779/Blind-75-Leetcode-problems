@@ -28,9 +28,6 @@
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
         `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
 
-- [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-        `Two pointers` [solution](./array/11.Container%20With%20Most%20Water.cpp)
-
 - [x] `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
         `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp)
 
@@ -334,6 +331,12 @@
 - [x] `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Hash table` `Two pointers` `Sliding window` `String` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
 
-- [x] `Medium` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-        `Two pointers` `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp)
+- [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+        `Two pointers` `Greedy` [solution](./array/11.Container%20With%20Most%20Water.cpp)
+
+- [x] `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+        `Two pointers` `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
+
+- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) :fire:
+        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp)
 

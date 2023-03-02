@@ -1,6 +1,27 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        // method 1: brute force (hash set)
+        const int n = s.size();
+        int max_len = 0;
+        for (int i = 0; i < n; i++) {
+            set<char> seen;
+            for (int j = i; j < n; j++) {
+                seen.insert(s[j]);
+                if (j - i + 1 != seen.size()) {
+                    break;
+                }
+                max_len = max(max_len, j - i + 1);
+            }
+        }
+        return max_len;
+    }
+};
+
+
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
         // method 1: brute force
         // 1. enumerate <i>
         // 2. create 128 dimension [ASCII] vector "seen" to store appeare times for each characters
@@ -8,45 +29,20 @@ public:
         // 5. ans = max(ans, j - 1)
         
         const int n = s.size();
-        int ans = 0;
-        
-        for (int i = 0; i < n; ++i) {
-            vector<int> seen(128);
-            int j = i;
-            
-            while (j < n && !(seen[s[j]])) {
-                // if (seen[s[j]] != 0) break;
-                seen[s[j]]++;
-                j++;
-            }
-            ans = max(ans, j - i);
-        }
-        return ans;
-    }
-    // time complexity: O(n * 128)
-    // space complexity: O(128)
-};
+        int max_len = 0;
 
+        for (int i = 0; i < n; i++) {
+            vector<int> seen(128, 0);
 
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-        int ans = 0;  // longest substring's length
-        const int len = s.size();
-        for (int i = 0; i < len; i++) {
-            vector<bool> seen(128, false); // ASCI
-            int tmp = 0;
-            for (int j = i; j < len; j++) {
+            for (int j = i; j < n; j++) {
                 if (seen[s[j]]) {
-                    ans = max(ans, tmp);
                     break;
                 }
-                tmp++;
-                seen[s[j]] = true;
+                seen[s[j]]++;
+                max_len = max(max_len, j - i + 1);
             }
-            ans = max(ans, tmp);
-        } 
-        return ans;
+        }
+        return max_len;
     }
     // time complexity: O(n * 128)
     // space complexity: O(128)
@@ -87,4 +83,30 @@ public:
     }
     // time complexity: O(n)
     // sapce complexity: O(128)
+};
+
+
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        // method 2: sliding window
+        int left = 0;
+        int right = 0;
+
+        int ans = 0;
+        set<char> seen;
+
+        while (right < s.size()) {
+            while (right < s.size() && seen.find(s[right]) == seen.end()) {
+                ans = max(ans, right - left + 1);
+                seen.insert(s[right]);
+                right++;
+            }
+            seen.erase(s[left]);
+            left++;
+        }
+        return ans;
+    }
+    // time complexity: O(n)
+    // space complexity: O(128)
 };
