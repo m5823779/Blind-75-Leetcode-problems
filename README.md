@@ -332,7 +332,7 @@
 
 ### Pointer Manipulation (Two pointers / sliding window)
 - [x] `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
-        `Hash table` `Two pointers` `Sliding window` `String` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
+        `Hash table` `Two pointers` `Sliding window` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
 
 - [x] `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
         `Two pointers` `Greedy` [solution](./array/11.Container%20With%20Most%20Water.cpp)
@@ -340,8 +340,8 @@
 - [x] `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
         `Two pointers` `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
 
-- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) :fire:
-        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp)
+- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
+        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 
 - [x] `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-        `Two pointers` `Floyd` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp)
+        `Two pointers` `Floyd` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp) :fire:
