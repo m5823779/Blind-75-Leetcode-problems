@@ -216,9 +216,9 @@
 ****
 
 ### Tree
-:white_check_mark: `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+:white_check_mark:  `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp) :fire:
-        
+
 - [x] ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
