@@ -1,11 +1,11 @@
 # Leetcode problems
 
 ### Array
-- [x] ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
+:white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
         `Hash table` [solution](./array/1.Two%20Sum.cpp)
 
-- [x] `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
-        `Hash table` `Two pointers` [solution](./array/15.3Sum.cpp)
+:white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
+        `Hash table` `Two pointers` [solution](./array/15.3Sum.cpp) :fire:
 
 - [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `DP` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
@@ -312,9 +312,9 @@
 - [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
         `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
-### Other
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
+### Other
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 ****
