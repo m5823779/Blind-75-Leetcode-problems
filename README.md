@@ -5,7 +5,10 @@
         `Hash table` [solution](./array/1.Two%20Sum.cpp)
 
 :white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
-        `Hash table` `Two pointers` [solution](./array/15.3Sum.cpp) :fire:
+        `Hash table` `Sorting` `Two pointers` [solution](./array/15.3Sum.cpp) :fire:
+
+:white_check_mark: `Medium`[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+        `Sorting` `Two pointers` [solution](./array/16.3Sum%20Closest.cpp)
 
 - [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `DP` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
