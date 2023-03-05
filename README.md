@@ -7,8 +7,11 @@
 :white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
         `Hash table` `Sorting` `Two pointers` [solution](./array/15.3Sum.cpp) :fire:
 
-:white_check_mark: `Medium`[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+:white_check_mark: `Medium` [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
         `Sorting` `Two pointers` [solution](./array/16.3Sum%20Closest.cpp)
+
+:white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+        `Two pointers` [solution](./array/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
 - [x] ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `DP` [solution](./array/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) 
