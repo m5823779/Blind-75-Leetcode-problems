@@ -10,6 +10,9 @@
 :white_check_mark: `Medium` [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
         `Sorting` `Two pointers` [solution](./array/16.3Sum%20Closest.cpp)
 
+:white_check_mark: `Medium` [18. 4Sum](https://leetcode.com/problems/4sum/description/)
+        `Sorting` `Two pointers` `Backtracking` [solution](./array/18.4Sum.cpp)
+
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
         `Two pointers` [solution](./array/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
@@ -39,6 +42,9 @@
 
 - [x] `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
         `Sorting` [solution](./array/324.Wiggle%20Sort%20II.cpp)
+
+:white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
+        `Hash table` [solution](./array/1207.Unique%20Number%20of%20Occurrences.cpp)
 ****
 
 ### Binary
