@@ -31,9 +31,6 @@
 
 
 ### Array
-- [x] ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
-        `Hash table` `Sorting` [solution](./array/217.Contains%20Duplicate.cpp)
-
 - [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
         `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp)
 
@@ -347,6 +344,9 @@
 ### Data Structure
 :white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
         `Hash table` [solution](./data%20structure/1.Two%20Sum.cpp)
+
+:white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
+        `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
 
 :white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
         `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
