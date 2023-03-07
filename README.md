@@ -73,6 +73,9 @@
 :white_check_mark: ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
         `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./binary/268.Missing%20Number.cpp) :fire:
 
+:white_check_mark: ` Easy ` [136. Single Number](https://leetcode.com/problems/single-number/description/)
+        `Bitwise` `XOR` [solution](./binary/136.Single%20Number.cpp)
+
 - [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
         `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
 ****
