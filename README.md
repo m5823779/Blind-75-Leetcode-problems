@@ -23,7 +23,10 @@
         `Two pointers` `DP` [solution](./two%20pointers/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cpp)
 
 :white_check_mark: `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-        `Two pointers` `Greedy` [solution](./array/11.Container%20With%20Most%20Water.cpp) :fire:
+        `Two pointers` `Greedy` [solution](./two%20pointers/11.Container%20With%20Most%20Water.cpp) :fire:
+
+:white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+        `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire:
 ****
 
 
@@ -67,8 +70,8 @@
 - [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
         `Bitwise` `AND` `DP` [solution](./binary/338.Counting%20Bits.cpp) 
 
-- [x] ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
-        `Bitwise` `XOR` `Hash table` [solution](./binary/268.Missing%20Number.cpp)
+:white_check_mark: ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
+        `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./binary/268.Missing%20Number.cpp) :fire:
 
 - [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
         `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
@@ -364,6 +367,5 @@
 
 - [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
+***
 
-- [x] `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-        `Two pointers` `Floyd` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp) :fire:

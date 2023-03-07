@@ -46,6 +46,29 @@ public:
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
+        // method 3: cyclic sort
+        nums.push_back(-1);
+        const int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            while (i != nums[i] && nums[i] != -1) {
+                swap(nums[i], nums[nums[i]]);
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            if (i != nums[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    // time complexity: O(n)
+    // space complexity: O(1)
+};
+
+
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
         // method 3. bitwise operation (XOR formulate)
         // XOR
         // 0 ^ 0 = 0

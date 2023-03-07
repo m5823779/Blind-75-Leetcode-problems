@@ -55,7 +55,30 @@ public:
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        // method 3: Two pointers (Floyd)
+        // method 4: Cyclic sort
+        nums.insert(nums.begin(), 0);
+        const int n = nums.size();
+        for (int i = 1; i < n; i++) {
+            while (nums[i] != i && nums[i] != nums[nums[i]]) {
+                swap(nums[i], nums[nums[i]]);
+            }
+        }
+        for (int i = 1; i < n; i++) {
+            if (i != nums[i]) {
+                return nums[i];
+            }
+        }
+        return -1;
+    }
+    // time complexity: O(n)
+    // space complexity: O(1)
+};
+
+
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        // method 5: Two pointers (Floyd)
         int slow = 0; 
         int fast = 0;
         while (true) {
