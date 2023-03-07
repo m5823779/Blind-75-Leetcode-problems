@@ -2,7 +2,7 @@
 
 ### Two Pointers (Pointer Manipulation)
 :white_check_mark: `Medium` [167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-        `Two pointers` [solution](./two%20pointers/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
+        `Two pointers` `Sorting` [solution](./two%20pointers/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
 
 :white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
         `Two pointers` `Sorting` `Hash table` [solution](./two%20pointers/15.3Sum.cpp) :fire:
@@ -31,14 +31,12 @@
 
 
 ### Array
-- [x] `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-        `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp)
+:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+        `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp) :fire:
+****
 
 - [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
         `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
-
-- [x] `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-        `DP` [solution](./array/152.Maximum%20Product%20Subarray.cpp)
 
 - [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
         `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
@@ -128,6 +126,9 @@
 ****
 
 ### Dynamic Programming
+:white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+        `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp)
+
 - [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
         `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 
