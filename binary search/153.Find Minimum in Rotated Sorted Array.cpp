@@ -55,18 +55,19 @@ public:
         // 5. min(sub1, sub2) and do step 2-5
         
         // --------------------------------------------------------------
-        return findMin(nums, 0, nums.size() - 1);
-    }
-    
-private:
-    int findMin(vector<int>& nums, int l, int r) {
-        if (nums[l] < nums[r])  // subarray have been sorted
-            return nums[l];
-        if (l == r)             // subarray only have one element
-            return nums[l];
-        
-        int m = l + (r - l) / 2;
-        return min(findMin(nums, l, m), findMin(nums, m + 1, r));
+        const int n = nums.size();
+        int l = 0; 
+        int r = n - 1;
+        while (l <= r) {
+            int m = (l + r) / 2;
+            if (nums[m] < nums[r]) {
+                r = m;
+            }
+            else {
+                l = m + 1;
+            }
+        }
+        return nums[r];
     }
     // time complexity: O(nlogn)
     // space complexity: O(nlogn)

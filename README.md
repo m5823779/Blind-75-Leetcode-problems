@@ -27,6 +27,9 @@
 
 :white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
         `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire:
+
+:white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+        `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp)
 ****
 
 
@@ -34,12 +37,6 @@
 :white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
         `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp) :fire:
 ****
-
-- [x] `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-        `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
-
-- [x] `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
-        `Binary search` [solution](./array/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
 
 - [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
         `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
@@ -126,8 +123,11 @@
 ****
 
 ### Dynamic Programming
+:white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
+        `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
+
 :white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-        `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp)
+        `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
 
 - [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
         `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
@@ -326,6 +326,9 @@
 ****
 
 ### Binary Search
+:white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
+        `Binary search` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
+
 - [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
 
