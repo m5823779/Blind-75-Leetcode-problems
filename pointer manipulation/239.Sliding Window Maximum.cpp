@@ -57,3 +57,35 @@ public:
         // space complexity: O(n)
     }
 };
+
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        // method 2: sliding window (monotonic queue / deque)
+        vector<int> ans;
+        deque<int> q;
+        const int n = nums.size();
+        int l = 0;
+        for (int r = 0; r < n; r++) {
+            if (!q.empty() && nums[r] > q.front()) {
+                q.clear();
+            }
+            while (!q.empty() && nums[r] > q.back()) {
+                q.pop_back();
+            }
+
+            q.push_back(nums[r]);
+            if (r >= k - 1) {
+                ans.push_back(q.front());
+                if (nums[l] == q.front()) {
+                    q.pop_front();
+                }
+                l++;
+            }
+        }
+        return ans;
+    }
+    // time complexity: O(n)
+    // space complexity: O(n)
+};

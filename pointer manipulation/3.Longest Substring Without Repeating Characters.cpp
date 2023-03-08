@@ -90,23 +90,19 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         // method 2: sliding window
-        int left = 0;
-        int right = 0;
-
-        int ans = 0;
-        set<char> seen;
-
-        while (right < s.size()) {
-            while (right < s.size() && seen.find(s[right]) == seen.end()) {
-                ans = max(ans, right - left + 1);
-                seen.insert(s[right]);
-                right++;
+        const int n = s.size();
+        unordered_map<char, int> mp;
+        int max_length = 0;
+        int start = 0;
+        for (int end = 0; end < n; end++) {
+            if (mp.find(s[end]) != mp.end()) {
+                start = max(start, mp[s[end]] + 1);
             }
-            seen.erase(s[left]);
-            left++;
+            mp[s[end]] = end;
+            max_length = max(max_length, end - start + 1); 
         }
-        return ans;
+        return max_length;
+        // time complexity: O(n)
+        // space complexity: O(128)
     }
-    // time complexity: O(n)
-    // space complexity: O(128)
 };

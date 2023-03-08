@@ -1,50 +1,49 @@
 # Leetcode problems
 
-### Two Pointers (Pointer Manipulation)
+### Pointer Manipulation (Two pointers / sliding window)
 :white_check_mark: `Medium` [167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
+        `Two pointers` `Sorting` [solution](./pointer%20manipulation/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
 
 :white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
-        `Two pointers` `Sorting` `Hash table` [solution](./two%20pointers/15.3Sum.cpp) :fire:
+        `Two pointers` `Sorting` `Hash table` [solution](./pointer%20manipulation/15.3Sum.cpp) :fire:
 
 :white_check_mark: `Medium` [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/16.3Sum%20Closest.cpp)
+        `Two pointers` `Sorting` [solution](./pointer%20manipulation/16.3Sum%20Closest.cpp)
 
 :white_check_mark: `Medium` [18. 4Sum](https://leetcode.com/problems/4sum/description/)
-        `Two pointers` `Sorting` `Backtracking` [solution](./two%20pointers/18.4Sum.cpp)
+        `Two pointers` `Sorting` `Backtracking` [solution](./pointer%20manipulation/18.4Sum.cpp)
 
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-        `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
+        `Two pointers` [solution](./pointer%20manipulation/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
-        `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
+        `Two pointers` `DP` [solution](./pointer%20manipulation/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
 
 :white_check_mark: `Medium` [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-        `Two pointers` `DP` [solution](./two%20pointers/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cpp)
+        `Two pointers` `DP` [solution](./pointer%20manipulation/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cpp)
 
 :white_check_mark: `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-        `Two pointers` `Greedy` [solution](./two%20pointers/11.Container%20With%20Most%20Water.cpp) :fire:
+        `Two pointers` `Greedy` [solution](./pointer%20manipulation/11.Container%20With%20Most%20Water.cpp) :fire:
 
 :white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-        `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire:
+        `Two pointers` `Floyd` `Cyclic sort` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp) :fire:
 
 :white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-        `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp)
+        `Two pointers` `String` [solution](./pointer%20manipulation/125.Valid%20Palindrome.cpp)
+
+:white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
+        `Sliding window` `Two pointers` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
+
+:white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+        `Sliding window` `Deque` `Monotonic queue` `Two pointers`  [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
+
+- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
+        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 ****
 
-
-### Array
-:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-        `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp) :fire:
-****
-
-- [x] `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-        `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp)
-
-- [x] `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
-        `Sorting` [solution](./array/324.Wiggle%20Sort%20II.cpp)
-****
-
+### Sorting
+:white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
+        `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
 
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
@@ -236,10 +235,10 @@
 ****
 
 ### Tree
-:white_check_mark: `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [x] `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp) :fire:
 
-:white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
+- [x] ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
 
 - [x] ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
@@ -352,6 +351,9 @@
 :white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
         `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
 
+:white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
+        `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp) :fire:
+
 :white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
         `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
 
@@ -365,14 +367,11 @@
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 ***
 
-### Pointer Manipulation (Two pointers / sliding window)
-- [x] `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
-        `Hash table` `Two pointers` `Sliding window` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
+### Prefix Sum
+:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+        `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
 
-- [x] `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-        `Two pointers` `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
-
-- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
-        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
-***
+:white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
+****
 
