@@ -57,24 +57,31 @@ public:
         //          if (nums[mid] > target and nums[left] < target) -> right = mid - 1
         //      - if right partia is sorted:
         //          if (nums[mid] < target and nums[right] > target) -> left = mid + 1
-        const int len = nums.size();
-        
         int l = 0; 
-        int r = len - 1;
-        
+        int r = nums.size() - 1;
         while (l <= r) {
-            int m = l + (r - l) / 2;
-            if (nums[m] == target) return m;
-            
-            // right sub-array sorted
-            if (nums[m] <= nums[r]) {
-                if (target > nums[r] || target < nums[m]) r = m - 1;
-                else l = m + 1;
+            int m = (l + r) / 2;
+            if (nums[m] == target) {
+                return m;
             }
-            // left sub-array sorted
+            
+            // left part sorted
+            if (nums[m] > nums[r]) {
+                if (nums[l] <= target && nums[m] >= target) {
+                    r = m - 1;
+                }
+                else {
+                    l = m + 1;
+                }
+            }
+            // right part sorted
             else {
-                if (target < nums[l] || target > nums[m]) l = m + 1;
-                else r = m - 1;
+                if (nums[r] >= target && nums[m] <= target) {
+                    l = m + 1;
+                }
+                else {
+                    r = m - 1;
+                }
             }
         }
         return -1;

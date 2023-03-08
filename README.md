@@ -38,9 +38,6 @@
         `Prefix sum` [solution](./array/238.Product%20of%20Array%20Except%20Self.cpp) :fire:
 ****
 
-- [x] `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-        `Binary search` [solution](./array/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
-
 - [x] `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
         `Hash table` `Sorting` [solution](./array/128.Longest%20Consecutive%20Sequence.cpp)
 
@@ -328,6 +325,9 @@
 ### Binary Search
 - [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
+
+:white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fire:
 
 :white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
         `Binary search` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire:
