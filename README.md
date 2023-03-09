@@ -37,8 +37,16 @@
 :white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
         `Sliding window` `Deque` `Monotonic queue` `Two pointers`  [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
 
-- [x] `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
+:white_check_mark: `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
+****
+
+### Prefix Sum
+:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+        `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
+
+:white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 ****
 
 ### Sorting
@@ -366,12 +374,4 @@
 - [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 ***
-
-### Prefix Sum
-:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-        `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
-
-:white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
-        `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
-****
 
