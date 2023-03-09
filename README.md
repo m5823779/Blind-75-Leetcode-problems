@@ -39,6 +39,9 @@
 
 :white_check_mark: `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
+
+:white_check_mark: `Medium` [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
 ****
 
 ### Prefix Sum
@@ -178,12 +181,6 @@
 ****
 
 ### String
-- [x] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-
-- [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -364,6 +361,9 @@
 
 :white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
         `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
+
+:white_check_mark: ` Easy ` [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+        `Hash table` `Sorting` `String` [solution](./data%20structure/242.Valid%20Anagram.cpp)
 
 - [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
