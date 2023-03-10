@@ -44,6 +44,25 @@
          `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
 ****
 
+### Binary Search
+- [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
+
+:white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fire:
+
+:white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
+        `Binary search` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire:
+
+- [x] `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+        `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
+
+- [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
+
+- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+****
+
 ### Prefix Sum
 :white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
         `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
@@ -186,9 +205,6 @@
 
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-- [x] `Medium` [242. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-        `Hash table` `Sorting` [solution](./string/242.Valid%20Anagram.cpp) :fire:
-
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
@@ -326,24 +342,6 @@
 - [x] `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
         `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
 ****
-
-### Binary Search
-- [x] `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
-
-:white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fire:
-
-:white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
-        `Binary search` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire:
-
-- [x] `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
-        `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
-
-- [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
-
-- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ### Other
 - [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
