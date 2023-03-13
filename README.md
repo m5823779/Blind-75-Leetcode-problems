@@ -57,7 +57,7 @@
 :white_check_mark: `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
         `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
 
-- [x] `Medium` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+:white_check_mark: `Easy` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
         `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
