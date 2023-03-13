@@ -10,7 +10,7 @@ public:
                 r = m;
             }
             else {
-                l = m;
+                l = m + 1;
             }
         }
         return (nums[l] > nums[r]) ? l : r;

@@ -1,52 +1,33 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-        // 1. brute force (not allow !)
-        const int n = nums.size();
-        int ans = INT_MAX;
-        for (int i = 0; i < n; ++i) {
-            ans = min(ans, nums[i]);
+        // method 1: Divide and conquer
+        int l = 0;
+        int r = nums.size() - 1;
+        int m = (l + r) / 2;
+        return min(solve(nums, l, m), solve(nums, m + 1, r));
+    }
+private:
+    int solve(vector<int>& nums, int l, int r) {
+        if (l >= r) return nums[r];
+        if (nums[l] < nums[r]) return nums[l];
+        else {
+            int m = (l + r) / 2;
+            return min(solve(nums, l, m), solve(nums, m + 1, r));
         }
-        return ans;
-        // time complexity: O(n)
-        // space complexity: O(1)
     }
+    // time complexity: O(nlogn)
+    // space complexity: O(nlogn)
 };
 
 
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-        // 2. brute force (not allow !)
-        sort(nums.begin(), nums.end());
-        return nums[0];
-        // time complexity: O(nlogn)
-        // space complexity: O(1)
-    }
-};
-
-
-class Solution {
-public:
-    int findMin(vector<int>& nums) {
-        // 2. binary search
+        // method 2: binary search
         // --------------------------------------------------------------
         // !!! random choose one element and divide left and right at least 
         // one side have already been sorted => binary search
-        
-        // --------------------------------------------------------------
-        // binary search template
-        // [left, right)
-        
-        // while (left < right) {
-        //      mid = left + (right - left) // 2
-        //      if f(mid) return mid;
-        //      if g(mid)
-        //          right = mid;        (left, mid]
-        //      else
-        //          left = mid + 1;     (mid + 1, right]
-        // }
-        
         // --------------------------------------------------------------
         // 1. choose pointer <l, r> (left & right)
         // 2. if (nums[l] < nums[r]) => subarray have been sorted => return nums[l]
@@ -70,5 +51,5 @@ public:
         return nums[r];
     }
     // time complexity: O(nlogn)
-    // space complexity: O(nlogn)
+    // space complexity: O(1)
 };
