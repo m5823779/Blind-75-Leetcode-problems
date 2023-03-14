@@ -60,8 +60,8 @@
 :white_check_mark: `Easy` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
         `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
-:white_check_mark: `Hard` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) :smiling_imp:
-        `Binary search`
+:white_check_mark: `Hard` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
+        `Binary search` [solution](./binary%20search/4.Median%20of%20Two%20Sorted%20Arrays.cpp) :smiling_imp:
 ****
 
 ### Prefix Sum
