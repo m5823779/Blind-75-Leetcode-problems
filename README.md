@@ -72,11 +72,6 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 ****
 
-### Sorting
-:white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
-        `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
-****
-
 ### Binary
 - [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
         `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
@@ -115,6 +110,62 @@
 - [ ] `Premium` ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
 ****
 
+### Matrix
+- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+
+- [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+
+- [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+- [x] [Word Search](https://leetcode.com/problems/word-search/)
+****
+
+### String
+- [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+
+- [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+- [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+        `String` `Recursion` `Backtracking` [solution](./string/22.Generate%20Parentheses.cpp)
+
+- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+        `Hash table` `Recursion` `DP` `trie` [solution](./string/140.Word%20Break%20II.cpp)
+
+- [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
+****
+
+### Data Structure
+:white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
+        `Hash table` [solution](./data%20structure/1.Two%20Sum.cpp)
+
+:white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
+        `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
+        
+:white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
+        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire:
+
+:white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
+        `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
+
+:white_check_mark: ` Easy ` [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+        `Hash table` `Sorting` `String` [solution](./data%20structure/242.Valid%20Anagram.cpp)
+
+:white_check_mark: `Medium` [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+        `Hash table` `Sorting` `String` [solution](./data%20structure/49.Group%20Anagrams.cpp)
+
+- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
+        `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
+
+:white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+        `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
+
+- [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
+        `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
+
+- [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+        `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
+***
+
 ### Linked List
 - [x] ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) 
         `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
@@ -148,73 +199,6 @@
 
 - [x] `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
         `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp)
-****
-
-### Dynamic Programming
-:white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-        `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
-
-:white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-        `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
-
-- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
-
-- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
-        `Recursion` `DP` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
-
-- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
-        `Recursion` `DP` `Greedy` `Binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
-
-- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
-
-- [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
-
-- [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
-        
-- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)
-
-- [x] `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
-
-- [x] `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp)
-
-- [x] `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
-
-- [x] `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
-        `Recursion` `Tree` `DP` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) 
-****
-
-### Matrix
-- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-
-- [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-
-- [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-
-- [x] [Word Search](https://leetcode.com/problems/word-search/)
-****
-
-### String
-- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-
-- [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-
-- [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-
-- [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-        `String` `Recursion` `Backtracking` [solution](./string/22.Generate%20Parentheses.cpp)
-
-- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./string/140.Word%20Break%20II.cpp)
-
-- [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
 ****
 
 ### Graph
@@ -342,37 +326,51 @@
         `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
 ****
 
-### Other
-- [x] `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
-        `Math` [solution](./other/7.Reverse%20Integer.cpp)
+### Dynamic Programming
+:white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
+        `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
+
+:white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+        `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
+
+- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+
+- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
+        `Recursion` `DP` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
+
+- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
+        `Recursion` `DP` `Greedy` `Binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
+
+- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
+
+- [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
+        `Hash table` `Recursion` `DP` `trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+
+- [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
+        
+- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)
+
+- [x] `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
+
+- [x] `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp)
+
+- [x] `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
+
+- [x] `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
+        `Recursion` `Tree` `DP` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) 
 ****
 
-### Data Structure
-:white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
-        `Hash table` [solution](./data%20structure/1.Two%20Sum.cpp)
+### Other
+:white_check_mark: `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+        `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
-:white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
-        `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
-        
-:white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire:
-
-:white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
-        `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
-
-:white_check_mark: ` Easy ` [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-        `Hash table` `Sorting` `String` [solution](./data%20structure/242.Valid%20Anagram.cpp)
-
-:white_check_mark: `Medium` [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-        `Hash table` `Sorting` `String` [solution](./data%20structure/49.Group%20Anagrams.cpp)
-
-- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
-        `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
-
-- [x] `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
-        `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
-
-- [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
-        `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
-***
-
+:white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
+        `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
+****
