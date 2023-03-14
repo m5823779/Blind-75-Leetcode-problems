@@ -60,7 +60,7 @@
 :white_check_mark: `Easy` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
         `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
-:white_check_mark: `Hard` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+:white_check_mark: `Hard` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) :smiling_imp:
         `Binary search`
 ****
 
@@ -202,8 +202,6 @@
 ****
 
 ### String
-- [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 - [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
@@ -355,7 +353,7 @@
 
 :white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
         `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
-
+        
 :white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
         `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire:
 
@@ -364,6 +362,9 @@
 
 :white_check_mark: ` Easy ` [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
         `Hash table` `Sorting` `String` [solution](./data%20structure/242.Valid%20Anagram.cpp)
+
+:white_check_mark: `Medium` [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+        `Hash table` `Sorting` `String` [solution](./data%20structure/49.Group%20Anagrams.cpp)
 
 - [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
