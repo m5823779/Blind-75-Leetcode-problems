@@ -34,21 +34,22 @@ public:
         // method 2: dynamic programming 
         // 1. enumerate s[i], let each of them are the center point
         // 2. check how many palindromic can get for both odd & even length substring
-        
-        auto NumPalindromic = [&](int c1, int c2) {
-            int num = 0;
-            while (c1 >= 0 && c2 < s.size() && s[c1] == s[c2]) {
-                num += 1;
-                c1--;
-                c2++;
-            }
-            return num;
-        };
-        
-        int ans = 0;
         const int n = s.size();
-        for (int i = 0; i < n; ++i) ans = ans + NumPalindromic(i, i) + NumPalindromic(i, i + 1);
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            ans += solve(s, i, i) + solve(s, i, i + 1);
+        }
         return ans;
+    }
+private:
+    int solve(string s, int l, int r) {
+        int count = 0;
+        while (l >= 0 && r < s.size() && s[l] == s[r]) {
+            count++;
+            l--;
+            r++;
+        }
+        return count;
     }
     // time complexity: O(n^2)
     // space complexity: O(1)

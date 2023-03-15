@@ -32,7 +32,10 @@
         `Two pointers` `String` [solution](./pointer%20manipulation/125.Valid%20Palindrome.cpp)
 
 :white_check_mark: `Medium` [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-        `Two pointers` `String` `DP` [solution](./pointer%20manipulation/5.Longest%20Palindromic%20Substring.cpp)
+        `Two pointers` `String` `DP` [solution](./pointer%20manipulation/5.Longest%20Palindromic%20Substring.cpp) :fire:
+
+:white_check_mark: `Medium` [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+        `Two pointers` `String` `DP` [solution](./pointer%20manipulation/647.Palindromic%20Substrings.cpp)
 
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
@@ -124,8 +127,6 @@
 ****
 
 ### String
-- [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-
 - [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
         `String` `Recursion` `Backtracking` [solution](./string/22.Generate%20Parentheses.cpp)
 
