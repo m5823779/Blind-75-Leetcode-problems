@@ -126,16 +126,6 @@
 - [x] [Word Search](https://leetcode.com/problems/word-search/)
 ****
 
-### String
-- [x] `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-        `String` `Recursion` `Backtracking` [solution](./string/22.Generate%20Parentheses.cpp)
-
-- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./string/140.Word%20Break%20II.cpp)
-
-- [ ] ~~[Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)~~
-****
-
 ### Data Structure
 :white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
         `Hash table` [solution](./data%20structure/1.Two%20Sum.cpp)
@@ -326,6 +316,12 @@
 
 - [x] `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
         `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
+
+:white_check_mark: [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+        `Recursion` `Backtracking` `String` [solution](./recursion/22.Generate%20Parentheses.cpp)
+
+- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+        `Hash table` `Recursion` `DP` `trie` [solution](./recursion/140.Word%20Break%20II.cpp)
 ****
 
 ### Dynamic Programming
