@@ -57,6 +57,9 @@
 :white_check_mark:  `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
 
+:white_check_mark: `Easy` [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+        `Binary search` [solution](./binary%20search/35.Search%20Insert%20Position.cpp)
+
 :white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
         `Binary search` `Divide & conquer` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire:
 
@@ -68,6 +71,9 @@
 
 :white_check_mark: `Hard` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
         `Binary search` [solution](./binary%20search/4.Median%20of%20Two%20Sorted%20Arrays.cpp) :smiling_imp:
+
+:white_check_mark: `Medium` [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+        `Binary search` [solution](./binary%20search/74.Search%20a%202D%20Matrix.cpp)
 ****
 
 ### Prefix Sum
@@ -291,7 +297,7 @@
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
 
 - [x] `Hard` [Merge K Sorted Array](./heap/Merge%20K%20Sorted%20Array.cpp)
-        `Heap` :fire:
+        `Heap` [solution](./heap/Merge%20K%20Sorted%20Array.cpp) :fire:
 
 ****
 
