@@ -43,7 +43,7 @@ private:
 class Solution {
 public:
     string longestPalindrome(string s) {
-        // method 2: dynamic programming
+        // method 2: dynamic programming (two pointers)
         // 1. enumerate s[i], let it to be a center element
         // 2. check is palindrome or not
         
