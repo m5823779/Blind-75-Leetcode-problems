@@ -108,12 +108,6 @@
 ****
 
 ### Interval
-- [x] `Medium` [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
-        `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
-
-- [x] `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
-        `Array` [solution](./interval/57.Insert%20Interval.cpp)
-
 - [x] `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
         `Sorting` `Greedy` [solution](./interval/435.Non-overlapping%20Intervals.cpp)
 
@@ -374,6 +368,12 @@
 ### Other
 :white_check_mark: `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
+
+:white_check_mark: `Medium`  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
+        `Internal` `Sorting` [solution](./other/56.Merge%20Intervals.cpp)
+
+:white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
+        `Internal` `Sorting` [solution](./other/57.Insert%20Interval.cpp)
 
 :white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
         `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
