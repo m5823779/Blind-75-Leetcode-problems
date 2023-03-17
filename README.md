@@ -84,8 +84,8 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 ****
 
-### Binary
-- [x] `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
+### Bitwise Operation
+:white_check_mark: `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
         `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
 
 - [x] `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
@@ -373,7 +373,7 @@
         `Internal` `Sorting` [solution](./other/56.Merge%20Intervals.cpp)
 
 :white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
-        `Internal` `Sorting` [solution](./other/57.Insert%20Interval.cpp)
+        `Internal` `Sorting` [solution](./other/57.Insert%20Interval.cpp) :fire:
 
 :white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
         `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
