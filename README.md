@@ -91,7 +91,7 @@
 - [x] `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
         `Bitwise` `XOR` [solution](./binary/29.Divide%20Two%20Integers.cpp)
 
-- [x] ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
+:white_check_mark: ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
         `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
 
 - [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
@@ -108,12 +108,20 @@
 ****
 
 ### Interval
-- [x] `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
-        `Sorting` `Greedy` [solution](./interval/435.Non-overlapping%20Intervals.cpp)
+:white_check_mark: `Medium`  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
+        `Interval` `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
 
-- [ ] `Premium` ~~[Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)~~
+:white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
+        `Interval` `Sorting` [solution](./interval/57.Insert%20Interval.cpp) :fire:
 
-- [ ] `Premium` ~~[Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)~~
+:white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
+        `Interval` `Sorting` `Greedy` [solution](./interval/435.Non-overlapping%20Intervals.cpp) :fire:
+
+:white_check_mark: `Easy` [252. Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
+        `Interval` `Sorting` [solution](./interval/252.Meeting%20Rooms.cpp)
+
+:white_check_mark: `Medium` [253. Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
+        `Interval` `Sorting` `Two pointer` `Heap` [solution](./interval/253.Meeting%20Rooms%20II.cpp) :fire:
 ****
 
 ### Matrix
@@ -369,12 +377,6 @@
 :white_check_mark: `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
-:white_check_mark: `Medium`  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
-        `Internal` `Sorting` [solution](./other/56.Merge%20Intervals.cpp)
-
-:white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
-        `Internal` `Sorting` [solution](./other/57.Insert%20Interval.cpp) :fire:
-
 :white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
-        `Sorting` `Quick select` [solution](./sorting/324.Wiggle%20Sort%20II.cpp)
+        `Sorting` `Quick select` [solution](./other/324.Wiggle%20Sort%20II.cpp)
 ****
