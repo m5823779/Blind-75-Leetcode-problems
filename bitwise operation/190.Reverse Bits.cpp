@@ -30,7 +30,7 @@ public:
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
-        // method 2. bitwise operattion
+        // method 2. bitwise operation
         // reverse decimal system formula
         // ans = ans * 10 + n % 10
         // n /= 10

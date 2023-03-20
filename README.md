@@ -108,14 +108,14 @@
 :white_check_mark: `Medium` [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
         `Bitwise` `XOR` `AND` [solution](./binary/371.Sum%20of%20Two%20Integers.cpp)
 
-- [x] `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+:white_check_mark: `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
         `Bitwise` `XOR` [solution](./binary/29.Divide%20Two%20Integers.cpp)
 
 :white_check_mark: ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
         `Bitwise` `AND` [solution](./binary/191.Number%20of%201%20Bits.cpp)
 
-- [x] ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
-        `Bitwise` `AND` `DP` [solution](./binary/338.Counting%20Bits.cpp) 
+:white_check_mark: ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
+        `Bitwise` `AND` `DP` [solution](./binary/338.Counting%20Bits.cpp) :fire:
 
 :white_check_mark: ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
         `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./binary/268.Missing%20Number.cpp) :fire:
@@ -123,7 +123,7 @@
 :white_check_mark: ` Easy ` [136. Single Number](https://leetcode.com/problems/single-number/description/)
         `Bitwise` `XOR` [solution](./binary/136.Single%20Number.cpp)
 
-- [x] ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
+:white_check_mark: ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
         `Bitwise` `XOR` `AND` [solution](./binary/190.Reverse%20Bits.cpp)
 ****
 
