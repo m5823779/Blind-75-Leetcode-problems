@@ -128,9 +128,11 @@
 ****
 
 ### Matrix
-- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+:white_check_mark: `Medium`  [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+        `Matrix` `Hash table` [solution](./matrix/73.Set%20Matrix%20Zeroes.cpp)
 
-- [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+:white_check_mark: `Medium` [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+        `Matrix` [solution](./matrix/54.Spiral%20Matrix.cpp) :fire:
 
 - [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 
