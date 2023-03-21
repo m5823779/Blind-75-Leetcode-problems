@@ -131,6 +131,9 @@
 :white_check_mark: ` Easy ` [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
         `Matrix` [solution](./matrix/867.Transpose%20Matrix.cpp)
 
+:white_check_mark: `Medium` [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+        `Matrix` [solution](./matrix/48.Rotate%20Image.cpp) :fire:
+        
 :white_check_mark: `Medium`  [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
         `Matrix` `Hash table` [solution](./matrix/73.Set%20Matrix%20Zeroes.cpp)
 
@@ -139,8 +142,6 @@
 
 :white_check_mark: `Medium` [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
         `Matrix` [solution](./matrix/59.Spiral%20Matrix%20II.cpp)
-
-- [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 - [x] [Word Search](https://leetcode.com/problems/word-search/)
 ****

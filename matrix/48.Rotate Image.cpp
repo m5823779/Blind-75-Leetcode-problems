@@ -44,29 +44,51 @@ public:
         //  1  2  3       9  6  3       7  4  1
         //  4  5  6   =>  8  5  2   =>  8  5  2
         //  7  8  9       7  4  1       9  6  3
-        
         const int n = matrix.size();
-        
-        for (int i = 0; i < n - 1; ++i) {  // notice range !!!
-            for (int j = 0; j < n - 1 - i; ++j) {  // notice range !!!
-                // swap(matrix[i][j], matrix[n - 1 - j][n - 1 - i]);
-                Swap(matrix[i][j], matrix[n - 1 - j][n - 1 - i]);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i; j++) {
+                swap(matrix[i][j], matrix[n - j - 1][n - i - 1]);
+            }
+        }
+        // reverse(matrix.begin(), matrix.end());
+        Reverse(matrix.begin(), matrix.end());
+    }
+private:
+    void Reverse(vector<vector<int>>::iterator start, vector<vector<int>>::iterator end) {
+        for (auto s = start, e = end - 1; s < e; s++, e--) {
+            swap(*s, *e);
+        }
+    }
+};
+
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        // method 2: diagonal
+        //  1  2  3       1  4  7       7  4  1
+        //  4  5  6   =>  2  5  8   =>  8  5  2
+        //  7  8  9       3  6  9       9  6  3
+        const int n = matrix.size();
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                swap(matrix[i][j], matrix[j][i]);
             }
         }
 
-        reverse(matrix.begin(), matrix.end());
-        // Reverse(matrix.begin(), matrix.end());
+        for (int i = 0; i < n; i++) {
+            // reverse(matrix[i].begin(), matrix[i].end());
+            Reverse(matrix[i].begin(), matrix[i].end());
+        }
     }
 private:
-    void Swap(int& a, int& b) {
-        int tmp = a;
-        a = b;
-        b = tmp;
+    void Reverse(vector<int>::iterator start, vector<int>::iterator end) {
+        auto s = start;
+        auto e = end - 1;
+        while (s < e) {
+            swap(*s, *e);
+            s++;
+            e--;
+        }
     }
-    
-    void Reverse(vector<vector<int>>::iterator a, vector<vector<int>>::iterator b) {
-        for (auto first = a, last = b - 1; first < last; ++first, --last) swap(*first, *last);
-    }
-    // time complexity: O(n^2 / 2)
-    // space complexity: O(1)
 };
