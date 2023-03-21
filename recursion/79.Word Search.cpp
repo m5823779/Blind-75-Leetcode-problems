@@ -43,6 +43,6 @@ private:
         
         return result;
     }
-    // time complexity: O(m * n * 4^n), n = word length
-    // space complexity: O(m * n + n)
+    // time complexity: O(m * n * 4 ^ l), l = word length
+    // space complexity: O(m * n + l)
 };

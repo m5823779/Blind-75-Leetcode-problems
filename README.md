@@ -133,7 +133,7 @@
 
 :white_check_mark: `Medium` [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
         `Matrix` [solution](./matrix/48.Rotate%20Image.cpp) :fire:
-        
+
 :white_check_mark: `Medium`  [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
         `Matrix` `Hash table` [solution](./matrix/73.Set%20Matrix%20Zeroes.cpp)
 
@@ -142,8 +142,6 @@
 
 :white_check_mark: `Medium` [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
         `Matrix` [solution](./matrix/59.Spiral%20Matrix%20II.cpp)
-
-- [x] [Word Search](https://leetcode.com/problems/word-search/)
 ****
 
 ### Data Structure
@@ -339,6 +337,9 @@
 
 :white_check_mark: [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
         `Recursion` `Backtracking` `String` [solution](./recursion/22.Generate%20Parentheses.cpp)
+
+:white_check_mark: `Medium` [79. Word Search](https://leetcode.com/problems/word-search/)
+        `Recursion` `Backtracking` `Matrix` [solution](./recursion/79.Word%20Search.cpp)
 
 - [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
         `Hash table` `Recursion` `DP` `trie` [solution](./recursion/140.Word%20Break%20II.cpp)
