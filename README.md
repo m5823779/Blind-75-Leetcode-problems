@@ -166,8 +166,8 @@
 :white_check_mark: `Medium` [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
         `Hash table` `Sorting` `String` [solution](./data%20structure/49.Group%20Anagrams.cpp)
 
-- [x] `Easy` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
-        `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp)
+:white_check_mark: ` Easy ` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
+        `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp) :fire:
 
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
