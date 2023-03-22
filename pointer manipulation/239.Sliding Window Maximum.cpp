@@ -40,31 +40,6 @@ public:
         // method 2: sliding window (monotonic queue / deque)
         vector<int> ans;
         deque<int> q;
-        for (int i = 0; i < nums.size(); i++) {
-            if (!q.empty() && i - k >= 0 && nums[i - k] == q.front()) {
-                q.pop_front();
-            }
-            while (!q.empty() && nums[i] > q.back()) {
-                q.pop_back();
-            }
-            q.push_back(nums[i]);
-            if (i >= k - 1) {
-                ans.push_back(q.front());
-            }
-        } 
-        return ans;
-        // time complexity: O(n)
-        // space complexity: O(n)
-    }
-};
-
-
-class Solution {
-public:
-    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        // method 2: sliding window (monotonic queue / deque)
-        vector<int> ans;
-        deque<int> q;
         const int n = nums.size();
         int l = 0;
         for (int r = 0; r < n; r++) {

@@ -192,7 +192,7 @@
 :white_check_mark: ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
-- [x] `Medium` [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+:white_check_mark: `Medium` [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
         `Link list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp)
 
 - [x] ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
