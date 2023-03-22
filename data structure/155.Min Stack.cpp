@@ -68,3 +68,35 @@ public:
         return min_val.top();
     }
 };
+
+
+class MinStack {
+private:
+    stack<int> data;
+    stack<int> min_data;
+public:
+    MinStack() {}
+    
+    void push(int val) {
+        data.push(val);
+        if (min_data.empty() || val < min_data.top()) {
+            min_data.push(val);
+        }
+        else {
+            min_data.push(min_data.top());
+        }
+    }
+    
+    void pop() {
+        min_data.pop();
+        data.pop();
+    }
+    
+    int top() {
+        return data.top();
+    }
+    
+    int getMin() {
+        return min_data.top();
+    }
+};
