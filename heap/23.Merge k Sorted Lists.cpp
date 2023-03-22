@@ -108,6 +108,6 @@ private:
         tail->next = l1 ? l1 : l2;
         return dummy.next;
     }
-    // time complexity: O(nklogk) k: number of list / n: length of exah list
+    // time complexity: O(min(n, m) * logk) k: number of list / n: length of exah list
     // space complexity: O(logk)
 };
