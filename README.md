@@ -142,6 +142,9 @@
 
 :white_check_mark: `Medium` [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
         `Matrix` [solution](./matrix/59.Spiral%20Matrix%20II.cpp)
+
+:white_check_mark: `Medium` [835. Image Overlap](https://leetcode.com/problems/image-overlap/)
+        `Matrix` [solution](./matrix/835.Image%20Overlap.cpp)
 ****
 
 ### Data Structure
