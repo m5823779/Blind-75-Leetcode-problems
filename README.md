@@ -193,7 +193,7 @@
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
 :white_check_mark: `Medium` [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-        `Link list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp)
+        `Link list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp) :fire:
 
 :white_check_mark: ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
         `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
@@ -201,7 +201,7 @@
 :white_check_mark: ` Hard ` [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
         `Link list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
 
-- [x] `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
+:white_check_mark: `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
         `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
 
 - [x] `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
