@@ -175,7 +175,7 @@
 :white_check_mark:  `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
         `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
 
-- [x] `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+:white_check_mark: `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 ***
 
