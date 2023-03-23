@@ -216,8 +216,8 @@
 :white_check_mark: `Medium` [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
         `Link list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
 
-- [x] `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
-        `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp)
+:white_check_mark: `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
+        `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
 ****
 
 ### Graph
@@ -268,7 +268,7 @@
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
-- [x] ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+:white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
 
 - [x] ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
