@@ -218,6 +218,9 @@
 
 :white_check_mark: `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
         `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
+
+:white_check_mark: `Medium` [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
+        `Link list` `Sorting` [solution](./linked%20list/147.Insertion%20Sort%20List.cpp) :smiling_imp:
 ****
 
 ### Graph
