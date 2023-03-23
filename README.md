@@ -187,7 +187,7 @@
         `Link list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
 
 :white_check_mark: ` Easy ` [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-        `Link list` `Two pointers` [solution](./linked%20list/876.Middle%20of%20the%20Linked%20List.cpp) :fire:
+        `Link list` `Two pointers` [solution](./linked%20list/876.Middle%20of%20the%20Linked%20List.cpp)
 
 :white_check_mark: ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
@@ -204,11 +204,17 @@
 :white_check_mark: `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
         `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
 
-- [x] `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
+:white_check_mark: `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
         `Link list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire:
 
-- [x] `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
-        `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp)
+:white_check_mark: `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+        `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp) :fire:
+
+:white_check_mark: `Medium` [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+        `Link list` [solution](./linked%20list/2.Add%20Two%20Numbers.cpp)
+
+:white_check_mark: `Medium` [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+        `Link list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
 
 - [x] `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
         `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp)
