@@ -289,10 +289,14 @@
 :white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
 
+:white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) :fire:
+
 :white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
         `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
 
-- [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+:white_check_mark: `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+        `Tree` `Recursion` `Binary search tree` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
@@ -301,9 +305,6 @@
 - [x] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
-
-- [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `Recursion` `Binary search tree` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 - [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
         `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
