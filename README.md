@@ -296,7 +296,13 @@
         `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
 
 :white_check_mark: `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `Recursion` `Binary search tree` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
+
+:white_check_mark: `Easy` [112. Path Sum](https://leetcode.com/problems/path-sum/)
+        `Tree` `DFS` [solution](./tree/112.Path%20Sum.cpp)
+
+:white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
+        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
 
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
