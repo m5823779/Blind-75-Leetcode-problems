@@ -265,11 +265,23 @@
 :white_check_mark: `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp) :fire:
 
-:white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
+:white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
 
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
+
+:white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+        `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
+
+:white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
+
+:white_check_mark: ` Easy ` [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire:
 
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
@@ -277,22 +289,12 @@
 :white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
 
-:white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-        `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
-
-- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
-
-- [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
-
-- [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-
-- [x] `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
-
-- [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+:white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
 
 - [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+- [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 - [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
@@ -300,11 +302,11 @@
 
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
-- [x] `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
-
 - [x] `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
         `Tree` `Recursion` `Binary search tree` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp) :fire:
+
+- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 ****
 
 ### Heap

@@ -57,3 +57,63 @@ private:
 // Your Codec object will be instantiated and called as such:
 // Codec ser, deser;
 // TreeNode* ans = deser.deserialize(ser.serialize(root));
+
+
+
+
+
+
+ // The code is wrong, only work when it is complete binary tree
+//-----------------------------------------
+class Codec {
+public:
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) {
+        string encode;
+
+        queue<TreeNode*> q;
+        q.push(root);
+        
+        while (!q.empty()) {
+            TreeNode* tmp = q.front();
+            q.pop();
+            
+            if (!tmp) {
+                encode += 'n';
+            }
+            else {
+                encode += to_string(tmp->val);
+            }
+
+            if (tmp) { 
+                q.push(tmp->left);
+                q.push(tmp->right);
+            }
+        }
+        cout << encode << endl;
+        return encode;
+    }
+
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        return decode(data, 0);
+    }
+private:
+    TreeNode* decode(string data, int cur) {
+        char c = data[cur];
+        if (cur >= data.size()) {
+            return nullptr;
+        }
+        if (c == 'n') {
+            return nullptr;
+        }
+        cout << c << endl;
+        TreeNode* root = new TreeNode(c - '0');
+        
+        // the formula only work when it is complete binary tree
+        root->left = decode(data, 2 * cur + 1);
+        root->right = decode(data, 2 * cur + 2);  
+        return root;
+    }
+};
+//-----------------------------------------

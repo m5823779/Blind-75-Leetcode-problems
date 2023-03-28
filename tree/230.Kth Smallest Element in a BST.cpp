@@ -30,3 +30,31 @@ private:
     // time complexity: O(n)
     // space complexity: O(h)
 };
+
+
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        // method: BFS
+        stack<TreeNode*> s;
+        TreeNode* cur = root;
+        while (cur || !s.empty()) {
+            if (cur) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            else {
+                TreeNode* tmp = s.top();
+                s.pop();
+                k--;
+                if (k == 0) {
+                    return tmp->val;
+                }
+                cur = tmp->right;
+            }
+        }
+        return INT_MIN;
+    }
+    // time complexity: O(k)
+    // space complexity: O(k)
+};
