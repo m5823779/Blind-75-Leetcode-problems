@@ -313,7 +313,8 @@
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
 
-- [x] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+:white_check_mark: `Medium` [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+        `Tree` `String` `Trie` `DFS` [solution](./tree/211.Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) :fire:
 
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 ****
