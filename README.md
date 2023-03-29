@@ -304,16 +304,18 @@
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
 
-- [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+:white_check_mark: `Medium` [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :smiling_imp:
 
-- [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+        `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
 
 - [x] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
 - [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
-
-- [x] `Hard` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 ****
 
 ### Heap
