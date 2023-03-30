@@ -42,17 +42,17 @@ int main() {
 	}
 }
 
-class Graph {
-public:
-	int numVertex;
-	list<int>* adj;
-	Graph(int n) {
-		numVertex = n;
-		adj = new list<int>[n];
-	}
+// class Graph {
+// public:
+// 	int numVertex;
+// 	list<int>* adj;
+// 	Graph(int n) {
+// 		numVertex = n;
+// 		adj = new list<int>[n];
+// 	}
 
-	void addEdge(int x, int y) {
-		adj[x].push_back(y);
-		adj[y].push_back(x);
-	}
-};
+// 	void addEdge(int x, int y) {
+// 		adj[x].push_back(y);
+// 		adj[y].push_back(x);
+// 	}
+// };
