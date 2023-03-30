@@ -9,17 +9,17 @@
  */
 class Codec {
 public:
-    // method: DFS (preorder traversal)
+
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        string ans;
-        encode(root, ans);
-        return ans;
+        // method: DFS
+        if (!root) return "#,";
+        return to_string(root->val) + "," + serialize(root->left) + serialize(root->right);  // cause val may >= 10 or < 0, so we need add ","
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        queue<string> q;
+        queue<string> q; // cause val may >= 10 or < 0 (have char '-') so we cant use pointer point to the string
         string tmp;
         for (char c : data) {
             if (c == ',') {
@@ -32,31 +32,26 @@ public:
         }
         return decode(q);
     }
+
 private:
-    void encode(TreeNode* root, string& ans) {
-        if (!root) {
-            ans += "null,";
-            return;
+    TreeNode* decode(queue<string>& q) {
+        if (q.empty()) return nullptr;
+        string s = q.front();
+        q.pop();
+
+        if (s == "#") {
+            return nullptr;
         }
-        ans += to_string(root->val) + ",";
-        encode(root->left, ans);
-        encode(root->right, ans);   
+        else {
+            TreeNode* root = new TreeNode(stoi(s));
+            root->left = decode(q);
+            root->right = decode(q);
+            return root;
+        }
     }
-
-    TreeNode* decode(queue<string>& data) {
-        string tmp = data.front();
-        data.pop();
-        if (tmp == "null") return nullptr;
-        TreeNode* node = new TreeNode(stoi(tmp));
-        node->left = decode(data);
-        node->right = decode(data);
-        return node;
-    }
+    // time complexity: O(n)
+    // space complexity: O(n)
 };
-
-// Your Codec object will be instantiated and called as such:
-// Codec ser, deser;
-// TreeNode* ans = deser.deserialize(ser.serialize(root));
 
 
 
