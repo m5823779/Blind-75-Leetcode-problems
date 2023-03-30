@@ -236,11 +236,11 @@
 :white_check_mark: `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
         `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
 
+:white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
+
 - [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
-
-- [x] `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
 
 - [x] `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
         `Graph` `Heap` `BFS` 
