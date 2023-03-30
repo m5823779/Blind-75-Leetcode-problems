@@ -228,10 +228,10 @@
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
-        `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm`
+        `Graph` `BFS` `DFS` `Topological Sort`
 
 :white_check_mark: `Medium` `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) 
-        `Graph` `DFS` `BFS` `Hash table` `Topological Sort` `Kahn algorithm` [solution](./graph/207.Course%20Schedule.cpp)
+        `Graph` `DFS` `BFS` `Hash table` `Topological Sort` [solution](./graph/207.Course%20Schedule.cpp)
 
 :white_check_mark: `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
         `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
