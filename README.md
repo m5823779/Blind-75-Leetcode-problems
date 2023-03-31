@@ -228,22 +228,25 @@
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
-        `Graph` `BFS` `DFS` `Topological Sort`
+        `Graph` `Topological Sort` `Kahn algorithm`
 
 :white_check_mark: `Medium` [207. Course Schedule](https://leetcode.com/problems/course-schedule/) 
         `Graph` `DFS` `BFS` `Hash table` `Topological Sort` `Kahn algorithm` [solution](./graph/207.Course%20Schedule.cpp)
 
 :white_check_mark: `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-        `Graph` `BFS` `DFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
+        `Graph` `BFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
 
 :white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp)
+        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
 
-- [x] `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+:white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 
 - [x] `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
         `Graph` `Heap` `BFS` 
+
+- [x] `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+        `Graph` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
