@@ -242,11 +242,11 @@
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 
-- [x] `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
-        `Graph` `Heap` `BFS` 
+:white_check_mark: `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
+        `Graph` `Heap` `BFS` `Dijkstra's algorithm`
 
-- [x] `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
-        `Graph` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
+:white_check_mark: `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+        `Graph` `BFS` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:

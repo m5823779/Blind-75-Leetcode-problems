@@ -83,3 +83,43 @@ public:
 		return res;
     }
 };
+
+
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        // [ node : < neightbors, distance > ]
+        vector<pair<int, int>> *graph = new vector<pair<int, int>>[n + 1];
+        for (vector<int> time : times) {
+            graph[time[0]].push_back(make_pair(time[1], time[2]));
+        }
+
+        vector<int> dis(n + 1, INT_MAX);
+        // pair< dis, node >
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        dis[k] = 0;
+        pq.push(make_pair(0, k));
+
+        while (!pq.empty()) {
+            pair<int, int> p = pq.top();
+            pq.pop();
+            int visiting = p.second;
+
+            for (pair<int, int> neighbor : graph[visiting]) {
+                if (dis[visiting] + neighbor.second < dis[neighbor.first]) {
+                    dis[neighbor.first] = dis[visiting] + neighbor.second;
+                    pq.push(make_pair(dis[neighbor.first], neighbor.first));
+                }
+            }
+        }
+
+        int res = 0;
+        for(int i = 1; i <= n;i++)
+        {
+            if(dis[i] == INT_MAX)
+                return -1;
+            res = max(res, dis[i]);
+        }
+		return res;
+    }
+};
