@@ -248,11 +248,11 @@
 :white_check_mark: `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
         `Graph` `BFS` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
+:white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
+        `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
+        
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
-
-- [x] `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
-        `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
