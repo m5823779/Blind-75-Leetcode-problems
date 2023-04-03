@@ -227,6 +227,18 @@
 :white_check_mark: `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
+:white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
+
+:white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+        `Graph` `DFS` `BFS` [solution](./graph/547.Number%20of%20Provinces.cpp)
+
+:white_check_mark: `Medium` [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+        `Graph` `DFS` `BFS` [solution](./graph/695.Max%20Area%20of%20Island.cpp)
+
+:white_check_mark: ` Easy ` [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
+        `Graph` `DFS` `BFS` [solution](./graph/733.Flood%20Fill.cpp)
+
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
 
@@ -235,9 +247,6 @@
 
 :white_check_mark: `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
         `Graph` `BFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
-
-:white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
 
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
@@ -250,7 +259,7 @@
 
 :white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
         `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
-        
+
 - [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
         
