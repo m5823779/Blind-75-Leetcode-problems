@@ -239,6 +239,12 @@
 :white_check_mark: ` Easy ` [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
         `Graph` `DFS` `BFS` [solution](./graph/733.Flood%20Fill.cpp)
 
+:white_check_mark: `Medium` [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
+        `Graph` `BFS` [solution](./graph/1162.As%20Far%20from%20Land%20as%20Possible.cpp) :fire:
+
+:white_check_mark: `Medium` [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+        `Graph` `DFS` `BFS` [solution](./graph/841.Keys%20and%20Rooms.cpp)
+
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
 
