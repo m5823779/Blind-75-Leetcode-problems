@@ -230,9 +230,6 @@
 :white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
         `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
 
-:white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
-        `Graph` `DFS` `BFS` [solution](./graph/547.Number%20of%20Provinces.cpp)
-
 :white_check_mark: `Medium` [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
         `Graph` `DFS` `BFS` [solution](./graph/695.Max%20Area%20of%20Island.cpp)
 
@@ -260,8 +257,11 @@
 :white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
         `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
 
+:white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+        `Graph` `DFS` `BFS` `Union find` [solution](./graph/547.Number%20of%20Provinces.cpp)
+
 :white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-        `Graph` `DFS` `BFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
+        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
 
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)

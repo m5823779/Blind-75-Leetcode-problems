@@ -67,3 +67,49 @@ public:
     // time complexity: O(n^2)
     // space compelxity: O(n)
 };
+
+
+class Solution {
+public:
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        // method 3: Union find
+        const int n = isConnected.size();
+        vector<int> parent(n);
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i != j && isConnected[i][j] == 1) {
+                    union_vertices(i, j, parent);
+                }
+            }
+        }
+
+        int num_provinces = 0;
+        for (int i = 0; i < n; i++) {
+            if (parent[i] == i) {
+                num_provinces += 1;
+            }
+        }
+        return num_provinces;
+    }
+
+private:
+    int find_root(int x, vector<int>& parent) {
+        int x_root = x;
+        while (parent[x_root] != x_root) {
+            x_root = parent[x_root];
+        }
+        return x_root;
+    }
+
+    void union_vertices(int x, int y, vector<int>& parent) {
+        int x_root = find_root(x, parent);
+        int y_root = find_root(y, parent);
+        parent[y_root] = x_root;
+    }
+    // time complexity: O(n^2 * logn)
+    // space complexity: O(n)
+};
