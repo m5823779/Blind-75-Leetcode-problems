@@ -352,19 +352,19 @@
 ****
 
 ### Heap
-- [x] ` Hard ` [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-        `Link list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
+:white_check_mark: ` Hard ` [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+        `Link list` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp)
         
-- [x] `Medium` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-        `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp)
+:white_check_mark: `Medium` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+        `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp) :fire:
 
-- [x] ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+:white_check_mark: ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
         `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp)
 
-- [x] `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+:white_check_mark: `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
 
-- [x] `Hard` [Merge K Sorted Array](./heap/Merge%20K%20Sorted%20Array.cpp)
+:white_check_mark: `Hard` [Merge K Sorted Array](./heap/Merge%20K%20Sorted%20Array.cpp)
         `Heap` [solution](./heap/Merge%20K%20Sorted%20Array.cpp) :fire:
 
 ****
