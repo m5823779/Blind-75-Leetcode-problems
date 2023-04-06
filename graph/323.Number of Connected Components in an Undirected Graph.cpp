@@ -84,12 +84,15 @@ public:
             union_vertices(edge[0], edge[1], parent);
         }
         
-        set<int> representative;
+        int ans = 0;
         for (int i = 0; i < n; i++) {
-            representative.insert(find_root(i, parent));
+            if (parent[i] == i) {
+                ans++;
+            }
         }
-        return representative.size();
+        return ans;
     }
+    
 private:
     // find the x's parent
     int find_root(int x, vector<int>& parent) {
@@ -104,4 +107,6 @@ private:
         int y_root = find_root(y, parent);
         parent[y_root] = x_root;
     }
+    // time complexity: O(nlogn)
+    // space complexity: O(n)
 };

@@ -263,6 +263,12 @@
 :white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
         `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
 
+:white_check_mark: `Medium` [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+        `Graph` `DFS` `Union find` [solution](./graph/261.Graph%20Valid%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+        `Graph` `DFS` `Union find` [solution](./graph/684.Redundant%20Connection.cpp) :fire:
+
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
 
