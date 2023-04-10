@@ -25,6 +25,9 @@
 :white_check_mark: `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
         `Two pointers` `Greedy` [solution](./pointer%20manipulation/11.Container%20With%20Most%20Water.cpp) :fire:
 
+:white_check_mark: `Hard` [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+        `Two pointers` `Dynamic programming` `Prfix max` [solution](./pointer%20manipulation/42.Trapping%20Rain%20Water.cpp)
+
 :white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
         `Two pointers` `Floyd` `Cyclic sort` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp) :fire:
 
@@ -370,22 +373,22 @@
 ****
 
 ### Recursion
-- [x] `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp) :fire:
+:white_check_mark: `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+        `Tree` `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp)
 
-- [x] `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+:white_check_mark: `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
         `Tree` `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire:
 
-- [x] `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
-        `Recursion` `Backtracking` [solution](./recursion/78.Subsets.cpp) :fire:
+:white_check_mark: `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
+        `Recursion` `Backtracking` [solution](./recursion/78.Subsets.cpp)
 
-- [x] `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+:white_check_mark: `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
         `Recursion` `Backtracking` [solution](./recursion/90.Subsets%20II.cpp) :fire:
 
-- [x] `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
-        `Recursion` `Backtracking` [solution](./recursion/46.Permutations.cpp) :fire:
+:white_check_mark: `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
+        `Recursion` `Backtracking` [solution](./recursion/46.Permutations.cpp)
 
-- [x] `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+:white_check_mark: `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
         `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
 
 - [x] `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
