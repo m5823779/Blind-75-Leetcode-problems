@@ -391,10 +391,10 @@
 :white_check_mark: `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
         `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
 
-- [x] `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+:white_check_mark: `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
         `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
 
-:white_check_mark: [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+:white_check_mark: `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
         `Recursion` `Backtracking` `String` [solution](./recursion/22.Generate%20Parentheses.cpp)
 
 :white_check_mark: `Medium` [79. Word Search](https://leetcode.com/problems/word-search/)
