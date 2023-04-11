@@ -350,8 +350,6 @@
 
 :white_check_mark: `Medium` [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
         `Tree` `String` `Trie` `DFS` [solution](./tree/211.Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) :fire:
-
-- [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 ****
 
 ### Heap
@@ -400,8 +398,11 @@
 :white_check_mark: `Medium` [79. Word Search](https://leetcode.com/problems/word-search/)
         `Recursion` `Backtracking` `Matrix` [solution](./recursion/79.Word%20Search.cpp)
 
+:white_check_mark: ` Hard ` [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+        `Recursion` `Trie` `DFS` `Backtracking` [solution](./recursion/212.Word%20Search%20II.cpp) :fire:
+
 - [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./recursion/140.Word%20Break%20II.cpp)
+        `Hash table` `Recursion` `DP` `Trie` [solution](./recursion/140.Word%20Break%20II.cpp)
 ****
 
 ### Dynamic Programming
@@ -424,7 +425,7 @@
         `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
 
 - [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Hash table` `Recursion` `DP` `trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+        `Hash table` `Recursion` `DP` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
 
 - [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
