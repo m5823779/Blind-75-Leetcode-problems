@@ -407,16 +407,19 @@
 
 ### Dynamic Programming
 :white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-        `DP`  [solution](./array/53.Maximum%20Subarray.cpp)
+        `DP`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp)
 
 :white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
         `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
 
-- [x] ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+:white_check_mark: ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 
-- [x] `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
-        `Recursion` `DP` `Tree` `DFS` `BFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp)
+:white_check_mark: `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
+        `Recursion` `Memorization` `DP` `Tree` `DFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
+
+:white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
+        `Recursion` `DP` `Memorization` `Tree` `DFS` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp) :fire:
 
 - [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
         `Recursion` `DP` `Greedy` `Binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
@@ -426,9 +429,6 @@
 
 - [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
         `Hash table` `Recursion` `DP` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
-
-- [x] `Medium` [377. Combination Sum](https://leetcode.com/problems/combination-sum-iv/) 
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
         
 - [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)

@@ -19,6 +19,33 @@ public:
 class Solution {
 public:
     int combinationSum4(vector<int>& nums, int target) {
+        // method 2: Recursive + Memorization
+        memo = vector<int>(target + 1, -1);
+        memo[0] = 0;
+        return dfs(nums, target);
+    }
+private:
+    vector<int> memo;
+    int dfs(vector<int>& nums, int target) {
+        if (target == 0) return 1;
+        if (memo[target] != -1) return memo[target];
+        int res = 0;
+
+        for (int num : nums) {
+            if (target - num >= 0) {
+                res += dfs(nums, target - num);
+            }
+        }
+        return memo[target] = res;
+    }
+    // time complexity: O(n ^ target / min)
+    // space complexity: O(target)
+};
+
+
+class Solution {
+public:
+    int combinationSum4(vector<int>& nums, int target) {
         // [1, 2, 3], target = 4
         // dp[0] = 1
         // dp[1] = dp[1 - 1] + dp[1 - 2] + dp[1 - 3] = 1

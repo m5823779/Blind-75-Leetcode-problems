@@ -21,7 +21,24 @@ public:
 class Solution {
 public:
     int climbStairs(int n) {
-        // method 2. dynamic programing 
+        // method 2: recursive + memorization
+        memo = vector<int>(n + 1, -1);
+        return solve(n);
+    }
+private:
+    vector<int> memo;
+    int solve(int n) {
+        if (n == 0 || n == 1) return 1;
+        if (memo[n] != -1) return memo[n];
+        return memo[n] = solve(n - 1) + solve(n - 2);
+    }
+};
+
+
+class Solution {
+public:
+    int climbStairs(int n) {
+        // method 3. dynamic programing 
         // n = 1 (1) => 1
         // n = 2 (1, 1) (2) => 2
         // n = 3 (1, 1, 1) (1, 2) (2, 1) => 3

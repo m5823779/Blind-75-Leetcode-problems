@@ -45,6 +45,35 @@ public:
 	// space complexity: O(amount)
 };
 
+
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        // method 2: Recursive + Memorization
+        memo = vector<int>(amount + 1, INT_MIN);
+        return dfs(coins, amount); 
+    }
+private:
+    vector<int> memo;
+    int dfs(vector<int>& coins, int amount) {
+        if (amount == 0) return 0;
+        if (memo[amount] != INT_MIN) return memo[amount];
+
+        int num_coins = INT_MAX;
+
+        for (int coin : coins) {
+            if (amount - coin >= 0) {
+                int tmp = dfs(coins, amount - coin);
+                if (tmp != -1) {
+                    num_coins = min(num_coins, 1 + tmp);
+                }
+            }
+        }
+        return memo[amount] = (num_coins == INT_MAX) ? -1 : num_coins;
+    }
+};
+
+
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
