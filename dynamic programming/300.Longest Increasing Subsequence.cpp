@@ -1,16 +1,16 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        // method 1: brute force (pick or not pick approach)
-        return solve(nums, 0, INT_MIN);
+        // method 1: Brute force (recursion)
+        return dfs(nums, 0, INT_MIN);
     }
+
 private:
-    int solve(vector<int>& nums, int current, int previous) {
-        if (current > nums.size() - 1) return 0;
-        int pick = 0;
-        int nopick = solve(nums, current + 1, previous);
-        if (nums[current] > previous) 
-            pick += solve(nums, current + 1, nums[current]) + 1;
+    int dfs(vector<int>& nums, int id, int previous) {
+        if (id >= nums.size()) return 0;
+        
+        int pick = (nums[id] > previous) ? 1 + dfs(nums, id + 1, nums[id]) : 0;
+        int nopick = dfs(nums, id + 1, previous);
         return max(pick, nopick);
     }
     // time complexity: O(2^n)
@@ -21,6 +21,57 @@ private:
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
+        // method 1: Brute force (recursion)
+        return dfs(nums, 0, INT_MIN);
+    }
+
+private:
+    int dfs(vector<int>& nums, int id, int previous) {
+        if (id >= nums.size()) return 0;
+        int lis = 0;
+        for (int i = id; i < nums.size(); i++) {
+            if (nums[i] > previous) {
+                lis = max(lis, 1 + dfs(nums, i + 1, nums[i]));
+            }
+        }
+        return lis;
+    }
+    // time complexity: O(2^n)
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        // method 1: Brute force (recursion + memorization)
+        memo = vector<int>(nums.size(), -1);
+        return dfs(nums, 0, INT_MIN);
+    }
+
+private:
+    vector<int> memo;
+    int dfs(vector<int>& nums, int id, int previous) {
+        if (id >= nums.size()) return 0;
+        if (memo[id] != -1) return memo[id];
+
+        int lis = 0;
+        for (int i = id; i < nums.size(); i++) {
+            if (nums[i] > previous) {
+                lis = max(lis, 1 + dfs(nums, i + 1, nums[i]));
+            }
+        }
+        return memo[id] = lis;
+    }
+    // time complexity: O(2^n)
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        // method: dynamic programing (Depth First Search, DFS)
         // index  0  1  2  3
         // nums  [1, 2, 4, 3]
         // start from index = 3 -> LIS[3] = 1
@@ -28,7 +79,6 @@ public:
         // start from index = 1 -> LIS[1] = max(1, 1 + LIS[2], 1 + LIS[3]) = 2
         // start from index = 0 -> LIS[0] = max(1, 1 + LIS[1], 1 + LIS[2], 1 + LIS[3]) = 3
         
-        // method: dynamic programing (Depth First Search, DFS)
         // 1. create vector "LIS" to store result
         // 2. enumerate i [nums.size() - 1, 0]
         // 3. enumerate j [i + 1, nums.size()]
@@ -54,6 +104,7 @@ public:
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
+        // method: dynamic programing (Depth First Search, DFS)
         const int n = nums.size();
         vector<int> dp(n, 1);
 

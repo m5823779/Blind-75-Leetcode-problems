@@ -416,25 +416,25 @@
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 
 :white_check_mark: `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
-        `Recursion` `Memorization` `DP` `Tree` `DFS` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
 
 :white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
-        `Recursion` `DP` `Memorization` `Tree` `DFS` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp) :fire:
+        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp) :fire:
 
-- [x] `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
-        `Recursion` `DP` `Greedy` `Binary search` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp)
+:white_check_mark: `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
+        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire:
 
-- [x] `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp)
+:white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
 
-- [x] `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Hash table` `Recursion` `DP` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+:white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
+        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
         
-- [x] `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/198.House%20Robber.cpp)
+:white_check_mark: `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
+        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/198.House%20Robber.cpp)
 
-- [x] `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
+:white_check_mark: `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp) :fire:
 
 - [x] `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp)

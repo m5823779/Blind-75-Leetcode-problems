@@ -1,7 +1,55 @@
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        // method 1: brute force 
+        // method 1: brute force (recursive)
+        return solve(s, 0, wordDict);
+    }
+private:
+    bool solve(string s, int i, vector<string>& wordDict) {
+        if (i >= s.size()) return true;
+        for (string word : wordDict) {
+            if (word == s.substr(i, word.size())) {
+                if (solve(s, i + word.size(), wordDict)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    // time complexity: O(n * m * n)
+};
+
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        // method 1.2: brute force (recursive + memorization)
+        return solve(s, 0, wordDict);
+    }
+private:
+    unordered_map<string, bool> mp;
+    bool solve(string s, int i, vector<string>& wordDict) {
+        if (i >= s.size()) return true;
+        if (mp.count(s.substr(i))) return mp[s.substr(i)];
+        
+        for (string word : wordDict) {
+            if (word == s.substr(i, word.size())) {
+                if (solve(s, i + word.size(), wordDict)) {
+                    return mp[s.substr(i + word.size())] = true;
+                }
+            }
+        }
+        return mp[s.substr(i)] = false;
+    }
+};
+
+
+// --------------------------------------------------------------------
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        // method 2: brute force 
         // example:
         // wordBreak("leecode") = 
         // wordBreak("") && inDict("leetcode") ||  - (x)
@@ -41,25 +89,7 @@ private:
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        // method 1: brute force (optimize) + memory
-        // example:
-        // wordBreak("leecode") = 
-        // wordBreak("") && inDict("leetcode") ||  - (x)
-        // wordBreak("l") && inDict("eetcode") ||  - (x)
-        // wordBreak("le") && inDict("etcode") ||  - (x)
-        // wordBreak("lee") && inDict("tcode") ||  - (x)
-        // wordBreak("leet") && inDict("code") ||  - (o)
-        // wordBreak("leetc") && inDict("ode") ||  - (x)
-        // wordBreak("leetco") && inDict("de") ||  - (x)
-        // wordBreak("leetcod") && inDict("e") ||  - (x)
-        // wordBreak("leetcode") && inDict("") ||  - (x)
-
-        // wordBreak("leet") = 
-        // wordBreak("") && inDict("leet") ||  - (o)
-        // wordBreak("l") && inDict("eet") ||  - (x)
-        // wordBreak("lee") && inDict("t") ||  - (x)
-        // wordBreak("leet") && inDict("") ||  - (x)
-
+        // method 2.2: brute force (optimize) + memory
         unordered_set<string> table(wordDict.begin(), wordDict.end());
         return wordBreak(s, table);
     }
@@ -79,6 +109,9 @@ private:
         return memory[s] = false;
     }
 };
+
+
+// --------------------------------------------------------------------
 
 
 class Solution {
@@ -122,6 +155,9 @@ public:
     // time complexity: O(n * m)
     // space complexity: O(n)
 };
+
+
+// --------------------------------------------------------------------
 
 
 class Solution {
