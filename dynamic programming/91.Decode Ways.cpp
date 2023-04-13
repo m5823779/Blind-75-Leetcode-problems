@@ -30,7 +30,32 @@ private:
 class Solution {
 public:
     int numDecodings(string s) {
-        // method 2: dynamic programming
+        // method 2: recursive + memorization
+        memo = vector<int>(s.size(), -1);
+        return solve(s, 0);
+    }
+private:
+    vector<int> memo;
+    int solve(string s, int cur) {
+        if (cur >= s.size()) return 1;
+        if (s[cur] == '0') return 0; 
+        if (memo[cur] != -1) return memo[cur];
+
+        int result = solve(s, cur + 1);
+        if (cur + 2 <= s.size() && s.substr(cur, 2) <= "26") {
+            result += solve(s, cur + 2);
+        }
+        return memo[cur] = result;
+    }
+    // time complexity: O(n)
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    int numDecodings(string s) {
+        // method 3: dynamic programming
         // 1. create dp array to store the decode way (sub-string end with index i in string s) 
         // 2. set basic case (substring "" have one decoding way)
         // 3. dp[i] = dp[i - 1] + dp[i - 2], if the char is not '0' and substring <= "26"
@@ -61,7 +86,7 @@ public:
 class Solution {
 public:
     int numDecodings(string s) {
-        // method 2: dynamic programming
+        // method 3: dynamic programming
         // 1. create dp array to store decode way (substring start with index i to the end in string)
         // 2. set basic case (substring "" has one decoding way)
         // 3. enumerate from string length to 0

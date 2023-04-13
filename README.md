@@ -34,6 +34,9 @@
 :white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
         `Two pointers` `String` [solution](./pointer%20manipulation/125.Valid%20Palindrome.cpp)
 
+:white_check_mark: ` Easy ` [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
+        `Two pointers` `String` [solution](./pointer%20manipulation/680.Valid%20Palindrome%20II.cpp)
+
 :white_check_mark: ` Easy ` [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)
         `Two pointers` `String` [solution](./pointer%20manipulation/917.Reverse%20Only%20Letters.cpp)
 
@@ -436,14 +439,18 @@
 :white_check_mark: `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp) :fire:
 
-- [x] `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp)
+:white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
+        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) :fire:
 
-- [x] `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+:white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/45.Jump%20Game%20II.cpp)
+
+:white_check_mark: `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
+
+:white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
 
-- [x] `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
-        `Recursion` `Tree` `DP` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) 
 ****
 
 ### Other

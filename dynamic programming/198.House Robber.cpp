@@ -39,7 +39,7 @@ private:
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        // method 2: recursion + memorize (top - bottom
+        // method 2: recursion + memorize (top - bottom)
         const int n = nums.size();
         memo = vector(n, -1);
         return solve(nums, 0);
