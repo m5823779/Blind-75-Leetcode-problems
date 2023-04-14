@@ -257,6 +257,9 @@
 :white_check_mark: `Medium` [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
         `Graph` `BFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
 
+:white_check_mark: ` Hard ` [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
+        `Graph` `BFS` `Topological Sort` [solution](./graph/269.Alien%20Dictionary.cpp)
+
 :white_check_mark: `Medium` [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
         `Graph` `DFS` `BFS` [solution](./graph/802.Find%20Eventual%20Safe%20States.cpp) :fire:
 
@@ -292,10 +295,6 @@
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
- 
-- [ ] ~~[Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)~~
-
-- [ ] ~~[Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)~~
 
 ****
 
