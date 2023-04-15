@@ -57,6 +57,9 @@
 
 :white_check_mark: `Medium` [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
          `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
+
+:white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
+        `Two pointers` `String` [solution](./pointer%20manipulation/408.Valid%20Word%20Abbreviation.cpp)
 ****
 
 ### Binary Search
