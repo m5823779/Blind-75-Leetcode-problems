@@ -60,6 +60,9 @@
 
 :white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
         `Two pointers` `String` [solution](./pointer%20manipulation/408.Valid%20Word%20Abbreviation.cpp)
+
+:white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
+        `Two pointers` `String` [solution](./pointer%20manipulation/696.Count%20Binary%20Substrings.cpp) :fire:
 ****
 
 ### Binary Search
