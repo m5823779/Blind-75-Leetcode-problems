@@ -181,6 +181,9 @@
 :white_check_mark: ` Easy ` [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) 
         `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp) :fire:
 
+:white_check_mark: `Medium` [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
+        `Hash table` `Two pointers` `Design` [solution](./data%20structure/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp) :fire:
+
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
 
