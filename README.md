@@ -46,6 +46,15 @@
 :white_check_mark: `Medium` [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
         `Two pointers` `String` `DP` [solution](./pointer%20manipulation/647.Palindromic%20Substrings.cpp)
 
+:white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
+        `Two pointers` `String` [solution](./pointer%20manipulation/408.Valid%20Word%20Abbreviation.cpp)
+
+:white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
+        `Two pointers` `String` [solution](./pointer%20manipulation/696.Count%20Binary%20Substrings.cpp) :fire:
+
+:white_check_mark: `Medium` [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fire:
+
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
 
@@ -57,12 +66,6 @@
 
 :white_check_mark: `Medium` [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
          `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
-
-:white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/408.Valid%20Word%20Abbreviation.cpp)
-
-:white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/696.Count%20Binary%20Substrings.cpp) :fire:
 ****
 
 ### Binary Search
@@ -195,6 +198,9 @@
 
 :white_check_mark: `Easy` [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
         `Stack` `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
+
+:white_check_mark:  `Medium` [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
+
 ***
 
 ### Linked List
