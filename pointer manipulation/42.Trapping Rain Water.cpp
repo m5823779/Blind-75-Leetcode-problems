@@ -20,7 +20,7 @@ public:
 class Solution {
 public:
     int trap(vector<int>& height) {
-        // method 2: Dynamic programming
+        // method 2: Dynamic programming (prefix max)
         const int n = height.size();
         
         vector<int> left_most(n, 0);

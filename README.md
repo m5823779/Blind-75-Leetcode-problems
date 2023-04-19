@@ -192,6 +192,9 @@
 
 :white_check_mark: `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
+
+:white_check_mark: `Easy` [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+        `Stack` `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
 ***
 
 ### Linked List
