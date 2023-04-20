@@ -69,6 +69,9 @@
 ****
 
 ### Binary Search
+:white_check_mark: `Easy` [704. Binary Search](https://leetcode.com/problems/binary-search/)
+        `Binary search` [solution](./binary%20search/704.Binary%20Search.cpp)
+
 :white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
         `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
 
