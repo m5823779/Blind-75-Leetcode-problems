@@ -203,7 +203,7 @@
         `Stack` `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
 
 :white_check_mark:  `Medium` [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
-
+        `Stack` `Monotonic stack` [solution](./data%20structure/503.Next%20Greater%20Element%20II.cpp)
 ***
 
 ### Linked List
