@@ -53,7 +53,7 @@
         `Two pointers` `String` [solution](./pointer%20manipulation/696.Count%20Binary%20Substrings.cpp) :fire:
 
 :white_check_mark: `Medium` [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
-        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fire:
+        `Sliding window` `Hash table` [solution](./pointer%20manipulation/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fire:
 
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
@@ -204,6 +204,9 @@
 
 :white_check_mark:  `Medium` [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
         `Stack` `Monotonic stack` [solution](./data%20structure/503.Next%20Greater%20Element%20II.cpp)
+
+:white_check_mark:  `Medium` [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+        `Stack` `Monotonic stack` [solution](./data%20structure/739.Daily%20Temperatures.cpp)
 ***
 
 ### Linked List
