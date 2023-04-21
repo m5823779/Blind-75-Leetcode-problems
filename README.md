@@ -193,7 +193,7 @@
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
 
-:white_check_mark:  `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
+:white_check_mark: `Medium` [155. Min Stack](https://leetcode.com/problems/min-stack/)
         `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
 
 :white_check_mark: `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
@@ -202,11 +202,20 @@
 :white_check_mark: `Easy` [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
         `Stack` `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
 
-:white_check_mark:  `Medium` [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
+:white_check_mark: `Medium` [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
         `Stack` `Monotonic stack` [solution](./data%20structure/503.Next%20Greater%20Element%20II.cpp)
 
-:white_check_mark:  `Medium` [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+:white_check_mark: `Medium` [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
         `Stack` `Monotonic stack` [solution](./data%20structure/739.Daily%20Temperatures.cpp)
+
+:white_check_mark: `Medium` [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
+        `Stack` `Monotonic stack` `String` [solution](./data%20structure/316.Remove%20Duplicate%20Letters.cpp) :fire:
+
+:white_check_mark: `Medium` [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
+        `Stack` `Monotonic stack` `String` [solution](./data%20structure/1081.Smallest%20Subsequence%20of%20Distinct%20Characters.cpp)
+
+:white_check_mark: `Medium` [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
+        `Stack` `Monotonic stack` [solution](./data%20structure/402.Remove%20K%20Digits.cpp)
 ***
 
 ### Linked List
