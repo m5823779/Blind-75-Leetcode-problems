@@ -44,3 +44,35 @@ public:
     // time complexity: O(n)
     // space complexity: O(n)
 };
+
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        // method 3: monotonic stack
+        const int n = height.size();
+        int ans = 0;
+        stack<int> s;  // store indices
+
+        for (int cur = 0; cur < n; cur++) {
+            while (!s.empty() && height[cur] > height[s.top()]) {  // find heigher bound, means lower bound can trap water
+                int pre = s.top();
+                s.pop();
+
+                if (s.empty()) {  // if it doesn't have left bound, it cant trap the water
+                    break;
+                }
+                int w = cur - s.top() - 1;
+
+                int left_most = height[s.top()];
+                int right_most = height[cur];
+                int h = min(left_most, right_most) - height[pre];
+                ans += w * h;
+            }
+            s.push(cur);
+        }
+        return ans;
+    }
+    // time complexity: O(n)
+    // space complexity: O(n)
+};
