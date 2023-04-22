@@ -37,30 +37,51 @@ public:
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        // method 2: sliding window (monotonic queue / deque)
-        vector<int> ans;
-        deque<int> q;
+        // method 2: heap
         const int n = nums.size();
-        int l = 0;
-        for (int r = 0; r < n; r++) {
-            if (!q.empty() && nums[r] > q.front()) {
-                q.clear();
+        multiset<int> s;  // small -> big
+        vector<int> ans;
+
+        for (int i = 0; i < n; i++) {
+            s.insert(nums[i]);
+            if (s.size() > k) {
+                s.erase(s.find(nums[i - k]));
             }
-            while (!q.empty() && nums[r] > q.back()) {
-                q.pop_back();
+            if (i >= k - 1) {
+                ans.push_back(*s.rbegin());
+            }
+        }
+        return ans;
+    }
+    // time complexity: O(nlogk)
+    // space complexity: O(k)
+};
+
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        // method 3: monotonic queue
+        vector<int> ans;
+        deque<int> d;
+        
+        for (int i = 0; i < nums.size(); i++) {
+            while (!d.empty() && d.front() <= i - k) {
+                d.pop_front();
+            }
+            
+            while (!d.empty() && nums[i] >= nums[d.back()]) {
+                d.pop_back();
             }
 
-            q.push_back(nums[r]);
-            if (r >= k - 1) {
-                ans.push_back(q.front());
-                if (nums[l] == q.front()) {
-                    q.pop_front();
-                }
-                l++;
+            d.push_back(i);
+
+            if (i >= k - 1) {
+                ans.push_back(nums[d.front()]);
             }
         }
         return ans;
     }
     // time complexity: O(n)
-    // space complexity: O(n)
+    // space complexity: O(k)
 };

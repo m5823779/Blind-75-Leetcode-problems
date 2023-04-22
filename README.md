@@ -58,9 +58,6 @@
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
 
-:white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-        `Sliding window` `Deque` `Monotonic queue` [solution](./pointer%20manipulation/239.Sliding%20Window%20Maximum.cpp) :fire:
-
 :white_check_mark: `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 
@@ -219,6 +216,9 @@
 
 :white_check_mark: `Hard` [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
         `Monotonic stack` [solution](./data%20structure/84.Largest%20Rectangle%20in%20Histogram.cpp) :fire:
+
+:white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+        `Monotonic queue` `Sliding window` `Deque` `Heap` [solution](./data%20structure/239.Sliding%20Window%20Maximum.cpp) :fire:
 ***
 
 ### Linked List
