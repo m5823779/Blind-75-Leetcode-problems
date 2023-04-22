@@ -62,7 +62,10 @@
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 
 :white_check_mark: `Medium` [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
+        `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/424.Longest%20Repeating%20Character%20Replacement.cpp) :fire:
+
+:white_check_mark: `Medium` [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+        `Sliding window` `Prefix sum` [solution](./pointer%20manipulation/209.Minimum%20Size%20Subarray%20Sum.cpp)
 ****
 
 ### Binary Search
@@ -219,6 +222,9 @@
 
 :white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
         `Monotonic queue` `Sliding window` `Deque` `Heap` [solution](./data%20structure/239.Sliding%20Window%20Maximum.cpp) :fire:
+
+:white_check_mark: `Hard` [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
+
 ***
 
 ### Linked List
