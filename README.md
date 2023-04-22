@@ -105,21 +105,24 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 ****
 
-### Interval
-:white_check_mark: `Medium`  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
-        `Interval` `Sorting` [solution](./interval/56.Merge%20Intervals.cpp)
-
-:white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
-        `Interval` `Sorting` [solution](./interval/57.Insert%20Interval.cpp) :fire:
-
-:white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
-        `Interval` `Sorting` `Greedy` [solution](./interval/435.Non-overlapping%20Intervals.cpp) :fire:
-
+### Sweep line
 :white_check_mark: `Easy` [252. Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
-        `Interval` `Sorting` [solution](./interval/252.Meeting%20Rooms.cpp)
+        `Interval` `Sorting` [solution](./sweep%20line/252.Meeting%20Rooms.cpp)
 
 :white_check_mark: `Medium` [253. Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
-        `Interval` `Sorting` `Two pointer` `Heap` [solution](./interval/253.Meeting%20Rooms%20II.cpp) :fire:
+        `Interval` `Sorting` `Two pointer` `Heap` [solution](./sweep%20line/253.Meeting%20Rooms%20II.cpp) :fire:
+
+:white_check_mark: `Medium`  [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
+        `Interval` `Sorting` [solution](./sweep%20line/56.Merge%20Intervals.cpp)
+
+:white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
+        `Interval` `Sorting` [solution](./sweep%20line/57.Insert%20Interval.cpp) :fire:
+
+:white_check_mark: `Medium` [1272. Remove Interval](https://leetcode.com/problems/remove-interval/)
+        `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp)
+
+:white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
+        `Interval` `Sorting` `Greedy` [solution](./sweep%20line/435.Non-overlapping%20Intervals.cpp) :fire:
 ****
 
 ### Bitwise Operation
