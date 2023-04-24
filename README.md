@@ -103,6 +103,9 @@
 
 :white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
+
+:white_check_mark: `Medium` [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire:
 ****
 
 ### Sweep line
