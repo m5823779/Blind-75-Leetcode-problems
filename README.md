@@ -106,6 +106,16 @@
 
 :white_check_mark: `Medium` [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire:
+
+:white_check_mark: `Medium` [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp)
+
+:white_check_mark: `Medium` [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/525.Contiguous%20Array.cpp) :fire:
+
+:white_check_mark: `Medium` [370. Range Addition](https://leetcode.com/problems/range-addition/)
+        `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp)
+
 ****
 
 ### Sweep line
@@ -355,6 +365,9 @@
 
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
+
+:white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+        `Tree` `BST` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp)
 
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
