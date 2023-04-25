@@ -116,6 +116,9 @@
 :white_check_mark: `Medium` [370. Range Addition](https://leetcode.com/problems/range-addition/)
         `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp)
 
+:white_check_mark: `Medium` [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+        `Prefix sum` `Matrix` [solution](./prefix%20sum/304.Range%20Sum%20Query%202D%20-%20Immutable.cpp) :fire:
+
 ****
 
 ### Sweep line
