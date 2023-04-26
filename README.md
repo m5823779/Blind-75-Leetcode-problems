@@ -58,6 +58,9 @@
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
 
+:white_check_mark: `Medium` [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+        `Sliding window` `Hash table` [solution](./pointer%20manipulation/159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.cpp)
+
 :white_check_mark: `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 
