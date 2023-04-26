@@ -98,9 +98,6 @@
 ****
 
 ### Prefix Sum
-:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-        `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
-
 :white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 
@@ -116,9 +113,14 @@
 :white_check_mark: `Medium` [370. Range Addition](https://leetcode.com/problems/range-addition/)
         `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp)
 
+:white_check_mark: `Easy` [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+        `Prefix sum` [solution](./prefix%20sum/303.Range%20Sum%20Query%20-%20Immutable.cpp)
+
 :white_check_mark: `Medium` [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
         `Prefix sum` `Matrix` [solution](./prefix%20sum/304.Range%20Sum%20Query%202D%20-%20Immutable.cpp) :fire:
 
+:white_check_mark: `Medium` [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+        `Prefix sum` [solution](./prefix%20sum/238.Product%20of%20Array%20Except%20Self.cpp) 
 ****
 
 ### Sweep line
@@ -243,7 +245,7 @@
         `Monotonic queue` `Sliding window` `Deque` `Heap` [solution](./data%20structure/239.Sliding%20Window%20Maximum.cpp) :fire:
 
 :white_check_mark: `Hard` [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
-
+        `Monotonic queue` `Sliding window` `Deque` [solution](./data%20structure/862.Shortest%20Subarray%20with%20Sum%20at%20Least%20K.cpp) :smiling_imp:
 ***
 
 ### Linked List
