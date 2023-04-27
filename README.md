@@ -2,55 +2,55 @@
 
 ### Pointer Manipulation (Two pointers)
 :white_check_mark: `Medium` [167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-        `Two pointers` `Sorting` [solution](./pointer%20manipulation/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
+        `Two pointers` `Sorting` [solution](./two%20pointers/167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)
 
 :white_check_mark: `Medium` [15. 3 Sum](https://leetcode.com/problems/3sum/) 
-        `Two pointers` `Sorting` `Hash table` [solution](./pointer%20manipulation/15.3Sum.cpp) :fire:
+        `Two pointers` `Sorting` `Hash table` [solution](./two%20pointers/15.3Sum.cpp) :fire:
 
 :white_check_mark: `Medium` [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
-        `Two pointers` `Sorting` [solution](./pointer%20manipulation/16.3Sum%20Closest.cpp)
+        `Two pointers` `Sorting` [solution](./two%20pointers/16.3Sum%20Closest.cpp)
 
 :white_check_mark: `Medium` [18. 4Sum](https://leetcode.com/problems/4sum/description/)
-        `Two pointers` `Sorting` `Backtracking` [solution](./pointer%20manipulation/18.4Sum.cpp)
+        `Two pointers` `Sorting` `Backtracking` [solution](./two%20pointers/18.4Sum.cpp)
 
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-        `Two pointers` [solution](./pointer%20manipulation/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
+        `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
-        `Two pointers` `DP` [solution](./pointer%20manipulation/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
+        `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
 
 :white_check_mark: `Medium` [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-        `Two pointers` `DP` [solution](./pointer%20manipulation/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cpp)
+        `Two pointers` `DP` [solution](./two%20pointers/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cpp)
 
 :white_check_mark: `Medium` [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-        `Two pointers` `Greedy` [solution](./pointer%20manipulation/11.Container%20With%20Most%20Water.cpp) :fire:
+        `Two pointers` `Greedy` [solution](./two%20pointers/11.Container%20With%20Most%20Water.cpp) :fire:
 
 :white_check_mark: `Hard` [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-        `Two pointers` `Dynamic programming` `Prfix max` [solution](./pointer%20manipulation/42.Trapping%20Rain%20Water.cpp)
+        `Two pointers` `Dynamic programming` `Prfix max` [solution](./two%20pointers/42.Trapping%20Rain%20Water.cpp)
 
 :white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-        `Two pointers` `Floyd` `Cyclic sort` [solution](./pointer%20manipulation/287.Find%20the%20Duplicate%20Number.cpp) :fire:
+        `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire:
 
 :white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/125.Valid%20Palindrome.cpp)
+        `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp)
 
 :white_check_mark: ` Easy ` [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/680.Valid%20Palindrome%20II.cpp)
+        `Two pointers` `String` [solution](./two%20pointers/680.Valid%20Palindrome%20II.cpp)
 
 :white_check_mark: ` Easy ` [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/917.Reverse%20Only%20Letters.cpp)
+        `Two pointers` `String` [solution](./two%20pointers/917.Reverse%20Only%20Letters.cpp)
 
 :white_check_mark: `Medium` [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-        `Two pointers` `String` `DP` [solution](./pointer%20manipulation/5.Longest%20Palindromic%20Substring.cpp) :fire:
+        `Two pointers` `String` `DP` [solution](./two%20pointers/5.Longest%20Palindromic%20Substring.cpp) :fire:
 
 :white_check_mark: `Medium` [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-        `Two pointers` `String` `DP` [solution](./pointer%20manipulation/647.Palindromic%20Substrings.cpp)
+        `Two pointers` `String` `DP` [solution](./two%20pointers/647.Palindromic%20Substrings.cpp)
 
 :white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/408.Valid%20Word%20Abbreviation.cpp)
+        `Two pointers` `String` [solution](./two%20pointers/408.Valid%20Word%20Abbreviation.cpp)
 
 :white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
-        `Two pointers` `String` [solution](./pointer%20manipulation/696.Count%20Binary%20Substrings.cpp) :fire:
+        `Two pointers` `String` [solution](./two%20pointers/696.Count%20Binary%20Substrings.cpp) :fire:
 ****
 
 ### Pointer Manipulation (sliding window)
