@@ -61,6 +61,12 @@
 :white_check_mark: `Medium` [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
         `Sliding window` `Hash table` [solution](./pointer%20manipulation/159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.cpp)
 
+:white_check_mark: `Hard` [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+        `Sliding window` `Hash table` [solution](./pointer%20manipulation/992.Subarrays%20with%20K%20Different%20Integers.cpp) :fire:
+
+:white_check_mark: `Medium` [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+        `Sliding window` `Hash table` [solution](./pointer%20manipulation/1248.Count%20Number%20of%20Nice%20Subarrays.cpp)
+
 :white_check_mark: `Hard` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
         `Sliding window` `Hash table` `String` [solution](./pointer%20manipulation/76.Minimum%20Window%20Substring.cpp) :fire:
 

@@ -12,11 +12,13 @@ public:
         int ans = 0;
 
         for (int i = 0; i < n; ++i) {
+            // map<char, int> m;
             vector<int> count(26, 0);
             int j = i;
             
             while (j < n) {        
                 count[s[j] - 'A']++;
+                // if (j - i + 1 - (*max_element(m.begin(), m.end(), [](auto a, auto b){ return a.second < b.second; })).second <= k) {
                 if ((j - i + 1) - *max_element(count.begin(), count.end()) > k) break;
                 ans = max(ans, j - i + 1);
                 j++;
