@@ -159,8 +159,11 @@
 :white_check_mark: `Hard` [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
         `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp)
 
+:white_check_mark: `Medium` [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+        `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/986.Interval%20List%20Intersections.cpp) :fire:
+        
 :white_check_mark: `Medium` [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)
-        `Interval` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp) :fire:
+        `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp)
 ****
 
 ### Bitwise Operation
