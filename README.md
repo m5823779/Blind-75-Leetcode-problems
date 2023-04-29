@@ -152,6 +152,15 @@
 
 :white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
         `Interval` `Sorting` `Greedy` [solution](./sweep%20line/435.Non-overlapping%20Intervals.cpp) :fire:
+
+:white_check_mark: `Medium` [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
+        `Interval` `Sorting` [solution](./sweep%20line/1288.Remove%20Covered%20Intervals.cpp) :fire:
+
+:white_check_mark: `Hard` [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+        `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp)
+
+:white_check_mark: `Medium` [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)
+        `Interval` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp) :fire:
 ****
 
 ### Bitwise Operation

@@ -49,6 +49,7 @@ public:
 class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& intervals) {
+        // method 2: sweep line (vector)
         vector<pair<int, int>> bucket;
         for (vector<int>& interval : intervals) {
             bucket.push_back({interval[0], 1});
@@ -66,4 +67,44 @@ public:
     }
     // time complexity: O(nlogn)
     // space complexity: o(2n)
+};
+
+
+class Solution {
+public:
+    int minMeetingRooms(vector<vector<int>>& intervals) {
+        // method 2: sweep line (tree map)
+        map<int, int> mp;
+        for (vector<int>& interval : intervals) {
+            mp[interval[0]] += 1;
+            mp[interval[1]] += -1;
+        }
+
+        int ans = 0; 
+        int room = 0;
+        for (auto p : mp) {
+            room += p.second;
+            ans = max(ans, room);
+        }
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    int minMeetingRooms(vector<vector<int>>& intervals) {
+        // method 3: heap
+        sort(intervals.begin(), intervals.end(), [](auto a, auto b){ return a[0] < b[0]; });
+        priority_queue<int, vector<int>, greater<int>> pq;
+        int room = 0;
+        for (auto i : intervals) {
+            if (!pq.empty() && pq.top() <= i[0]) {
+                pq.pop();
+            }
+            pq.push(i[1]);
+            room = max(room, (int)pq.size());
+        }
+        return room;
+    }
 };
