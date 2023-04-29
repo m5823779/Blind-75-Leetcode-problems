@@ -161,9 +161,12 @@
 
 :white_check_mark: `Medium` [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
         `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/986.Interval%20List%20Intersections.cpp) :fire:
-        
+
 :white_check_mark: `Medium` [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)
         `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp)
+
+:white_check_mark: `Hard` [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/)
+        `Interval` `Sorting` `Heap` [solution](./sweep%20line/759.Employee%20Free%20Time.cpp) :fire:
 ****
 
 ### Bitwise Operation
