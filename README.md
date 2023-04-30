@@ -379,7 +379,7 @@
 :white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
         `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
 
-- [x] ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+:white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
@@ -404,7 +404,19 @@
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-        `Tree` `BFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
+        `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
+
+:white_check_mark: `Medium` [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+        `Tree` `BFS` `DFS` [solution](./tree/107.Binary%20Tree%20Level%20Order%20Traversal%20II.cpp)
+
+:white_check_mark: `Medium` [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+        `Tree` `BFS` `DFS` [solution](./tree/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)
+
+:white_check_mark: `Medium` [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+        `Tree` `BFS` `DFS` [solution](./tree/314.Binary%20Tree%20Vertical%20Order%20Traversal.cpp)
+
+:white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)

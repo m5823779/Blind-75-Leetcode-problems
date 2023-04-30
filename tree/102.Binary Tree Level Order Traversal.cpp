@@ -12,7 +12,7 @@
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        // method 1: BFS (breadth first search)
+        // method 1: BFS (breadth first search) [Best]
         // 1. create queue to store root node
         // 2. pop out all element in queue, then push their child node, while queue is not empty
         if (!root) return {};
@@ -37,8 +37,8 @@ public:
         }
         return ans;
     }
-    // time complexity: O(n)
-    // space complexity: O(n)  // create sub_ans
+    // time complexity: O(n)  // every node entry queue once
+    // space complexity: O(n / 2) -> O(n)  // create sub_ans
 };
 
 class Solution {
@@ -72,7 +72,7 @@ public:
         return ans;
     }
     // time complexity: O(n)
-    // space complexity: O(n)  // create current & next vector
+    // space complexity: O(n / 2) -> O(n)  // create current & next vector
 };
 
 class Solution {
