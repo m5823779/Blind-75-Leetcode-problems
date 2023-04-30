@@ -379,6 +379,9 @@
 :white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
         `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
 
+:white_check_mark: `Medium` [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
+        `Graph` `BFS` `DFS` `Dijkstra's algorithm` `Heap` [solution](./graph/505.The%20Maze%20II.cpp) :fire:
+
 :white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
         
