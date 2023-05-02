@@ -481,10 +481,13 @@
 
 ### Recursion
 :white_check_mark: `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Tree` `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp)
+        `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp)
 
 :white_check_mark: `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-        `Tree` `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire:
+
+:white_check_mark: `Medium` [77. Combinations](https://leetcode.com/problems/combinations/)
+        `Recursion` `Backtracking` [solution](./recursion/77.Combinations.cpp)
 
 :white_check_mark: `Medium` [78. Subsets](https://leetcode.com/problems/subsets/)
         `Recursion` `Backtracking` [solution](./recursion/78.Subsets.cpp)
@@ -509,6 +512,12 @@
 
 :white_check_mark: ` Hard ` [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
         `Recursion` `Trie` `DFS` `Backtracking` [solution](./recursion/212.Word%20Search%20II.cpp) :fire:
+
+:white_check_mark: ` Hard ` [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+        `Recursion` `Backtracking` [solution](./recursion/37.Sudoku%20Solver.cpp) :fire:
+
+:white_check_mark: ` Hard ` [51. N-Queens](https://leetcode.com/problems/n-queens/)
+        `Recursion` `Backtracking` [solution](./recursion/51.N-Queens.cpp) :fire:
 
 - [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
         `Hash table` `Recursion` `DP` `Trie` [solution](./recursion/140.Word%20Break%20II.cpp)
