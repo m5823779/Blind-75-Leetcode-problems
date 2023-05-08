@@ -167,6 +167,9 @@
 
 :white_check_mark: `Hard` [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/)
         `Interval` `Sorting` `Heap` [solution](./sweep%20line/759.Employee%20Free%20Time.cpp) :fire:
+
+:white_check_mark: `Hard` [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+        `Interval` `Sorting` `Heap` [solution](./sweep%20line/218.The%20Skyline%20Problem.cpp)
 ****
 
 ### Bitwise Operation
