@@ -394,7 +394,7 @@
 ****
 
 ### Tree
-#### Tree traversal
+#### Tree Traversal
 :white_check_mark: `Easy` [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
         `Tree` `DFS` `Stack` [solution](./tree/144.Binary%20Tree%20Preorder%20Traversal.cpp)
 
@@ -428,7 +428,14 @@
 :white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
         `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :fire:
 
-####
+#### Serialize and Deserialize
+:white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :smiling_imp:
+
+#### Binary Search Tree (BST)
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 
@@ -470,12 +477,6 @@
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
-
-:white_check_mark: `Medium` [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :smiling_imp:
-
-:white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
