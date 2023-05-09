@@ -405,17 +405,30 @@
         `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire:
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-        `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
+        `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp) :fire:
 
 :white_check_mark: `Medium` [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
         `Tree` `BFS` `DFS` [solution](./tree/107.Binary%20Tree%20Level%20Order%20Traversal%20II.cpp)
+
+:white_check_mark: `Medium` [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+        `Tree` `BFS` `DFS` [solution](./tree/199.Binary%20Tree%20Right%20Side%20View.cpp)
+
+:white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
 
 :white_check_mark: `Medium` [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)
 
 :white_check_mark: `Medium` [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
-        `Tree` `BFS` `DFS` [solution](./tree/314.Binary%20Tree%20Vertical%20Order%20Traversal.cpp)
+        `Tree` `BFS` `DFS` [solution](./tree/314.Binary%20Tree%20Vertical%20Order%20Traversal.cpp) :fire:
 
+:white_check_mark: ` Hard ` [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+        `Tree` `BFS` `DFS` [solution](./tree/987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)
+
+:white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
+        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :fire:
+
+####
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 

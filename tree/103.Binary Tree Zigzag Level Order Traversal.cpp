@@ -45,3 +45,28 @@ public:
     // time complexity: O(n)
     // space complexity: O(n / 2) -> O(n)
 };
+
+
+class Solution {
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        // method: DFS
+        vector<vector<int>> ans;
+        dfs(root, ans, 0);
+        return ans;
+    }
+private:
+    void dfs(TreeNode* root, vector<vector<int>>& ans, int depth) {
+        if (!root) return;
+        while (ans.size() < depth + 1) ans.push_back({});
+
+        if (depth % 2 == 0) {
+            ans[depth].push_back(root->val);
+        }
+        else {
+            ans[depth].insert(ans[depth].begin(), root->val);
+        }
+        dfs(root->left, ans, depth + 1);
+        dfs(root->right, ans, depth + 1);
+    }
+};
