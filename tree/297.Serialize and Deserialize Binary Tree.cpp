@@ -9,7 +9,6 @@
  */
 class Codec {
 public:
-
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
         // method: DFS
@@ -24,7 +23,7 @@ public:
         for (char c : data) {
             if (c == ',') {
                 q.push(tmp);
-                tmp = "";
+                tmp.clear();
             }
             else {
                 tmp += c;
@@ -55,60 +54,67 @@ private:
 
 
 
-
-
-
- // The code is wrong, only work when it is complete binary tree
-//-----------------------------------------
 class Codec {
 public:
+
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        string encode;
-
+        // method: BFS
+        string res;
         queue<TreeNode*> q;
         q.push(root);
-        
         while (!q.empty()) {
             TreeNode* tmp = q.front();
             q.pop();
-            
+
             if (!tmp) {
-                encode += 'n';
+                res += "#,";
             }
             else {
-                encode += to_string(tmp->val);
-            }
-
-            if (tmp) { 
+                res += to_string(tmp->val) + ",";
                 q.push(tmp->left);
                 q.push(tmp->right);
             }
         }
-        cout << encode << endl;
-        return encode;
+        return res;
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        return decode(data, 0);
-    }
-private:
-    TreeNode* decode(string data, int cur) {
-        char c = data[cur];
-        if (cur >= data.size()) {
-            return nullptr;
+        vector<string> buffer;
+        string tmp;
+        for (const char& c : data) {
+            if (c == ',') {
+                buffer.push_back(tmp);
+                tmp.clear();
+            }
+            else {
+                tmp += c;
+            }
         }
-        if (c == 'n') {
-            return nullptr;
+
+        if (buffer[0] == "#") return nullptr;
+        TreeNode* root = new TreeNode(stoi(buffer[0]));
+        queue<TreeNode*> q;
+        q.push(root);
+
+        int i = 1;
+        while (i < buffer.size()) {
+            TreeNode* tmp = q.front();
+            q.pop();
+
+            if (buffer[i] != "#") {
+                tmp->left = new TreeNode(stoi(buffer[i]));
+                q.push(tmp->left);
+            }
+            i++;
+
+            if (buffer[i] != "#") {
+                tmp->right = new TreeNode(stoi(buffer[i]));
+                q.push(tmp->right);
+            }
+            i++;
         }
-        cout << c << endl;
-        TreeNode* root = new TreeNode(c - '0');
-        
-        // the formula only work when it is complete binary tree
-        root->left = decode(data, 2 * cur + 1);
-        root->right = decode(data, 2 * cur + 2);  
         return root;
     }
 };
-//-----------------------------------------
