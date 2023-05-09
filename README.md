@@ -394,20 +394,15 @@
 ****
 
 ### Tree
+#### Tree traversal
+:white_check_mark: `Easy` [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+        `Tree` `DFS` `Stack` [solution](./tree/144.Binary%20Tree%20Preorder%20Traversal.cpp)
+
 :white_check_mark: `Easy` [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-        `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp) :fire:
+        `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
 
-:white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
-
-:white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
-
-:white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-        `Tree` `BST` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp)
-
-:white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
-        `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
+:white_check_mark: `Easy` [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire:
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp)
@@ -420,6 +415,18 @@
 
 :white_check_mark: `Medium` [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/314.Binary%20Tree%20Vertical%20Order%20Traversal.cpp)
+
+:white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
+
+:white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+        `Tree` `BST` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp)
+
+:white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
+        `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
         `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp)
