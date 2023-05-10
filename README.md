@@ -444,6 +444,9 @@
 :white_check_mark: `Medium` [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
         `Tree` `DFS` `Hash table` [solution](./tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)
 
+:white_check_mark: `Medium` [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+        `Tree` `DFS` `Linked list` `Stack` [solution](./tree/426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List.cpp) :fire:
+
 #### Binary Search Tree (BST)
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
