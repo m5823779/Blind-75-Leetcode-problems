@@ -432,8 +432,17 @@
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
         `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
 
+:white_check_mark: `Medium` [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/449.Serialize%20and%20Deserialize%20BST.cpp)
+
+:white_check_mark: `Medium` [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/1008.Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.cpp)
+
 :white_check_mark: `Medium` [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :smiling_imp:
+        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :fire:
+
+:white_check_mark: `Medium` [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+        `Tree` `DFS` `Hash table` [solution](./tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)
 
 #### Binary Search Tree (BST)
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
