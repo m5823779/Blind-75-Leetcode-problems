@@ -83,3 +83,30 @@ private:
     // time complexity: O(n)
     // space complexity: O(h)
 };
+
+
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        // method 3: inorder traversal with iterative approach
+        long pre = LLONG_MIN;
+        stack<TreeNode*> s;
+        TreeNode* cur = root;
+        while (cur || !s.empty()) {
+            if (cur) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            else {
+                TreeNode* tmp = s.top();
+                s.pop();
+                if (tmp->val <= pre) {
+                    return false;
+                }
+                pre = tmp->val;
+                cur = tmp->right;
+            }
+        }
+        return true;
+    }
+};

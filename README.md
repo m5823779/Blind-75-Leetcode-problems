@@ -410,14 +410,11 @@
 :white_check_mark: `Medium` [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
         `Tree` `BFS` `DFS` [solution](./tree/107.Binary%20Tree%20Level%20Order%20Traversal%20II.cpp)
 
-:white_check_mark: `Medium` [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
-        `Tree` `BFS` `DFS` [solution](./tree/199.Binary%20Tree%20Right%20Side%20View.cpp)
-
-:white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
-
 :white_check_mark: `Medium` [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)
+
+:white_check_mark: `Medium` [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+        `Tree` `BFS` `DFS` [solution](./tree/199.Binary%20Tree%20Right%20Side%20View.cpp)
 
 :white_check_mark: `Medium` [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/314.Binary%20Tree%20Vertical%20Order%20Traversal.cpp) :fire:
@@ -427,6 +424,9 @@
 
 :white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
         `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
@@ -448,14 +448,24 @@
         `Tree` `DFS` `Linked list` `Stack` [solution](./tree/426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List.cpp) :fire:
 
 #### Binary Search Tree (BST)
+:white_check_mark: `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
+
+:white_check_mark: `Easy` [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire:
+
+:white_check_mark: `Medium` [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire:
+
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 
+####
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
-
-:white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-        `Tree` `BST` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp)
 
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
