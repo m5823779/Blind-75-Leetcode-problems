@@ -472,6 +472,15 @@
 :white_check_mark: `Medium` [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
         `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire:
 
+:white_check_mark: `Medium` [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp)
+
+:white_check_mark: `Easy` [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/1382.Balance%20a%20Binary%20Search%20Tree.cpp)
+        
 ####
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)

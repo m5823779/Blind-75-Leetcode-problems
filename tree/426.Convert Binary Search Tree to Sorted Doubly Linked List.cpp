@@ -55,3 +55,43 @@ private:
         inorder(root->right);
     }
 };
+
+
+class Solution {
+public:
+    Node* treeToDoublyList(Node* root) {
+        // method 2: inorder iterative approach
+        if (!root) return nullptr;
+
+        Node* head = nullptr;
+        Node* prev = nullptr;
+        Node* curr = root;
+        
+        stack<Node*> s;
+        while (curr || !s.empty()) {
+            if (curr) {
+                s.push(curr);
+                curr = curr->left;
+            }
+            else {
+                Node* tmp = s.top();
+                s.pop();
+
+                if (!head) {
+                    head = tmp;
+                    prev = tmp;
+                }
+                else {
+                    tmp->left = prev;
+                    prev->right = tmp;
+                    prev = tmp;
+                }
+                curr = tmp->right;
+            }
+        }
+
+        head->left = prev;
+        prev->right = head;
+        return head;
+    }
+};
