@@ -35,6 +35,25 @@ private:
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
+        // method: DFS
+        inorder(root, k);
+        return ans;
+    }
+private:
+    int ans;
+    void inorder(TreeNode* root, int& k) {
+        if (!root) return;
+        inorder(root->left, k);
+        k -= 1;
+        if (k == 0) ans = root->val;
+        inorder(root->right, k);
+    }
+};
+
+
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
         // method: BFS
         stack<TreeNode*> s;
         TreeNode* cur = root;

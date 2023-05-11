@@ -469,6 +469,9 @@
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 
+:white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
+
 :white_check_mark: `Medium` [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
         `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire:
 
@@ -480,11 +483,16 @@
 
 :white_check_mark: `Medium` [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/1382.Balance%20a%20Binary%20Search%20Tree.cpp)
-        
-####
-:white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
 
+#### Lowest Common Ancestor (LCA)
+:white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
+
+
+###
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
@@ -503,21 +511,13 @@
 :white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
 
-:white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) :fire:
-
-:white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
-
-:white_check_mark: `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
-
 :white_check_mark: `Easy` [112. Path Sum](https://leetcode.com/problems/path-sum/)
         `Tree` `DFS` [solution](./tree/112.Path%20Sum.cpp)
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
 
+#### Trie
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
 
