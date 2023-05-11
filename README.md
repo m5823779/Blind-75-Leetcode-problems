@@ -109,6 +109,7 @@
 ****
 
 ### Prefix Sum
+#### Two Sum Problem
 :white_check_mark: `Medium` [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 
@@ -121,6 +122,7 @@
 :white_check_mark: `Medium` [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/525.Contiguous%20Array.cpp) :fire:
 
+#### Range Sum
 :white_check_mark: `Medium` [370. Range Addition](https://leetcode.com/problems/range-addition/)
         `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp)
 
@@ -216,6 +218,7 @@
 ****
 
 ### Data Structure
+#### Hash table
 :white_check_mark: ` Easy ` [1. Two Sum](https://leetcode.com/problems/two-sum/) 
         `Hash table` [solution](./data%20structure/1.Two%20Sum.cpp)
 
@@ -240,6 +243,7 @@
 :white_check_mark: `Medium` [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
         `Hash table` `Two pointers` `Design` [solution](./data%20structure/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp) :fire:
 
+#### Stack
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
 
@@ -249,6 +253,7 @@
 :white_check_mark: `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 
+#### Monotonic Stack
 :white_check_mark: `Easy` [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
         `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
 
@@ -270,6 +275,7 @@
 :white_check_mark: `Hard` [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
         `Monotonic stack` [solution](./data%20structure/84.Largest%20Rectangle%20in%20Histogram.cpp) :fire:
 
+#### Monotonic Queue
 :white_check_mark: `Hard` [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
         `Monotonic queue` `Sliding window` `Deque` `Heap` [solution](./data%20structure/239.Sliding%20Window%20Maximum.cpp) :fire:
 
@@ -462,6 +468,9 @@
 
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+
+:white_check_mark: `Medium` [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+        `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire:
 
 ####
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
