@@ -451,7 +451,7 @@
         `Tree` `DFS` `Hash table` [solution](./tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)
 
 :white_check_mark: `Medium` [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
-        `Tree` `DFS` `Linked list` `Stack` [solution](./tree/426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List.cpp) :fire:
+        `Tree` `DFS` `Linked list` [solution](./tree/426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List.cpp) :fire:
 
 #### Binary Search Tree (BST)
 :white_check_mark: `Easy` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
@@ -491,7 +491,15 @@
 :white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
         `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
 
+:white_check_mark: `Medium` [1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+        `Tree` `DFS` [solution](./tree/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.cpp)
 
+:white_check_mark: `Medium` [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)
+        `Tree` `Hash table` [solution](./tree/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.cpp)
+
+:white_check_mark: `Medium` [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
+        `Tree` `Hash table` [solution](./tree/1676.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.cpp)
+        
 ###
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
