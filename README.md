@@ -396,7 +396,6 @@
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
-
 ****
 
 ### Tree
@@ -429,7 +428,7 @@
         `Tree` `BFS` `DFS` [solution](./tree/987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)
 
 :white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :fire:
+        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
         `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
@@ -542,7 +541,7 @@
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
-        
+
 #### Trie
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)

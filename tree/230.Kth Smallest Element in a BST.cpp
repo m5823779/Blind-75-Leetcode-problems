@@ -54,7 +54,7 @@ private:
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-        // method: BFS
+        // method: DFS (iterative)
         stack<TreeNode*> s;
         TreeNode* cur = root;
         while (cur || !s.empty()) {
