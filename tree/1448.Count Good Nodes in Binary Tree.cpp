@@ -11,16 +11,26 @@
  */
 class Solution {
 public:
-    bool hasPathSum(TreeNode* root, int targetSum) {
-        // method: DFS
-        if (!root) return false;
-        targetSum -= root->val;
-        if (targetSum == 0 && !root->left && !root->right) return true;
-        return hasPathSum(root->left, targetSum) || hasPathSum(root->right, targetSum);
+    int goodNodes(TreeNode* root) {
+        // method 1: DFS
+        dfs(root, INT_MIN);
+        return ans;
     }
-    // time complexity: O(h)
+private:
+    int ans = 0;
+    void dfs(TreeNode* root, int maxVal) {
+        if (!root) return;
+        if (root->val >= maxVal) {
+            ans += 1;
+            maxVal = root->val;
+        }
+        dfs(root->left, maxVal);
+        dfs(root->right, maxVal);
+    }
+    // time complexity: O(n)
     // space complexity: O(h)
 };
+
 
 
 /**
@@ -36,20 +46,25 @@ public:
  */
 class Solution {
 public:
-    bool hasPathSum(TreeNode* root, int targetSum) {
+    int goodNodes(TreeNode* root) {
         // method 2: BFS
-        if (!root) return false;
+        if (!root) return 0;
+        int ans = 0;
         queue<pair<TreeNode*, int>> q;
-        q.push({root, targetSum});
+        q.push({ root, INT_MIN });
         while (!q.empty()) {
             TreeNode* tmp = q.front().first;
-            int remain = q.front().second;
+            int maxVal = q.front().second;
             q.pop();
 
-            if (!tmp->left && !tmp->right && tmp->val == remain) return true;
-            if (tmp->left) q.push({tmp->left, remain - tmp->val});
-            if (tmp->right) q.push({tmp->right, remain - tmp->val});
+            if (tmp->val >= maxVal) {
+                ans += 1;
+                maxVal = tmp->val;
+            }
+
+            if (tmp->left) q.push({ tmp->left, maxVal });
+            if (tmp->right) q.push({ tmp->right, maxVal });
         }
-        return false;
+        return ans;
     }
 };

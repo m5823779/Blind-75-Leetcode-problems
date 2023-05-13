@@ -434,6 +434,15 @@
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
         `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
 
+:white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
+        `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
+
+:white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire:
+
+:white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
+
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
         `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
@@ -487,6 +496,9 @@
 :white_check_mark: `Medium` [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
         `Tree` `BST` `DP` [solution](./tree/96.Unique%20Binary%20Search%20Trees.cpp)
 
+:white_check_mark: `Medium` [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+        `Tree` `BST` `DP` [solution](./tree/95.Unique%20Binary%20Search%20Trees%20II.cpp)
+
 #### Lowest Common Ancestor (LCA)
 :white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) :fire:
@@ -504,30 +516,33 @@
         `Tree` `Hash table` [solution](./tree/1676.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.cpp)
 
 #### Pure Recursion / Back Tracking (Message Sending)
-:white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
-        `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
-
-:white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp)
-
 :white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire:
 
-:white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
+:white_check_mark: ` Easy ` [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+        `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp)
+
+:white_check_mark: `Medium` [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/144.Binary%20Tree%20Preorder%20Traversal.cpp)
+
+:white_check_mark: `Easy` [112. Path Sum](https://leetcode.com/problems/path-sum/)
+        `Tree` `DFS` `BFS` [solution](./tree/112.Path%20Sum.cpp)
+
+:white_check_mark: `Medium` [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+        `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp)
 
 :white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
 
-:white_check_mark: `Easy` [112. Path Sum](https://leetcode.com/problems/path-sum/)
-        `Tree` `DFS` [solution](./tree/112.Path%20Sum.cpp)
+:white_check_mark: `Medium` [1120. Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)
+        `Tree` `DFS` [solution](./tree/1120.Maximum%20Average%20Subtree.cpp) :fire:
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
-
+        
 #### Trie
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
