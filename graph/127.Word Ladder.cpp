@@ -80,35 +80,35 @@ class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         // method: BFS (Bidirectional)
-        unordered_set<string> word_list(wordList.begin(), wordList.end());
-        if (!word_list.count(endWord)) { return 0; }
-        int path = 1;
-
+        unordered_set<string> wordDict(wordList.begin(), wordList.end());
+        if (wordDict.find(endWord) == wordDict.end()) return 0;
         unordered_set<string> s1;
         unordered_set<string> s2;
         s1.insert(beginWord);
         s2.insert(endWord);
+        int step = 0;
 
-        while(!s1.empty() || !s2.empty()) {
-            swap(s1, s2);
+        while (!s1.empty() && !s2.empty()) {
+            if (s1.size() > s2.size()) {
+                swap(s1, s2);
+            }
+            step += 1;
             unordered_set<string> s;
-
             for (string word : s1) {
                 for (int i = 0; i < word.size(); i++) {
-                    string new_word = word;
-                    for (int j = 'a'; j <= 'z'; j++) {
-                        new_word[i] = j;
-                        if (s2.count(new_word)) { return path + 1; }
-                        if (word_list.count(new_word) && new_word != word) {
+                    for (int letter = 'a'; letter <= 'z'; letter++) {
+                        string new_word = word;
+                        new_word[i] = letter;
+                        if (s2.count(new_word)) return step + 1;
+                        if (wordDict.find(new_word) != wordDict.end()) {
+                            wordDict.erase(new_word);
                             s.insert(new_word);
-                            word_list.erase(new_word);
                         }
                     }
                 }
             }
             s1 = s;
-            path += 1;
-        } 
+        }
         return 0;
     }
     // time complexity: O(n * 26^(m / 2))

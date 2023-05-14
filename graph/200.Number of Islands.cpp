@@ -84,3 +84,46 @@ public:
     }
     // time complexity: O(mn)
 };
+
+
+class Solution {
+public:
+    int numIslands(vector<vector<char>>& grid) {
+        // method 3: DFS (iterative)
+        m = grid.size();
+        n = grid[0].size();
+
+        int ans = 0;        
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == '1') {
+                    ans += 1;
+                    dfs(grid, i, j);
+                }
+            }
+        }
+        return ans;
+    }
+private:
+    int m, n;
+    int dir[5] = {0, 1, 0, -1, 0};
+    void dfs(vector<vector<char>>& grid, int i, int j) {
+        stack<pair<int, int>> s;
+        s.push({i, j});
+        grid[i][j] = '0';
+        while (!s.empty()) {
+            auto [x, y] = s.top();
+            s.pop();
+            for (int d = 0; d < 4; d++) {
+                int _x = x + dir[d];
+                int _y = y + dir[d + 1];
+                
+                if (_x < 0 || _y < 0 || _x >= m || _y >= n) continue;
+                if (grid[_x][_y] == '1') {
+                    grid[_x][_y] = '0';
+                    s.push({_x, _y});
+                }
+            }
+        }
+    }
+};

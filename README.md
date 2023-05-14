@@ -328,14 +328,18 @@
 ****
 
 ### Graph
+#### DFS, BFS
 :white_check_mark: `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
 :white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-        `Graph` `DFS` `BFS` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
+        `Graph` `DFS` `BFS` `Union find` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
 
 :white_check_mark: `Medium` [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
-        `Graph` `DFS` `BFS` [solution](./graph/695.Max%20Area%20of%20Island.cpp)
+        `Graph` `DFS` `BFS` `Union find` [solution](./graph/695.Max%20Area%20of%20Island.cpp)
+
+:white_check_mark: ` Easy ` [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+        `Graph` `DFS` `BFS` [solution](./graph/463.Island%20Perimeter.cpp)
 
 :white_check_mark: ` Easy ` [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
         `Graph` `DFS` `BFS` [solution](./graph/733.Flood%20Fill.cpp)
@@ -346,6 +350,15 @@
 :white_check_mark: `Medium` [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
         `Graph` `DFS` `BFS` [solution](./graph/841.Keys%20and%20Rooms.cpp)
 
+:white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
+        `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
+
+:white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+        `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
+
+#### Topological Sort
+#### Union find
+#### Dijkstra's algorithm
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
 
@@ -385,14 +398,8 @@
 :white_check_mark: `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
         `Graph` `BFS` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
-:white_check_mark: `Medium` [490. The Maze](https://leetcode.com/problems/the-maze/)
-        `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
-
 :white_check_mark: `Medium` [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
         `Graph` `BFS` `DFS` `Dijkstra's algorithm` `Heap` [solution](./graph/505.The%20Maze%20II.cpp) :fire:
-
-:white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
-        `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
         
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
