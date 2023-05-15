@@ -36,3 +36,40 @@ private:
     // time complexity: O(V + E)
     // space complexity: O(V + E)
 };
+
+
+class Solution {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        // method 2: topological sort
+        const int n = graph.size();
+        unordered_map<int, vector<int>> mp;
+        vector<int> outdegree(n, 0);
+
+        for (int i = 0; i < n; i++) {
+            outdegree[i] = graph[i].size();
+            for (int j = 0; j < graph[i].size(); j++) {
+                mp[graph[i][j]].push_back(i);
+            }
+        }
+
+        set<int> ans;
+        queue<int> q;
+        for (int i = 0; i < n; i++) {
+            if (outdegree[i] == 0) q.push(i);
+        }
+
+        while (!q.empty()) {
+            int tmp = q.front();
+            q.pop();
+            ans.insert(tmp);
+            
+            for (int k : mp[tmp]) {
+                outdegree[k]--;
+                if (outdegree[k] == 0) q.push(k);
+            }
+        }
+        
+        return vector<int>(ans.begin(), ans.end());
+    }
+};

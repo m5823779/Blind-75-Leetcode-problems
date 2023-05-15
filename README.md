@@ -356,9 +356,10 @@
 :white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
         `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
 
+:white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
+
 #### Topological Sort
-#### Union find
-#### Dijkstra's algorithm
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
 
@@ -372,37 +373,44 @@
         `Graph` `BFS` `Topological Sort` [solution](./graph/269.Alien%20Dictionary.cpp)
 
 :white_check_mark: `Medium` [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
-        `Graph` `DFS` `BFS` [solution](./graph/802.Find%20Eventual%20Safe%20States.cpp) :fire:
+        `Graph` `DFS` `BFS` `Topological Sort` [solution](./graph/802.Find%20Eventual%20Safe%20States.cpp) :fire:
 
-:white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
+#### Union find
+:white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
 
 :white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
         `Graph` `DFS` `BFS` `Union find` [solution](./graph/547.Number%20of%20Provinces.cpp)
 
-:white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
+:white_check_mark: `Medium` [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+        `Graph` `DFS` `Union find` [solution](./graph/684.Redundant%20Connection.cpp) :fire:
 
 :white_check_mark: `Medium` [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
         `Graph` `DFS` `Union find` [solution](./graph/261.Graph%20Valid%20Tree.cpp) :fire:
 
-:white_check_mark: `Medium` [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
-        `Graph` `DFS` `Union find` [solution](./graph/684.Redundant%20Connection.cpp) :fire:
-
-:white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
-
+#### Dijkstra's algorithm
 :white_check_mark: `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 
         `Graph` `Heap` `BFS` `Dijkstra's algorithm`
 
 :white_check_mark: `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
         `Graph` `BFS` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
+- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
+
+
+
+
+
+
+
+:white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
+
 :white_check_mark: `Medium` [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
         `Graph` `BFS` `DFS` `Dijkstra's algorithm` `Heap` [solution](./graph/505.The%20Maze%20II.cpp) :fire:
         
-- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
+
 ****
 
 ### Tree
