@@ -359,6 +359,9 @@
 :white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
         `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
 
+:white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
+
 #### Topological Sort
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
@@ -395,22 +398,11 @@
 :white_check_mark: `Medium` [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
         `Graph` `BFS` `Dijkstra's algorithm` [solution](./graph/743.Network%20Delay%20Time.cpp)
 
-- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
-
-
-
-
-
-
-
-:white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
-
 :white_check_mark: `Medium` [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
         `Graph` `BFS` `DFS` `Dijkstra's algorithm` `Heap` [solution](./graph/505.The%20Maze%20II.cpp) :fire:
-        
 
+- [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
 ****
 
 ### Tree
