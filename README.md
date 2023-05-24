@@ -224,7 +224,7 @@
 
 :white_check_mark: ` Easy ` [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
         `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
-        
+
 :white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
         `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire:
 
@@ -604,9 +604,6 @@
 :white_check_mark: `Medium` [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
         `Recursion` `Backtracking` [solution](./recursion/47.Permutations%20II.cpp) :fire:
 
-:white_check_mark: `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
-        `Recursion` `Math` [solution](./recursion/50.Pow(x%2C%20n).cpp)
-
 :white_check_mark: `Medium` [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
         `Recursion` `Backtracking` `String` [solution](./recursion/22.Generate%20Parentheses.cpp)
 
@@ -648,6 +645,8 @@
 :white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
         `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
 
+[44. Wildcard Matching]()
+
 :white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
         `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
         
@@ -669,6 +668,14 @@
 :white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
 
+****
+
+### Divide and Conquer
+:white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
+        `Hash table` `Sorting` `Divide & conquer` [solution](./divide%20and%20conquer/169.Majority%20Element.cpp)
+
+:white_check_mark: `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+        `Recursion` `Math` `Divide & conquer` [solution](./divide%20and%20conquer/50.Pow(x%2C%20n).cpp)
 ****
 
 ### Other
