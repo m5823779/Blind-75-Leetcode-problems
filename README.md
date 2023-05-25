@@ -253,6 +253,12 @@
 :white_check_mark: `Easy` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
         `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
 
+:white_check_mark: `Hard` [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+        `Stack` `Math` [solution](./data%20structure/224.Basic%20Calculator.cpp) :fire:
+
+:white_check_mark: `Medium` [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+        `Stack` `Math` [solution](./data%20structure/227.Basic%20Calculator%20II.cpp)
+
 #### Monotonic Stack
 :white_check_mark: `Easy` [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
         `Monotonic stack` `Hash table` [solution](./data%20structure/496.Next%20Greater%20Element%20I.cpp) :fire:
@@ -671,6 +677,9 @@
 ****
 
 ### Other
+:white_check_mark: `Medium` [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+        `string` [solution](./other/6.Zigzag%20Conversion.cpp)
+
 :white_check_mark: `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
 
