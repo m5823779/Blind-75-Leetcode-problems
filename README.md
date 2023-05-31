@@ -622,14 +622,27 @@
 ****
 
 ### Dynamic Programming
+#### 1 dimensional DP
+:white_check_mark: ` Easy ` [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/509.Fibonacci%20Number.cpp)
+
+:white_check_mark: ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+
+:white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
+        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp) :fire:
+
 :white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-        `DP`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp)
+        `DP` `Greedy`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp) :fire:
 
 :white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
         `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
 
-:white_check_mark: ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
-        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
+#### 2 dimensional DP
+:white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
+
+
 
 :white_check_mark: `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
@@ -645,8 +658,7 @@
 
 [44. Wildcard Matching]()
 
-:white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+
         
 :white_check_mark: `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
         `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/198.House%20Robber.cpp)
@@ -663,8 +675,7 @@
 :white_check_mark: `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
 
-:white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
+
 
 ****
 

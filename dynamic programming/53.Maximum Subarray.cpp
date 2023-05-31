@@ -87,3 +87,19 @@ public:
     // space complexity: O(n)
     }
 };
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        // method 4: greedy (kadane's algorithm)
+        int curSum = 0;
+        int maxSum = nums[0];
+        for (int i = 0; i < nums.size(); i++) {
+            curSum = max(nums[i], nums[i] + curSum);
+            maxSum = max(maxSum, curSum);
+        }
+        return maxSum;
+    }
+    // time complexity: O(n)
+    // space complexity: O(1)
+};

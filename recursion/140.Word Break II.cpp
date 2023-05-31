@@ -1,5 +1,59 @@
 class Solution {
 public:
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        // method 1: recursion
+        return dfs(s, 0, wordDict);    
+    }
+private:
+    vector<string> dfs(string s, int cur, vector<string>& wordDict) {
+        if (cur == s.size()) return {""};
+        vector<string> res;
+
+        for (string word : wordDict) {
+
+            if (s.substr(cur, word.size()) == word) {
+                vector<string> sub_res = dfs(s, cur + word.size(), wordDict);
+                
+                for (string tmp : sub_res) {
+                    res.push_back(word + (tmp.empty() ? "" : " " + tmp));
+                }
+            }
+        }
+        return res;
+    }
+};
+
+
+class Solution {
+public:
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        // method 2: recursion + memorization
+        return dfs(s, 0, wordDict);    
+    }
+private:
+    unordered_map<string, vector<string>> memo;
+    vector<string> dfs(string s, int cur, vector<string>& wordDict) {
+        if (cur == s.size()) return {""};
+        if (memo.find(s.substr(cur)) != memo.end()) return memo[s.substr(cur)];
+
+        vector<string> res;
+        for (string word : wordDict) {
+
+            if (s.substr(cur, word.size()) == word) {
+                vector<string> sub_res = dfs(s, cur + word.size(), wordDict);
+                
+                for (string tmp : sub_res) {
+                    res.push_back(word + (tmp.empty() ? "" : " " + tmp));
+                }
+            }
+        }
+        return memo[s.substr(cur)] = res;
+    }
+};
+
+
+class Solution {
+public:
     struct trieNode {
         bool isEnd;
         string word;

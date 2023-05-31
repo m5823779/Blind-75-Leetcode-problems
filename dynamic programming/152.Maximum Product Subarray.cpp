@@ -79,3 +79,25 @@ public:
         // space complexity: O(n)
     }
 };
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        // method 3: kadane's algorithm
+        const int n = nums.size();
+        int maxProd = INT_MIN;
+        int curMin = 1;
+        int curMax = 1;
+
+        for (int i = 0; i < n; i++) {
+            int tmp = min({nums[i], nums[i] * curMin, nums[i] * curMax});
+            curMax = max({nums[i], nums[i] * curMin, nums[i] * curMax});
+            curMin = tmp;
+
+            maxProd = max(maxProd, curMax);
+        }
+        return maxProd;
+    }
+    // time complexity: O(n)
+    // space complexity: O(1)
+};
