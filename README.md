@@ -629,6 +629,9 @@
 :white_check_mark: ` Easy ` [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 
+:white_check_mark: `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
+
 :white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
         `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp) :fire:
 
@@ -638,9 +641,20 @@
 :white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
         `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
 
+:white_check_mark: `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
+        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/198.House%20Robber.cpp) :fire:
+
+:white_check_mark: `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
+
+:white_check_mark: `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
+        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire:
+
 #### 2 dimensional DP
 :white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
+
+
 
 
 
@@ -650,33 +664,16 @@
 :white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
         `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp) :fire:
 
-:white_check_mark: `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
-        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire:
-
 :white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
         `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
 
 [44. Wildcard Matching]()
-
-
-        
-:white_check_mark: `Medium` [198. House Robber](https://leetcode.com/problems/house-robber/) 
-        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/198.House%20Robber.cpp)
-
-:white_check_mark: `Medium` [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp) :fire:
 
 :white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
         `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) :fire:
 
 :white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
         `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/45.Jump%20Game%20II.cpp)
-
-:white_check_mark: `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
-
-
-
 ****
 
 ### Divide and Conquer
