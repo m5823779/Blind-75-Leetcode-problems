@@ -616,9 +616,6 @@
 
 :white_check_mark: ` Hard ` [51. N-Queens](https://leetcode.com/problems/n-queens/)
         `Recursion` `Backtracking` [solution](./recursion/51.N-Queens.cpp) :fire:
-
-- [x] `Hard` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-        `Hash table` `Recursion` `DP` `Trie` [solution](./recursion/140.Word%20Break%20II.cpp)
 ****
 
 ### Dynamic Programming
@@ -633,7 +630,10 @@
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
 
 :white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp) :fire:
+        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+
+:white_check_mark: ` Hard ` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+        `Hash table` `Recursion` `DP` `Trie` [solution](./dynamic%20programming/140.Word%20Break%20II.cpp) :fire:
 
 :white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
         `DP` `Greedy`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp) :fire:
@@ -659,12 +659,6 @@
 :white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
         `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
 
-:white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
-        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) :fire:
-
-:white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/45.Jump%20Game%20II.cpp)
-        
 #### 2 dimensional DP
 :white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
@@ -682,6 +676,13 @@
 :white_check_mark: `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
         `Recursion` `Math` `Divide & conquer` [solution](./divide%20and%20conquer/50.Pow(x%2C%20n).cpp)
 ****
+
+### Greedy
+:white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
+        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/55.Jump%20Game.cpp) :fire:
+
+:white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/45.Jump%20Game%20II.cpp)
 
 ### Other
 :white_check_mark: `Medium` [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
