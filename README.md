@@ -650,30 +650,29 @@
 :white_check_mark: `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
         `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire:
 
-#### 2 dimensional DP
-:white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
-
-
-
-
+:white_check_mark: ` Hard ` [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
+        `DP` `Hash table` `Greedy` `Binary search` [solution](./dynamic%20programming/1713.Minimum%20Operations%20to%20Make%20a%20Subsequence.cpp)
 
 :white_check_mark: `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
 
 :white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
-        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp) :fire:
-
-:white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
-
-[44. Wildcard Matching]()
+        `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
 
 :white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
         `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/55.Jump%20Game.cpp) :fire:
 
 :white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
         `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/45.Jump%20Game%20II.cpp)
+        
+#### 2 dimensional DP
+:white_check_mark: `Medium` [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
+
+:white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
+        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
+
+[44. Wildcard Matching]()
 ****
 
 ### Divide and Conquer

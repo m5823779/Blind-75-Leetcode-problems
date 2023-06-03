@@ -63,7 +63,7 @@ private:
         }
         return memo[id] = lis;
     }
-    // time complexity: O(2^n)
+    // time complexity: O(n^2)
     // space complexity: O(n)
 };
 
@@ -122,16 +122,17 @@ class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
         // method 3: dynamic programming + binary search + greedy
-        // example: [10, 9, 2, 5, 3, 5, 101, 18]
+        // example: [10, 9, 2, 5, 3, 7, 101, 18]
         //  number  |  dp
         //             []
         //    10       [10]
         //    9        [9]
         //    2        [2]
         //    5        [2, 5]
-        //    3        [2, 3, 5]
-        //    101      [2, 3, 5, 101]
-        //    18       [2, 3, 5, 18]
+        //    3        [2, 3]
+        //    7        [2, 3, 7]
+        //    101      [2, 3, 7, 101]
+        //    18       [2, 3, 7, 18]
         //
         // 1. create empty vector to store longest increasing subsequence
         // 2. enumerate element

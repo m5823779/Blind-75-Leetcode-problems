@@ -85,13 +85,12 @@ public:
 
         const int n = nums.size();
         int goal = n - 1;
-        for (int i = n - 1; i >= 0; --i) {
-            int reachable = i + nums[i];
-            if (reachable >= goal) {
+        for (int i = n - 2; i >= 0; i--) {
+            if (nums[i] >= goal - i) {
                 goal = i;
             }
         }
-        return goal == 0 ? true : false;
+        return goal == 0;
         // time complexity: O(n)
         // space complexity: O(1)
     }
