@@ -669,6 +669,9 @@
 :white_check_mark: `Medium` [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/97.Interleaving%20String.cpp)
 
+:white_check_mark: ` Hard ` [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/72.Edit%20Distance.cpp)
+
 [44. Wildcard Matching]()
 ****
 
