@@ -672,6 +672,9 @@
 :white_check_mark: ` Hard ` [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/72.Edit%20Distance.cpp)
 
+:white_check_mark: ` Hard ` [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/115.Distinct%20Subsequences.cpp)
+
 [44. Wildcard Matching]()
 ****
 
