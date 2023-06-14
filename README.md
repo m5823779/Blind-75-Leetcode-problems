@@ -675,6 +675,9 @@
 :white_check_mark: ` Hard ` [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/115.Distinct%20Subsequences.cpp)
 
+:white_check_mark: ` Hard ` [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/10.Regular%20Expression%20Matching.cpp)
+        
 [44. Wildcard Matching]()
 ****
 
