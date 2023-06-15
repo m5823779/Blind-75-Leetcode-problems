@@ -29,7 +29,6 @@ private:
 };
 
 
-
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -59,4 +58,31 @@ private:
     }
     // time complexity: O(mn)
     // space complexity: O(mn)
+};
+
+
+class Solution {
+public:
+    bool isMatch(string s, string p) {
+        // method 3: dynamic programming 
+        const int m = s.size();
+        const int n = p.size();
+        vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+
+        dp[m][n] = true;
+        for (int i = m; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                bool match = i + 1 <= m && (s[i] == p[j] || p[j] == '.');
+                if (j + 1 < n && p[j + 1] == '*') {
+                    dp[i][j] = dp[i][j + 2] || (match && dp[i + 1][j]);
+                }
+                else {
+                    dp[i][j] = match && dp[i + 1][j + 1];
+                }
+            }
+        }
+        return dp[0][0];
+    }
+    // time complexity: O(mn)
+    // spacec complexity: O(mn)
 };

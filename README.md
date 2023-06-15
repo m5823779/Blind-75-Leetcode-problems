@@ -676,9 +676,10 @@
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/115.Distinct%20Subsequences.cpp)
 
 :white_check_mark: ` Hard ` [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/10.Regular%20Expression%20Matching.cpp)
-        
-[44. Wildcard Matching]()
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/10.Regular%20Expression%20Matching.cpp) :fire:
+
+:white_check_mark: ` Hard ` [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/44.Wildcard%20Matching.cpp)
 ****
 
 ### Divide and Conquer
