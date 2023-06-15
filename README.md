@@ -666,6 +666,9 @@
 :white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
         `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
 
+:white_check_mark: ` Hard ` [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+        `DP` [solution](./dynamic%20programming/1312.Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.cpp) :fire:
+
 :white_check_mark: `Medium` [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/97.Interleaving%20String.cpp)
 
