@@ -54,6 +54,9 @@
 
 :white_check_mark: ` Easy ` [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
         `Two pointers` `Sorting` [solution](./two%20pointers/88.Merge%20Sorted%20Array.cpp)
+
+:white_check_mark: ` Easy ` [27. Remove Element](https://leetcode.com/problems/remove-element/)
+        `Two pointers` `Sorting` [solution](./two%20pointers/27.Remove%20Element.cpp)
 ****
 
 ### Pointer Manipulation (sliding window)
