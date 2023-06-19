@@ -51,6 +51,9 @@
 
 :white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
         `Two pointers` `String` [solution](./two%20pointers/696.Count%20Binary%20Substrings.cpp) :fire:
+
+:white_check_mark: ` Easy ` [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+        `Two pointers` `Sorting` [solution](./two%20pointers/88.Merge%20Sorted%20Array.cpp)
 ****
 
 ### Pointer Manipulation (sliding window)
@@ -689,7 +692,13 @@
 
 #### Knapsack Problem
 :white_check_mark: `Medium` [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/416.Partition%20Equal%20Subset%20Sum.cpp)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/416.Partition%20Equal%20Subset%20Sum.cpp) :fire:
+
+:white_check_mark: `Medium` [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/474.Ones%20and%20Zeroes.cpp)
+
+:white_check_mark: `Medium` [494. Target Sum](https://leetcode.com/problems/target-sum/)
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/494.Target%20Sum.cpp)
 ****
 
 ### Divide and Conquer
