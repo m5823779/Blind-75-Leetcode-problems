@@ -60,6 +60,12 @@
 
 :white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
         `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
+
+:white_check_mark: `Medium` [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+        `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire:
+
+:white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
+        `Boyer moore` `Two pointers` `Sorting` `Divide & conquer` [solution](./two%20pointers/169.Majority%20Element.cpp) :fire:
 ****
 
 ### Pointer Manipulation (sliding window)
@@ -251,6 +257,9 @@
 
 :white_check_mark: `Medium` [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
         `Hash table` `Two pointers` `Design` [solution](./data%20structure/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp) :fire:
+
+:white_check_mark: `Medium` [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+        `Hash table` `Design` [solution](./data%20structure/380.Insert%20Delete%20GetRandom%20O(1).cpp) :fire:
 
 #### Stack
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -708,9 +717,6 @@
 ****
 
 ### Divide and Conquer
-:white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
-        `Hash table` `Sorting` `Divide & conquer` [solution](./divide%20and%20conquer/169.Majority%20Element.cpp)
-
 :white_check_mark: `Medium` [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
         `Recursion` `Math` `Divide & conquer` [solution](./divide%20and%20conquer/50.Pow(x%2C%20n).cpp)
 ****
@@ -735,4 +741,7 @@
 
 :white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
         `Sorting` `Quick select` [solution](./other/324.Wiggle%20Sort%20II.cpp)
+
+:white_check_mark: `Medium` [274. H-Index](https://leetcode.com/problems/h-index/)
+        `Sorting` `Quick select` [solution](./other/274.H-Index.cpp)
 ****
