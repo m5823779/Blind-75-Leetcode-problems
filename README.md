@@ -728,6 +728,12 @@
 :white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
         `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/45.Jump%20Game%20II.cpp)
 
+:white_check_mark: `Medium` [134. Gas Station](./greedy/134.Gas%20Station.cpp)
+        `Greedy` [solution](./greedy/134.Gas%20Station.cpp) :fire:
+
+:white_check_mark: ` Hard ` [135. Candy](https://leetcode.com/problems/candy/)
+        `Greedy` [solution](./greedy/135.Candy.cpp)
+
 :white_check_mark: ` Easy ` [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)
         `Greedy` `Sorting` [solution](./greedy/1710.Maximum%20Units%20on%20a%20Truck.cpp)
 ****
