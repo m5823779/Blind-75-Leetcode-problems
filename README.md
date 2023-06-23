@@ -464,6 +464,9 @@
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
         `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
 
+:white_check_mark: `Medium` [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+        `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp)
+
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
@@ -472,6 +475,9 @@
 
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
+
+:white_check_mark: `Medium` [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+        `Tree` `DFS` `BFS` [solution](./tree/114.Flatten%20Binary%20Tree%20to%20Linked%20List.cpp) :fire:
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
@@ -548,6 +554,9 @@
 #### Pure Recursion / Back Tracking (Message Sending)
 :white_check_mark: ` Easy ` [100. Same Tree](https://leetcode.com/problems/same-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/100.Same%20Tree.cpp)
+
+:white_check_mark: ` Easy ` [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+        `Tree` `DFS` `BFS` [solution](./tree/101.Symmetric%20Tree.cpp) :fire:
 
 :white_check_mark: ` Easy ` [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire:
