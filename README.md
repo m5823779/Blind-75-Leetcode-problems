@@ -582,6 +582,9 @@
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
         `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
 
+:white_check_mark: `Medium` [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+        `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp)
+
 #### Trie
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
