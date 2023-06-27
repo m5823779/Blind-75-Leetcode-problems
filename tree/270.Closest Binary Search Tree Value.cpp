@@ -18,6 +18,8 @@ public:
             if (abs(target - root->val) < abs(target - closest)) {
                 closest = root->val;
             }
+            if (abs(target - root->val) == abs(target - closest) && root->val < closest) close = root->val;
+
             if (target > root->val) root = root->right;
             else if (target < root->val) root = root->left;
             else return root->val;
