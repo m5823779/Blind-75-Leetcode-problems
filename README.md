@@ -571,7 +571,10 @@
         `Tree` `DFS` `BFS` [solution](./tree/112.Path%20Sum.cpp)
 
 :white_check_mark: `Medium` [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
-        `Tree` `DFS` `BFS` [solution](./tree/113.Path%20Sum%20II.cpp) :red_circle:
+        `Tree` `DFS` `Backtracking` [solution](./tree/113.Path%20Sum%20II.cpp) :red_circle:
+
+:white_check_mark: `Medium` [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :red_circle:
 
 :white_check_mark: `Medium` [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
         `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp)
