@@ -438,7 +438,7 @@
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
 
 :white_check_mark: ` Easy ` [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire:
+        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire: :red_circle:
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp) :fire:
