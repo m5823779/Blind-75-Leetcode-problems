@@ -241,7 +241,7 @@
         `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
 
 :white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire:
+        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire: :red_circle:
 
 :white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
         `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
