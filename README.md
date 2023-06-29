@@ -462,10 +462,10 @@
         `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :red_circle:
 
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire: :red_circle:
+        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :red_circle:
 
 :white_check_mark: `Medium` [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
-        `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp)
+        `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp) :red_circle:
 
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
