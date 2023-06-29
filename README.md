@@ -459,10 +459,10 @@
         `Tree` `BFS` `DFS` [solution](./tree/987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)
 
 :white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp)
+        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :red_circle:
 
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire:
+        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fire: :red_circle:
 
 :white_check_mark: `Medium` [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
         `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp)
@@ -471,10 +471,10 @@
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire:
+        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire: :red_circle:
 
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp)
+        `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
         `Tree` `DFS` `BFS` [solution](./tree/114.Flatten%20Binary%20Tree%20to%20Linked%20List.cpp) :fire:
@@ -607,7 +607,7 @@
         `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp) :fire:
 
 :white_check_mark: ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-        `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp)
+        `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp) :fire:
 
 :white_check_mark: `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
