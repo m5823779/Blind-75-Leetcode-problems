@@ -241,7 +241,7 @@
         `Hash table` `Sorting` [solution](./data%20structure/217.Contains%20Duplicate.cpp)
 
 :white_check_mark: `Medium` [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire: :red_circle:
+        `Hash table` `Sorting` [solution](./data%20structure/128.Longest%20Consecutive%20Sequence.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
         `Hash table` [solution](./data%20structure/1207.Unique%20Number%20of%20Occurrences.cpp)
@@ -438,7 +438,7 @@
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
 
 :white_check_mark: ` Easy ` [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire: :red_circle:
+        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp) :fire:
@@ -459,25 +459,25 @@
         `Tree` `BFS` `DFS` [solution](./tree/987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)
 
 :white_check_mark: `Medium` [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :red_circle:
+        `Tree` `BFS` `DFS` [solution](./tree/545.Boundary%20of%20Binary%20Tree.cpp) :fu:
 
 :white_check_mark: `Medium` [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :red_circle:
+        `Tree` `BFS` `DFS` [solution](./tree/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp) :fu:
 
 :white_check_mark: `Medium` [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
-        `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp) :red_circle:
+        `Tree` `BFS` `DFS` [solution](./tree/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp) :fu:
 
 :white_check_mark: ` Easy ` [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
         `Tree` `DFS` `BFS` [solution](./tree/104.Maximum%20Depth%20of%20Binary%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire: :red_circle:
+        `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-        `Tree` `DFS` `BFS` [solution](./tree/114.Flatten%20Binary%20Tree%20to%20Linked%20List.cpp) :fire:
+        `Tree` `DFS` `BFS` [solution](./tree/114.Flatten%20Binary%20Tree%20to%20Linked%20List.cpp) :fire: :fu: :fu:
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
@@ -571,10 +571,10 @@
         `Tree` `DFS` `BFS` [solution](./tree/112.Path%20Sum.cpp)
 
 :white_check_mark: `Medium` [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
-        `Tree` `DFS` `Backtracking` [solution](./tree/113.Path%20Sum%20II.cpp) :red_circle:
+        `Tree` `DFS` `Backtracking` [solution](./tree/113.Path%20Sum%20II.cpp) :fu:
 
 :white_check_mark: `Medium` [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
-        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :red_circle:
+        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :fu:
 
 :white_check_mark: `Medium` [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
         `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp)
