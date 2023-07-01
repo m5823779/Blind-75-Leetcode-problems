@@ -481,7 +481,7 @@
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire:
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)
         `Tree` `DFS` `BFS` `Design` [solution](./tree/449.Serialize%20and%20Deserialize%20BST.cpp)
@@ -503,7 +503,7 @@
         `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire:
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
