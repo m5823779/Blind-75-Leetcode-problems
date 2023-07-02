@@ -256,10 +256,10 @@
         `Hash table` `Design` [solution](./data%20structure/706.Design%20HashMap.cpp) :fire:
 
 :white_check_mark: `Medium` [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
-        `Hash table` `Two pointers` `Design` [solution](./data%20structure/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp) :fire:
+        `Hash table` `Two pointers` `Design` [solution](./data%20structure/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
-        `Hash table` `Design` [solution](./data%20structure/380.Insert%20Delete%20GetRandom%20O(1).cpp) :fire:
+        `Hash table` `Design` [solution](./data%20structure/380.Insert%20Delete%20GetRandom%20O(1).cpp) :fire: :fu:
 
 #### Stack
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
