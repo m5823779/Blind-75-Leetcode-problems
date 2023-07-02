@@ -499,6 +499,9 @@
         `Tree` `DFS` `Linked list` [solution](./tree/426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List.cpp) :fire:
 
 #### Binary Search Tree (BST)
+:white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+
 :white_check_mark: ` Easy ` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
 
@@ -509,10 +512,7 @@
         `Tree` `BST` `DFS` `BFS` [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire:
-
-:white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp)
