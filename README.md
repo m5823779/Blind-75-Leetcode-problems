@@ -500,34 +500,34 @@
 
 #### Binary Search Tree (BST)
 :white_check_mark: `Medium` [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS`  [solution](./tree/98.Validate%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: ` Easy ` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
+        `Tree` `BST` `DFS`  [solution](./tree/700.Search%20in%20a%20Binary%20Search%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire: :fu:
+        `Tree` `BST` `DFS`  [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS`  [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu:
+        `Tree` `BST` `DFS`  [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp) :fu:
+        `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp) :fu:
 
 :white_check_mark: `Medium` [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
-        `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire:
+        `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-        `Tree` `BST` `DFS` `Divide and Conquer` [solution](./tree/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
-        `Tree` `BST` `DFS` `Divide and Conquer` [solution](./tree/1382.Balance%20a%20Binary%20Search%20Tree.cpp)
+        `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/1382.Balance%20a%20Binary%20Search%20Tree.cpp)
 
 :white_check_mark: `Medium` [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
         `Tree` `BST` `DP` [solution](./tree/96.Unique%20Binary%20Search%20Trees.cpp)

@@ -77,3 +77,20 @@ public:
     // time complexity: O(k)
     // space complexity: O(k)
 };
+
+
+class Solution {
+public:
+    // method 3: Divide & Conquer
+    int kthSmallest(TreeNode* root, int k) {
+        int leftNum = countNode(root->left);
+        if (k <= leftNum) return kthSmallest(root->left, k);
+        else if (k > leftNum + 1) return kthSmallest(root->right, k - leftNum - 1);
+        else return root->val;
+    }
+
+    int countNode(TreeNode* root) {
+        if (!root) return 0;
+        return 1 + countNode(root->left) + countNode(root->right);
+    }
+};
