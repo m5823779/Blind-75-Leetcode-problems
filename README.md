@@ -559,7 +559,7 @@
         `Tree` `DFS` `BFS` [solution](./tree/101.Symmetric%20Tree.cpp) :fire:
 
 :white_check_mark: ` Easy ` [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire:
+        `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
         `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp) :fire:
