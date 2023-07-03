@@ -46,3 +46,34 @@ public:
         second->val = tmp_val;
     }
 };
+
+
+class Solution {
+public:
+    TreeNode* pre = nullptr;
+    TreeNode* first = nullptr;
+    TreeNode* second = nullptr;
+    void recoverTree(TreeNode* root) {
+        // method 2: DFS (inoreder)
+        inorder(root);
+        int tmp = first->val;
+        first->val = second->val;
+        second->val = tmp;
+    }
+
+    void inorder(TreeNode* root) {
+        if (!root) return;
+        inorder(root->left);
+        if (pre && root->val <= pre->val) {
+            if (!first) {
+                first = pre;
+                second = root;
+            }
+            else {
+                second = root;
+            }
+        }
+        pre = root;
+        inorder(root->right);
+    }
+};

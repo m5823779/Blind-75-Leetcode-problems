@@ -521,7 +521,7 @@
         `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp)
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp) :fu:
 
 :white_check_mark: ` Easy ` [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
         `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp) :fire:
@@ -540,13 +540,13 @@
         `Tree` `BST` `DFS` `BFS` [solution](./tree/235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire:
+        `Tree` `DFS` [solution](./tree/236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) :fire: 
 
 :white_check_mark: `Medium` [1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
-        `Tree` `DFS` [solution](./tree/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.cpp)
+        `Tree` `DFS` [solution](./tree/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.cpp) :fu:
 
 :white_check_mark: `Medium` [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)
-        `Tree` `Hash table` [solution](./tree/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.cpp)
+        `Tree` `Hash table` [solution](./tree/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.cpp) :fu:
 
 :white_check_mark: `Medium` [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
         `Tree` `Hash table` [solution](./tree/1676.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.cpp)
