@@ -363,7 +363,7 @@
         `Graph` `DFS` `BFS` `Union find` [solution](./graph/695.Max%20Area%20of%20Island.cpp)
 
 :white_check_mark: ` Easy ` [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
-        `Graph` `DFS` `BFS` [solution](./graph/463.Island%20Perimeter.cpp)
+        `Graph` `DFS` `BFS` [solution](./graph/463.Island%20Perimeter.cpp) :fu:
 
 :white_check_mark: ` Easy ` [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
         `Graph` `DFS` `BFS` [solution](./graph/733.Flood%20Fill.cpp)
@@ -473,6 +473,9 @@
 :white_check_mark: ` Easy ` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
         `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire: :fu:
 
+:white_check_mark: ` Easy ` [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+        `Tree` `BFS` `DFS` [solution](./tree/110.Balanced%20Binary%20Tree.cpp) :fire: :fu:
+
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp) :fire:
 
@@ -533,7 +536,7 @@
         `Tree` `BST` `DP` [solution](./tree/96.Unique%20Binary%20Search%20Trees.cpp)
 
 :white_check_mark: `Medium` [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
-        `Tree` `BST` `DP` [solution](./tree/95.Unique%20Binary%20Search%20Trees%20II.cpp)
+        `Tree` `BST` `DP` [solution](./tree/95.Unique%20Binary%20Search%20Trees%20II.cpp) :fu:
 
 #### Lowest Common Ancestor (LCA)
 :white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
@@ -562,10 +565,10 @@
         `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
-        `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp) :fire:
+        `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
-        `Tree` `DFS` `BFS` [solution](./tree/144.Binary%20Tree%20Preorder%20Traversal.cpp)
+        `Tree` `DFS` `BFS` [solution](./tree/1448.Count%20Good%20Nodes%20in%20Binary%20Tree.cpp)
 
 :white_check_mark: ` Easy ` [112. Path Sum](https://leetcode.com/problems/path-sum/)
         `Tree` `DFS` `BFS` [solution](./tree/112.Path%20Sum.cpp)
