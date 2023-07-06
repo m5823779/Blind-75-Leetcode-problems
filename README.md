@@ -378,7 +378,7 @@
         `Graph` `BFS` `DFS` [solution](./graph/490.The%20Maze.cpp) :fire:
 
 :white_check_mark: ` Hard ` [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
-        `Graph` `BFS` `String` [solution](./graph/127.Word%20Ladder.cpp) :fire:
+        `Graph` `BFS` `Bidirectional` [solution](./graph/127.Word%20Ladder.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
         `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
