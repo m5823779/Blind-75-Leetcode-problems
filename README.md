@@ -369,7 +369,7 @@
         `Graph` `DFS` `BFS` [solution](./graph/733.Flood%20Fill.cpp)
 
 :white_check_mark: `Medium` [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
-        `Graph` `BFS` [solution](./graph/1162.As%20Far%20from%20Land%20as%20Possible.cpp) :fire:
+        `Graph` `BFS` [solution](./graph/1162.As%20Far%20from%20Land%20as%20Possible.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
         `Graph` `DFS` `BFS` [solution](./graph/841.Keys%20and%20Rooms.cpp)
@@ -577,22 +577,22 @@
         `Tree` `DFS` `Backtracking` [solution](./tree/113.Path%20Sum%20II.cpp) :fu:
 
 :white_check_mark: `Medium` [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
-        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :fu:
+        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
-        `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp)
+        `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp) :fu:
 
-:white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-        `Tree` `DFS` `BFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
+:white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
+        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp) :fu:
+
+:white_check_mark: `Medium` [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+        `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp)
 
 :white_check_mark: `Medium` [1120. Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)
         `Tree` `DFS` [solution](./tree/1120.Maximum%20Average%20Subtree.cpp) :fire:
 
-:white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
-        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp)
-
-:white_check_mark: `Medium` [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
-        `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp)
+:white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+        `Tree` `DFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
 
 #### Trie
 :white_check_mark: `Medium` [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
