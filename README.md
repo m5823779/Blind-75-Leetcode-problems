@@ -261,7 +261,7 @@
 :white_check_mark: `Medium` [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
         `Hash table` `Design` [solution](./data%20structure/380.Insert%20Delete%20GetRandom%20O(1).cpp) :fire: :fu:
 
-#### Stack
+#### Stack / Queue
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
 
@@ -269,7 +269,10 @@
         `Stack` `Design` [solution](./data%20structure/155.Min%20Stack.cpp) :fire:
 
 :white_check_mark: ` Easy ` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
-        `Stack` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
+        `Stack` `Queue` `Design` [solution](./data%20structure/225.Implement%20Stack%20using%20Queues.cpp) :fire:
+
+:white_check_mark: ` Easy ` [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+        `Stack` `Queue` `Design` [solution](./data%20structure/232.Implement%20Queue%20using%20Stacks.cpp)
 
 :white_check_mark: ` Hard ` [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
         `Stack` `Math` [solution](./data%20structure/224.Basic%20Calculator.cpp) :fire:
@@ -381,10 +384,10 @@
         `Graph` `BFS` `Bidirectional` [solution](./graph/127.Word%20Ladder.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire:
+        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp)
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp) :fu: :fu:
 
 #### Topological Sort
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
