@@ -261,6 +261,12 @@
 :white_check_mark: `Medium` [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
         `Hash table` `Design` [solution](./data%20structure/380.Insert%20Delete%20GetRandom%20O(1).cpp) :fire: :fu:
 
+:white_check_mark: ` Easy ` [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)
+        `Hash table` [solution](./data%20structure/266.Palindrome%20Permutation.cpp)
+
+:white_check_mark: `Medium` [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)
+        `Hash table` `Backtracking` [solution](./data%20structure/267.Palindrome%20Permutation%20II.cpp)
+
 #### Stack / Queue
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
         `Stack` `String` [solution](./data%20structure/20.Valid%20Parentheses.cpp) :fire:
@@ -389,6 +395,9 @@
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp) :fu: :fu:
 
+:white_check_mark: `Medium` [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
+        `Graph` `BFS` `Hash table` [solution](./graph/1197.Minimum%20Knight%20Moves.cpp)
+
 #### Topological Sort
 :white_check_mark: `Medium` [Topological sort - pre-request task arrangment](./graph/Topological_sort.cpp) 
         `Graph` `Topological Sort` `Kahn algorithm`
@@ -407,7 +416,7 @@
 
 #### Union find
 :white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp) :fu:
+        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
 
 :white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
         `Graph` `DFS` `BFS` `Union find` [solution](./graph/547.Number%20of%20Provinces.cpp)
@@ -624,10 +633,10 @@
 
 ### Recursion
 :white_check_mark: `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp)
+        `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp) :fu:
 
 :white_check_mark: `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-        `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [77. Combinations](https://leetcode.com/problems/combinations/)
         `Recursion` `Backtracking` [solution](./recursion/77.Combinations.cpp)
@@ -774,4 +783,10 @@
 
 :white_check_mark: `Medium` [274. H-Index](https://leetcode.com/problems/h-index/)
         `Sorting` `Quick select` [solution](./other/274.H-Index.cpp)
+
+:white_check_mark: `Medium` [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+        `Array` [solution](./other/118.Pascal's%20Triangle.cpp)
+
+:white_check_mark: `Medium` [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+        `Array` [solution](./other/119.Pascal's%20Triangle%20II.cpp)
 ****
