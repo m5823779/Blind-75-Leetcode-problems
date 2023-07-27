@@ -66,6 +66,12 @@
 
 :white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
         `Boyer moore` `Two pointers` `Sorting` `Divide & conquer` [solution](./two%20pointers/169.Majority%20Element.cpp) :fire:
+
+:white_check_mark: `Medium` [161. One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
+        `Two pointers` [solution](./two%20pointers/161.One%20Edit%20Distance.cpp)
+        
+:white_check_mark: `Medium` [443. String Compression](https://leetcode.com/problems/string-compression/)
+        `Two pointers` [solution](./two%20pointers/443.String%20Compression.cpp)
 ****
 
 ### Pointer Manipulation (sliding window)
@@ -265,7 +271,7 @@
         `Hash table` [solution](./data%20structure/266.Palindrome%20Permutation.cpp)
 
 :white_check_mark: `Medium` [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)
-        `Hash table` `Backtracking` [solution](./data%20structure/267.Palindrome%20Permutation%20II.cpp)
+        `Hash table` `Backtracking` [solution](./data%20structure/267.Palindrome%20Permutation%20II.cpp) :fu:
 
 #### Stack / Queue
 :white_check_mark: ` Easy ` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
