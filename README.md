@@ -16,6 +16,9 @@
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
         `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
+:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
+
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
 
@@ -58,9 +61,6 @@
 :white_check_mark: ` Easy ` [27. Remove Element](https://leetcode.com/problems/remove-element/)
         `Two pointers` `Sorting` [solution](./two%20pointers/27.Remove%20Element.cpp)
 
-:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
-
 :white_check_mark: `Medium` [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
         `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire:
 
@@ -69,9 +69,12 @@
 
 :white_check_mark: `Medium` [161. One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
         `Two pointers` [solution](./two%20pointers/161.One%20Edit%20Distance.cpp)
-        
+
 :white_check_mark: `Medium` [443. String Compression](https://leetcode.com/problems/string-compression/)
         `Two pointers` [solution](./two%20pointers/443.String%20Compression.cpp)
+
+:white_check_mark: ` Easy ` [796. Rotate String](https://leetcode.com/problems/rotate-string/)
+        `String` [solution](./two%20pointers/796.Rotate%20String.cpp)
 ****
 
 ### Pointer Manipulation (sliding window)
@@ -324,46 +327,55 @@
 
 ### Linked List
 :white_check_mark: ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) 
-        `Link list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
+        `Linked list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
 
 :white_check_mark: `Medium` [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
-        `Link list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
+        `Linked list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
 
 :white_check_mark: ` Easy ` [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-        `Link list` `Two pointers` [solution](./linked%20list/876.Middle%20of%20the%20Linked%20List.cpp)
+        `Linked list` `Two pointers` [solution](./linked%20list/876.Middle%20of%20the%20Linked%20List.cpp)
 
 :white_check_mark: ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
-        `Link list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
+        `Linked list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
 
 :white_check_mark: `Medium` [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-        `Link list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp) :fire:
+        `Linked list` `Two pointers` [solution](./linked%20list/142.Linked%20List%20Cycle%20II.cpp) :fire:
 
 :white_check_mark: ` Easy ` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
-        `Link list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
+        `Linked list` `Recursion` [solution](./linked%20list/21.Merge%20Two%20Sorted%20Lists.cpp)
 
 :white_check_mark: ` Hard ` [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-        `Link list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
-
-:white_check_mark: `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
-        `Link list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp)
+        `Linked list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
 
 :white_check_mark: `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
-        `Link list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire:
-
-:white_check_mark: `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
-        `Link list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp) :fire:
+        `Linked list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire:
 
 :white_check_mark: `Medium` [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-        `Link list` [solution](./linked%20list/2.Add%20Two%20Numbers.cpp)
+        `Linked list` [solution](./linked%20list/2.Add%20Two%20Numbers.cpp)
 
 :white_check_mark: `Medium` [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-        `Link list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
+        `Linked list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
 
 :white_check_mark: `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
-        `Link list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
+        `Linked list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
 
 :white_check_mark: `Medium` [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
-        `Link list` `Sorting` [solution](./linked%20list/147.Insertion%20Sort%20List.cpp) :smiling_imp:
+        `Linked list` `Sorting` [solution](./linked%20list/147.Insertion%20Sort%20List.cpp) :smiling_imp:
+
+:white_check_mark: ` Easy ` [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+        `Linked list` `Recursion` [solution](./linked%20list/203.Remove%20Linked%20List%20Elements.cpp)
+
+:white_check_mark: `Medium` [1836. Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)
+        `Linked list` `Hash table` [solution](./linked%20list/1836.Remove%20Duplicates%20From%20an%20Unsorted%20Linked%20List.cpp) :fu:
+
+:white_check_mark: `Medium` [19. Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
+        `Linked list` `Two pointers` [solution](./linked%20list/19.Remove%20Nth%20Node%20From%20End%20of%20List.cpp) :fu:
+
+:white_check_mark: `Medium` [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+        `Linked list` [solution](./linked%20list/237.Delete%20Node%20in%20a%20Linked%20List.cpp) :fire:
+
+:white_check_mark: `Medium` [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+        `Linked list` `Two pointers` [solution](./linked%20list/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)
 ****
 
 ### Graph
