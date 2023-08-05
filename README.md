@@ -327,10 +327,13 @@
 
 ### Linked List
 :white_check_mark: ` Easy ` [206. Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) 
-        `Linked list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp)
+        `Linked list` `Recursion` [solution](./linked%20list/206.Reverse%20Linked%20List.cpp) :fu:
 
 :white_check_mark: `Medium` [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
         `Linked list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire:
+
+
+
 
 :white_check_mark: ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Linked list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
@@ -353,11 +356,11 @@
 :white_check_mark: `Medium` [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
         `Linked list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
 
-:white_check_mark: `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
-        `Linked list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
-
+[160. Intersection of Two Linked Lists]()
 :white_check_mark: `Medium` [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
         `Linked list` `Sorting` [solution](./linked%20list/147.Insertion%20Sort%20List.cpp) :smiling_imp:
+
+
 
 :white_check_mark: ` Easy ` [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
         `Linked list` `Recursion` [solution](./linked%20list/203.Remove%20Linked%20List%20Elements.cpp)
@@ -379,6 +382,12 @@
 
 :white_check_mark: `Medium` [86. Partition List](https://leetcode.com/problems/partition-list/)
         `Linked list` `Two pointers` [solution](./linked%20list/86.Partition%20List.cpp) :fu:
+
+:white_check_mark: `Medium` [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
+        `Linked list` [solution](./linked%20list/725.Split%20Linked%20List%20in%20Parts.cpp) :fire:
+
+:white_check_mark: ` Easy ` [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+        `Linked list` `Two pointers` [solution](./linked%20list/234.Palindrome%20Linked%20List.cpp)
 ****
 
 ### Graph
