@@ -381,21 +381,20 @@
         `Linked list` `Recursion` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp) :fire:
 
 :white_check_mark: `Medium` [143. Reorder List](https://leetcode.com/problems/reorder-list/)
-        `Linked list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire:
+        `Linked list` `Two pointers` [solution](./linked%20list/143.Reorder%20List.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-        `Linked list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire:
+        `Linked list` [solution](./linked%20list/24.Swap%20Nodes%20in%20Pairs.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
         `Linked list` `Sorting` [solution](./linked%20list/147.Insertion%20Sort%20List.cpp) :smiling_imp:
-
-
-
-
 ****
 
 ### Graph
 #### DFS, BFS
+:white_check_mark: ` Easy ` [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)
+        `Graph` `DFS` `BFS` [solution](./graph/1971.Find%20if%20Path%20Exists%20in%20Graph.cpp)
+
 :white_check_mark: `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
 
@@ -527,6 +526,9 @@
 
 :white_check_mark: `Medium` [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
         `Tree` `DFS` `BFS` [solution](./tree/114.Flatten%20Binary%20Tree%20to%20Linked%20List.cpp) :fire: :fu: :fu:
+
+:white_check_mark: ` Easy ` [Depth List](./tree/Depth%20List.cpp)
+        `Tree` `BFS` [solution](./tree/Depth%20List.cpp)
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
