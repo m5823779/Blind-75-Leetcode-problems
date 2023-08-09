@@ -519,7 +519,7 @@
         `Tree` `BFS` `DFS` [solution](./tree/111.Minimum%20Depth%20of%20Binary%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-        `Tree` `BFS` `DFS` [solution](./tree/110.Balanced%20Binary%20Tree.cpp) :fire: :fu:
+        `Tree` `BFS` `DFS` [solution](./tree/110.Balanced%20Binary%20Tree.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Easy ` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/226.Invert%20Binary%20Tree.cpp) :fire:
