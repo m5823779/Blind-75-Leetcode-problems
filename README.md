@@ -141,7 +141,7 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire:
 
 :white_check_mark: `Medium` [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
-        `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp)
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp) :fu:
 
 :white_check_mark: `Medium` [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/525.Contiguous%20Array.cpp) :fire:
@@ -483,7 +483,7 @@
         `Tree` `DFS` `Stack` [solution](./tree/94.Binary%20Tree%20Inorder%20Traversal.cpp)
 
 :white_check_mark: ` Easy ` [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire: :fu:
+        `Tree` `DFS` `Stack` [solution](./tree/145.Binary%20Tree%20Postorder%20Traversal.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
         `Tree` `BFS` `DFS` [solution](./tree/102.Binary%20Tree%20Level%20Order%20Traversal.cpp) :fire:
@@ -584,7 +584,7 @@
         `Tree` `BST` `DP` [solution](./tree/96.Unique%20Binary%20Search%20Trees.cpp)
 
 :white_check_mark: `Medium` [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
-        `Tree` `BST` `DP` [solution](./tree/95.Unique%20Binary%20Search%20Trees%20II.cpp) :fu:
+        `Tree` `BST` `DP` [solution](./tree/95.Unique%20Binary%20Search%20Trees%20II.cpp) :fu: :fu:
 
 #### Lowest Common Ancestor (LCA)
 :white_check_mark: `Medium` [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
@@ -597,7 +597,7 @@
         `Tree` `DFS` [solution](./tree/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.cpp) :fu:
 
 :white_check_mark: `Medium` [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)
-        `Tree` `Hash table` [solution](./tree/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.cpp) :fu:
+        `Tree` `Hash table` [solution](./tree/1650.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.cpp)
 
 :white_check_mark: `Medium` [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
         `Tree` `Hash table` [solution](./tree/1676.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.cpp)
@@ -613,7 +613,7 @@
         `Tree` `DFS` `BFS` [solution](./tree/572.Subtree%20of%20Another%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
-        `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp) :fire: :fu: :fu:
+        `Tree` `DFS` `BFS` [solution](./tree/257.Binary%20Tree%20Paths.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
         `Tree` `DFS` `BFS` [solution](./tree/1448.Count%20Good%20Nodes%20in%20Binary%20Tree.cpp)
@@ -625,7 +625,7 @@
         `Tree` `DFS` `Backtracking` [solution](./tree/113.Path%20Sum%20II.cpp) :fu:
 
 :white_check_mark: `Medium` [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
-        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :fu: :fu:
+        `Tree` `DFS` `Hash table` `Prefix sum` [solution](./tree/437.Path%20Sum%20III.cpp) :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
         `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp) :fu:
