@@ -631,13 +631,13 @@
         `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp) :fu:
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
-        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp) :fu:
+        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
-        `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp)
+        `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp) :fu:
 
 :white_check_mark: `Medium` [1120. Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)
-        `Tree` `DFS` [solution](./tree/1120.Maximum%20Average%20Subtree.cpp) :fire:
+        `Tree` `DFS` [solution](./tree/1120.Maximum%20Average%20Subtree.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
         `Tree` `DFS` [solution](./tree/124.Binary%20Tree%20Maximum%20Path%20Sum.cpp) :fire:
@@ -669,7 +669,7 @@
 
 ### Recursion
 :white_check_mark: `Medium` [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-        `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp) :fu:
+        `Recursion` `Backtracking` [solution](./recursion/39.Combination%20Sum.cpp)
 
 :white_check_mark: `Medium` [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
         `Recursion` `Backtracking` [solution](./recursion/40.Combination%20Sum%20II.cpp) :fire: :fu:
@@ -681,7 +681,7 @@
         `Recursion` `Backtracking` [solution](./recursion/78.Subsets.cpp)
 
 :white_check_mark: `Medium` [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-        `Recursion` `Backtracking` [solution](./recursion/90.Subsets%20II.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/90.Subsets%20II.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [46. Permutations](https://leetcode.com/problems/permutations/)
         `Recursion` `Backtracking` [solution](./recursion/46.Permutations.cpp)
