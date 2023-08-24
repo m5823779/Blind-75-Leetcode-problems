@@ -88,7 +88,7 @@
         `Sliding window` `Hash table` [solution](./sliding%20window/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fu:
 
 :white_check_mark: ` Hard ` [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
-        `Sliding window` `Hash table` [solution](./sliding%20window/992.Subarrays%20with%20K%20Different%20Integers.cpp) :fire:
+        `Sliding window` `Hash table` [solution](./sliding%20window/992.Subarrays%20with%20K%20Different%20Integers.cpp) :fire: :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
         `Sliding window` `Hash table` [solution](./sliding%20window/1248.Count%20Number%20of%20Nice%20Subarrays.cpp)
