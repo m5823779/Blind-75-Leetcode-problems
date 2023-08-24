@@ -79,13 +79,13 @@
 
 ### Pointer Manipulation (sliding window)
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       
-        `Sliding window` `Hash table` [solution](./sliding%20window/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire:
+        `Sliding window` [solution](./sliding%20window/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
         `Sliding window` `Hash table` [solution](./sliding%20window/159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.cpp)
 
 :white_check_mark: `Medium` [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
-        `Sliding window` `Hash table` [solution](./sliding%20window/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fire:
+        `Sliding window` `Hash table` [solution](./sliding%20window/340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
         `Sliding window` `Hash table` [solution](./sliding%20window/992.Subarrays%20with%20K%20Different%20Integers.cpp) :fire:
