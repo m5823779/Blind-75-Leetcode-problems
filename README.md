@@ -16,9 +16,6 @@
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
         `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
-:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
-
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
 
@@ -56,13 +53,16 @@
         `Two pointers` `String` [solution](./two%20pointers/696.Count%20Binary%20Substrings.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/88.Merge%20Sorted%20Array.cpp)
+        `Two pointers` `Sorting` [solution](./two%20pointers/88.Merge%20Sorted%20Array.cpp) :fu:
 
 :white_check_mark: ` Easy ` [27. Remove Element](https://leetcode.com/problems/remove-element/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/27.Remove%20Element.cpp)
+        `Two pointers` [solution](./two%20pointers/27.Remove%20Element.cpp)
+
+:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
 
 :white_check_mark: `Medium` [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
-        `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire:
+        `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
         `Boyer moore` `Two pointers` `Sorting` `Divide & conquer` [solution](./two%20pointers/169.Majority%20Element.cpp) :fire:
