@@ -29,10 +29,10 @@
         `Two pointers` `Greedy` [solution](./two%20pointers/11.Container%20With%20Most%20Water.cpp) :fire:
 
 :white_check_mark: ` Hard ` [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-        `Two pointers` `Dynamic programming` `Prfix max` [solution](./two%20pointers/42.Trapping%20Rain%20Water.cpp)
+        `Two pointers` `Dynamic programming` `Prfix max` [solution](./two%20pointers/42.Trapping%20Rain%20Water.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-        `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire:
+        `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire: :fu: :fu: :fu: 
 
 :white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
         `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp)
@@ -53,7 +53,7 @@
         `Two pointers` `String` [solution](./two%20pointers/408.Valid%20Word%20Abbreviation.cpp)
 
 :white_check_mark: ` Easy ` [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)
-        `Two pointers` `String` [solution](./two%20pointers/696.Count%20Binary%20Substrings.cpp) :fire:
+        `Two pointers` `String` [solution](./two%20pointers/696.Count%20Binary%20Substrings.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
         `Two pointers` `Sorting` [solution](./two%20pointers/88.Merge%20Sorted%20Array.cpp)
@@ -825,4 +825,7 @@
 
 :white_check_mark: `Medium` [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
         `Array` [solution](./other/119.Pascal's%20Triangle%20II.cpp)
+
+:white_check_mark: ` Easy ` [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
+        `Math` [solution]()
 ****
