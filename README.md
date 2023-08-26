@@ -64,17 +64,17 @@
 :white_check_mark: `Medium` [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
         `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire: :fu: :fu:
 
+:white_check_mark: ` Easy ` [796. Rotate String](https://leetcode.com/problems/rotate-string/)
+        `String` [solution](./two%20pointers/796.Rotate%20String.cpp) :fu:
+
 :white_check_mark: ` Easy ` [169. Majority Element](https://leetcode.com/problems/majority-element/)
-        `Boyer moore` `Two pointers` `Sorting` `Divide & conquer` [solution](./two%20pointers/169.Majority%20Element.cpp) :fire:
+        `Boyer moore` `Two pointers` `Sorting` `Divide & conquer` [solution](./two%20pointers/169.Majority%20Element.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [161. One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
-        `Two pointers` [solution](./two%20pointers/161.One%20Edit%20Distance.cpp)
+        `Two pointers` [solution](./two%20pointers/161.One%20Edit%20Distance.cpp) :fu:
 
 :white_check_mark: `Medium` [443. String Compression](https://leetcode.com/problems/string-compression/)
         `Two pointers` [solution](./two%20pointers/443.String%20Compression.cpp)
-
-:white_check_mark: ` Easy ` [796. Rotate String](https://leetcode.com/problems/rotate-string/)
-        `String` [solution](./two%20pointers/796.Rotate%20String.cpp)
 ****
 
 ### Pointer Manipulation (sliding window)
