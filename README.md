@@ -107,14 +107,14 @@
 :white_check_mark: ` Easy ` [704. Binary Search](https://leetcode.com/problems/binary-search/)
         `Binary search` [solution](./binary%20search/704.Binary%20Search.cpp)
 
-:white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fu:
+:white_check_mark: ` Easy ` [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+        `Binary search` [solution](./binary%20search/35.Search%20Insert%20Position.cpp)
 
 :white_check_mark: `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire: :fu: :fu:
 
-:white_check_mark: ` Easy ` [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
-        `Binary search` [solution](./binary%20search/35.Search%20Insert%20Position.cpp)
+:white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fu:
 
 :white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
         `Binary search` `Divide & conquer` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire: :fu: :fu: :fu:
@@ -813,6 +813,9 @@
 
 :white_check_mark: `Medium` [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
         `Math` [solution](./other/7.Reverse%20Integer.cpp)
+
+:white_check_mark: ` Easy ` [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+        `Math` [solution](./other/9.Palindrome%20Number.cpp)
 
 :white_check_mark: `Medium` [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
         `Sorting` `Quick select` [solution](./other/324.Wiggle%20Sort%20II.cpp)
