@@ -40,7 +40,7 @@
 :white_check_mark: ` Easy ` [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)
         `Two pointers` `String` [solution](./two%20pointers/917.Reverse%20Only%20Letters.cpp)
 
-:white_check_mark: `Medium` [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+:white_check_mark: `Medqium` [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
         `Two pointers` `String` `DP` [solution](./two%20pointers/5.Longest%20Palindromic%20Substring.cpp) :fire:
 
 :white_check_mark: `Medium` [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
@@ -94,7 +94,7 @@
         `Sliding window` `Hash table` [solution](./sliding%20window/1248.Count%20Number%20of%20Nice%20Subarrays.cpp)
 
 :white_check_mark: ` Hard ` [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
-        `Sliding window` `Hash table` `String` [solution](./sliding%20window/76.Minimum%20Window%20Substring.cpp) :fire:
+        `Sliding window` `Hash table` `String` [solution](./sliding%20window/76.Minimum%20Window%20Substring.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
         `Sliding window` `Prefix sum` [solution](./sliding%20window/209.Minimum%20Size%20Subarray%20Sum.cpp)
@@ -108,16 +108,16 @@
         `Binary search` [solution](./binary%20search/704.Binary%20Search.cpp)
 
 :white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp)
+        `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fu:
 
 :white_check_mark: `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire:
+        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Easy ` [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
         `Binary search` [solution](./binary%20search/35.Search%20Insert%20Position.cpp)
 
 :white_check_mark: `Medium` [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
-        `Binary search` `Divide & conquer` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire:
+        `Binary search` `Divide & conquer` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire: :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
         `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
