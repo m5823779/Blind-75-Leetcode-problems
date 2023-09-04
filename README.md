@@ -16,6 +16,9 @@
 :white_check_mark: ` Easy ` [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
         `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
+:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp) :fu: :fu:s
+
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
 
@@ -57,9 +60,6 @@
 
 :white_check_mark: ` Easy ` [27. Remove Element](https://leetcode.com/problems/remove-element/)
         `Two pointers` [solution](./two%20pointers/27.Remove%20Element.cpp)
-
-:white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp)
 
 :white_check_mark: `Medium` [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
         `Two pointers` [solution](./two%20pointers/189.Rotate%20Array.cpp) :fire: :fu: :fu:
@@ -110,6 +110,9 @@
 :white_check_mark: ` Easy ` [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
         `Binary search` [solution](./binary%20search/35.Search%20Insert%20Position.cpp)
 
+:white_check_mark: `Medium` [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+        `Binary search` [solution](./binary%20search/74.Search%20a%202D%20Matrix.cpp)
+
 :white_check_mark: `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
         `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire: :fu: :fu:
 
@@ -120,16 +123,13 @@
         `Binary search` `Divide & conquer` [solution](./binary%20search/153.Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) :fire: :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
-        `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire:
+        `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Easy ` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
         `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
 
 :white_check_mark: ` Hard ` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
         `Binary search` [solution](./binary%20search/4.Median%20of%20Two%20Sorted%20Arrays.cpp) :smiling_imp:
-
-:white_check_mark: `Medium` [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
-        `Binary search` [solution](./binary%20search/74.Search%20a%202D%20Matrix.cpp)
 ****
 
 ### Prefix Sum
@@ -396,7 +396,7 @@
         `Graph` `DFS` `BFS` [solution](./graph/1971.Find%20if%20Path%20Exists%20in%20Graph.cpp)
 
 :white_check_mark: `Medium` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
-        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire:
+        `Graph` `DFS` `BFS` `Hash table` [solution](./graph/133.Clone%20Graph.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
         `Graph` `DFS` `BFS` `Union find` [solution](./graph/200.Number%20of%20Islands.cpp) :fire:
