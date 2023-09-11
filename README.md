@@ -830,5 +830,8 @@
         `Array` [solution](./other/119.Pascal's%20Triangle%20II.cpp)
 
 :white_check_mark: ` Easy ` [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
-        `Math` [solution]()
+        `Math` [solution](./other/263.Ugly%20Number.cpp)
+
+:white_check_mark: `Medium` [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
+        `Math` `DP` [solution](./other/264.Ugly%20Number%20II.cpp)
 ****
