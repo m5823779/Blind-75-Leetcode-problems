@@ -333,7 +333,7 @@
         `Linked list` [solution](./linked%20list/92.Reverse%20Linked%20List%20II.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-        `Linked list` `Recursion` [solution](./linked%20list/25.Reverse%20Nodes%20in%20k-Group.cpp)
+        `Linked list` `Recursion` [solution](./linked%20list/25.Reverse%20Nodes%20in%20k-Group.cpp) :fu:
 
 :white_check_mark: ` Easy ` [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) 
         `Linked list` `Hash table` `Two pointers` [solution](./linked%20list/141.Linked%20List%20Cycle.cpp)
