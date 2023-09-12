@@ -203,7 +203,7 @@
         `Bitwise` `XOR` `AND` [solution](./bitwise%20operation/371.Sum%20of%20Two%20Integers.cpp)
 
 :white_check_mark: `Medium` [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
-        `Bitwise` `XOR` [solution](./bitwise%20operation/29.Divide%20Two%20Integers.cpp)
+        `Bitwise` `XOR` [solution](./bitwise%20operation/29.Divide%20Two%20Integers.cpp) :fu: :fu:
 
 :white_check_mark: ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
         `Bitwise` `AND` [solution](./bitwise%20operation/191.Number%20of%201%20Bits.cpp)
@@ -232,13 +232,13 @@
         `Matrix` `Hash table` [solution](./matrix/73.Set%20Matrix%20Zeroes.cpp)
 
 :white_check_mark: `Medium` [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-        `Matrix` [solution](./matrix/54.Spiral%20Matrix.cpp) :fire:
+        `Matrix` [solution](./matrix/54.Spiral%20Matrix.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
         `Matrix` [solution](./matrix/59.Spiral%20Matrix%20II.cpp)
 
 :white_check_mark: `Medium` [835. Image Overlap](https://leetcode.com/problems/image-overlap/)
-        `Matrix` [solution](./matrix/835.Image%20Overlap.cpp)
+        `Matrix` [solution](./matrix/835.Image%20Overlap.cpp) :fu:
 ****
 
 ### Data Structure
@@ -631,7 +631,7 @@
         `Tree` `DFS` [solution](./tree/129.Sum%20Root%20to%20Leaf%20Numbers.cpp) :fu:
 
 :white_check_mark: `Medium` [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
-        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp) :fu: :fu:
+        `Tree` `DFS` [solution](./tree/814.Binary%20Tree%20Pruning.cpp) :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
         `Tree` `DFS` [solution](./tree/222.Count%20Complete%20Tree%20Nodes.cpp) :fu:
@@ -647,7 +647,7 @@
         `Tree` `String` `Design` `Trie` [solution](./tree/208.Implement%20Trie%20(Prefix%20Tree).cpp)
 
 :white_check_mark: `Medium` [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-        `Tree` `String` `Trie` `DFS` [solution](./tree/211.Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) :fire: :fu:
+        `Tree` `String` `Trie` `DFS` [solution](./tree/211.Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) :fire: :fu: :fu:
 ****
 
 ### Heap
@@ -655,7 +655,7 @@
         `Link list` `Heap` [solution](./heap/23.Merge%20k%20Sorted%20Lists.cpp)
         
 :white_check_mark: `Medium` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-        `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp) :fire:
+        `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
         `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp) :fire:
