@@ -206,10 +206,10 @@
         `Bitwise` `XOR` [solution](./bitwise%20operation/29.Divide%20Two%20Integers.cpp) :fu: :fu:
 
 :white_check_mark: ` Easy ` [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
-        `Bitwise` `AND` [solution](./bitwise%20operation/191.Number%20of%201%20Bits.cpp)
+        `Bitwise` `AND` [solution](./bitwise%20operation/191.Number%20of%201%20Bits.cpp) :fu:
 
 :white_check_mark: ` Easy ` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
-        `Bitwise` `AND` `DP` [solution](./bitwise%20operation/338.Counting%20Bits.cpp) :fire:
+        `Bitwise` `AND` `DP` [solution](./bitwise%20operation/338.Counting%20Bits.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
         `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./bitwise%20operation/268.Missing%20Number.cpp) :fire:
