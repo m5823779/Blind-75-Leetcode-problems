@@ -17,7 +17,7 @@
         `Two pointers` [solution](./two%20pointers/26.Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
 :white_check_mark: `Medium` [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp) :fu: :fu:s
+        `Two pointers` `Sorting` [solution](./two%20pointers/80.Remove%20Duplicates%20from%20Sorted%20Array%20II.cpp) :fu: :fu:
 
 :white_check_mark: ` Easy ` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
         `Two pointers` `DP` [solution](./two%20pointers/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp) :fire:
@@ -180,7 +180,7 @@
         `Interval` `Sorting` `Greedy` [solution](./sweep%20line/435.Non-overlapping%20Intervals.cpp) :fire:
 
 :white_check_mark: `Medium` [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
-        `Interval` `Sorting` [solution](./sweep%20line/1288.Remove%20Covered%20Intervals.cpp) :fire:
+        `Interval` `Sorting` [solution](./sweep%20line/1288.Remove%20Covered%20Intervals.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
         `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp)
