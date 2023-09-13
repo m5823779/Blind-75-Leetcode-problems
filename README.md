@@ -171,7 +171,7 @@
         `Interval` `Sorting` [solution](./sweep%20line/56.Merge%20Intervals.cpp)
 
 :white_check_mark: `Medium` [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
-        `Interval` `Sorting` [solution](./sweep%20line/57.Insert%20Interval.cpp) :fire:
+        `Interval` `Sorting` [solution](./sweep%20line/57.Insert%20Interval.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [1272. Remove Interval](https://leetcode.com/problems/remove-interval/)
         `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp)
@@ -212,7 +212,7 @@
         `Bitwise` `AND` `DP` [solution](./bitwise%20operation/338.Counting%20Bits.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [268. Missing Number](https://leetcode.com/problems/missing-number/) 
-        `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./bitwise%20operation/268.Missing%20Number.cpp) :fire:
+        `Bitwise` `XOR` `Hash table` `Cyclic sort` [solution](./bitwise%20operation/268.Missing%20Number.cpp) :fire: :fu:
 
 :white_check_mark: ` Easy ` [136. Single Number](https://leetcode.com/problems/single-number/description/)
         `Bitwise` `XOR` [solution](./bitwise%20operation/136.Single%20Number.cpp)
@@ -563,13 +563,13 @@
         `Tree` `BST` `DFS`  [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
 
 :white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-        `Tree` `BST` `DFS`  [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu:
+        `Tree` `BST` `DFS`  [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
         `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/230.Kth%20Smallest%20Element%20in%20a%20BST.cpp) :fu:
 
 :white_check_mark: `Medium` [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
-        `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire: :fu:
+        `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
         `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp) :fu:
@@ -658,7 +658,7 @@
         `Hash table` `Sorting` `Heap` `Bucket sort` [solution](./heap/347.Top%20K%20Frequent%20Elements.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-        `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp) :fire:
+        `Sorting` `Heap` [solution](./heap/295.Find%20Median%20from%20Data%20Stream.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
         `Sorting` `Heap` `Quick select` [solution](./heap/215.Kth%20Largest%20Element%20in%20an%20Array.cpp) :fire:
