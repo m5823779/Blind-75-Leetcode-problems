@@ -174,7 +174,7 @@
         `Interval` `Sorting` [solution](./sweep%20line/57.Insert%20Interval.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [1272. Remove Interval](https://leetcode.com/problems/remove-interval/)
-        `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp)
+        `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp) :fu:
 
 :white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
         `Interval` `Sorting` `Greedy` [solution](./sweep%20line/435.Non-overlapping%20Intervals.cpp) :fire:
@@ -218,7 +218,7 @@
         `Bitwise` `XOR` [solution](./bitwise%20operation/136.Single%20Number.cpp)
 
 :white_check_mark: ` Easy ` [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
-        `Bitwise` `XOR` `AND` [solution](./bitwise%20operation/190.Reverse%20Bits.cpp)
+        `Bitwise` `XOR` `AND` [solution](./bitwise%20operation/190.Reverse%20Bits.cpp) :fu:
 ****
 
 ### Matrix
@@ -560,7 +560,7 @@
         `Tree` `BST` `DFS`  [solution](./tree/270.Closest%20Binary%20Search%20Tree%20Value.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
-        `Tree` `BST` `DFS`  [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire:
+        `Tree` `BST` `DFS`  [solution](./tree/701.Insert%20into%20a%20Binary%20Search%20Tree.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
         `Tree` `BST` `DFS`  [solution](./tree/450.Delete%20Node%20in%20a%20BST.cpp) :fire: :fu: :fu:
