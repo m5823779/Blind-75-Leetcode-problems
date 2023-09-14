@@ -138,7 +138,7 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/560.Subarray%20Sum%20Equals%20K.cpp) :fire:
 
 :white_check_mark: `Medium` [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
-        `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire:
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp) :fu:
@@ -186,7 +186,7 @@
         `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp)
 
 :white_check_mark: `Medium` [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
-        `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/986.Interval%20List%20Intersections.cpp) :fire:
+        `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/986.Interval%20List%20Intersections.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)
         `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp)
