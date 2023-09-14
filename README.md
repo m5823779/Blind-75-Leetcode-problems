@@ -174,7 +174,7 @@
         `Interval` `Sorting` [solution](./sweep%20line/57.Insert%20Interval.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [1272. Remove Interval](https://leetcode.com/problems/remove-interval/)
-        `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp) :fu:
+        `Interval` `Sorting` [solution](./sweep%20line/1272.Remove%20Interval.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
         `Interval` `Sorting` `Greedy` [solution](./sweep%20line/435.Non-overlapping%20Intervals.cpp) :fire:
@@ -572,7 +572,7 @@
         `Tree` `BST` `DFS` `Stack` `Design` `Iterator` [solution](./tree/173.Binary%20Search%20Tree%20Iterator.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
-        `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp) :fu:
+        `Tree` `BST` `DFS` `BFS` [solution](./tree/99.Recover%20Binary%20Search%20Tree.cpp) :fu: :fu:
 
 :white_check_mark: ` Easy ` [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
         `Tree` `BST` `DFS` `Divide & Conquer` [solution](./tree/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp) :fire:
