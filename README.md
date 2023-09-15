@@ -141,7 +141,7 @@
         `Prefix sum` `Hash table` [solution](./prefix%20sum/974.Subarray%20Sums%20Divisible%20by%20K.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
-        `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp) :fu:
+        `Prefix sum` `Hash table` [solution](./prefix%20sum/523.Continuous%20Subarray%20Sum.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
         `Prefix sum` `Hash table` [solution](./prefix%20sum/525.Contiguous%20Array.cpp) :fire:
@@ -192,10 +192,10 @@
         `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/1229.Meeting%20Scheduler.cpp)
 
 :white_check_mark: ` Hard ` [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/)
-        `Interval` `Sorting` `Heap` [solution](./sweep%20line/759.Employee%20Free%20Time.cpp) :fire:
+        `Interval` `Sorting` `Heap` [solution](./sweep%20line/759.Employee%20Free%20Time.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Hard ` [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
-        `Interval` `Sorting` `Heap` [solution](./sweep%20line/218.The%20Skyline%20Problem.cpp)
+        `Interval` `Sorting` `Heap` [solution](./sweep%20line/218.The%20Skyline%20Problem.cpp) :fu: :fu: :fu:
 ****
 
 ### Bitwise Operation
