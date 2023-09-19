@@ -114,7 +114,7 @@
         `Binary search` [solution](./binary%20search/74.Search%20a%202D%20Matrix.cpp)
 
 :white_check_mark: `Medium` [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire: :fu: :fu:
+        `Binary search` [solution](./binary%20search/34.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
         `Binary search` [solution](./binary%20search/33.Search%20in%20Rotated%20Sorted%20Array.cpp) :fu:
@@ -148,7 +148,7 @@
 
 #### Range Sum
 :white_check_mark: `Medium` [370. Range Addition](https://leetcode.com/problems/range-addition/)
-        `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp)
+        `Prefix sum` `Sweep line` `Laze propagtion` [solution](./prefix%20sum/370.Range%20Addition.cpp) :fu:
 
 :white_check_mark: ` Easy ` [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
         `Prefix sum` [solution](./prefix%20sum/303.Range%20Sum%20Query%20-%20Immutable.cpp)
@@ -183,7 +183,7 @@
         `Interval` `Sorting` [solution](./sweep%20line/1288.Remove%20Covered%20Intervals.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
-        `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp)
+        `Interval` `Sorting` `Binary search` `Design` [solution](./sweep%20line/352.Data%20Stream%20as%20Disjoint%20Intervals.cpp) :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
         `Interval` `Two pointers` `Sorting` [solution](./sweep%20line/986.Interval%20List%20Intersections.cpp) :fire: :fu:
@@ -532,7 +532,7 @@
 
 #### Serialize and Deserialize
 :white_check_mark: ` Hard ` [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire: :fu:
+        `Tree` `DFS` `BFS` `Design` [solution](./tree/297.Serialize%20and%20Deserialize%20Binary%20Tree.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)
         `Tree` `DFS` `BFS` `Design` [solution](./tree/449.Serialize%20and%20Deserialize%20BST.cpp)
@@ -541,7 +541,7 @@
         `Tree` `DFS` `BFS` `Design` [solution](./tree/1008.Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.cpp)
 
 :white_check_mark: `Medium` [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :fire:
+        `Tree` `DFS` `Hash table` [solution](./tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
         `Tree` `DFS` `Hash table` [solution](./tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)
