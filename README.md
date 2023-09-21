@@ -35,7 +35,7 @@
         `Two pointers` `Floyd` `Cyclic sort` [solution](./two%20pointers/287.Find%20the%20Duplicate%20Number.cpp) :fire: :fu: :fu: :fu: 
 
 :white_check_mark: ` Easy ` [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-        `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp)
+        `Two pointers` `String` [solution](./two%20pointers/125.Valid%20Palindrome.cpp) :fu:
 
 :white_check_mark: ` Easy ` [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
         `Two pointers` `String` [solution](./two%20pointers/680.Valid%20Palindrome%20II.cpp)
@@ -126,7 +126,7 @@
         `Binary search` [solution](./binary%20search/162.Find%20Peak%20Element.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Easy ` [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire:
+        `Binary search` `Newton's law` `Math` [solution](./binary%20search/69.Sqrt(x).cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
         `Binary search` [solution](./binary%20search/4.Median%20of%20Two%20Sorted%20Arrays.cpp) :smiling_imp:
