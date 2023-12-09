@@ -31,3 +31,31 @@ private:
     // time complexity: O(mn)
     // space complexity: O(1)
 };
+
+
+class Solution {
+public:
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        // method: BFS
+        int org_color = image[sr][sc];
+        if (org_color == color) return image;
+        image[sr][sc] = color;
+        queue<pair<int, int>> q;
+        int dir[] = {0, 1, 0, -1, 0};
+
+        q.push({sr, sc});
+        while (!q.empty()) {
+            int i = q.front().first;
+            int j = q.front().second;
+            q.pop();
+            for (int d = 0; d < 4; d++) {
+                int _i = i + dir[d];
+                int _j = j + dir[d + 1];
+                if (_i < 0 || _j < 0 || _i >= image.size() || _j >= image[0].size() || image[_i][_j] != org_color) continue;
+                image[_i][_j] = color;
+                q.push({_i, _j});
+            }
+        }
+        return image;
+    }
+};

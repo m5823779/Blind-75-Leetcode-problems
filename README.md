@@ -79,7 +79,7 @@
 
 ### Pointer Manipulation (sliding window)
 :white_check_mark: `Medium` [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
-        `Sliding window` `Hash table`[solution](./sliding%20window/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire: :fu:
+        `Sliding window` `Hash table`[solution](./sliding%20window/3.Longest%20Substring%20Without%20Repeating%20Characters.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
         `Sliding window` `Hash table` [solution](./sliding%20window/159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.cpp)
@@ -423,7 +423,7 @@
         `Graph` `BFS` `Bidirectional` [solution](./graph/127.Word%20Ladder.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire: :fu:
+        `Graph` `DFS` `BFS` [solution](./graph/399.Evaluate%20Division.cpp) :fire: :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/417.Pacific%20Atlantic%20Water%20Flow.cpp) :fu: :fu:
