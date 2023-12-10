@@ -458,7 +458,7 @@
         `Graph` `DFS` `Union find` [solution](./graph/684.Redundant%20Connection.cpp) :fire:
 
 :white_check_mark: `Medium` [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
-        `Graph` `DFS` `Union find` [solution](./graph/261.Graph%20Valid%20Tree.cpp) :fire:
+        `Graph` `DFS` `Union find` [solution](./graph/261.Graph%20Valid%20Tree.cpp) :fire: :fu:
 
 #### Dijkstra's algorithm
 :white_check_mark: `Medium` [Dijkstra's algorithm - find min path](./graph/Dijkstra_algorithm.cpp) 

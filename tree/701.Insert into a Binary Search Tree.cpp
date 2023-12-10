@@ -28,22 +28,18 @@ class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         // method 2: itervative
-        TreeNode* cur = root;
-        TreeNode* pre;
         TreeNode* new_node = new TreeNode(val);
-        if (!cur) {
-            cur = new_node;
-            return cur;
-        }
-
+        TreeNode* pre = nullptr;
+        TreeNode* cur = root;
         while (cur) {
             pre = cur;
-            if (val < cur->val) cur = cur->left;
-            else cur = cur->right;
+            if (cur->val > val) cur = cur->left;
+            else if (cur->val < val) cur = cur->right;
+            else return root;
         }
-
-        if (val < pre->val) pre->left = new_node;
-        else pre->right = new_node;
+        if (!pre) return new_node;
+        if (pre->val < val) pre->right = new_node;
+        else pre->left = new_node;
         return root;
     }
 };

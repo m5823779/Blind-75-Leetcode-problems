@@ -9,14 +9,11 @@
  */
 class Codec {
 public:
-    // method: DFS
+
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
         if (!root) return "";
-        string res = to_string(root->val) + ",";
-        res += serialize(root->left);
-        res += serialize(root->right);
-        return res;
+        return to_string(root->val) + "," + serialize(root->left) + serialize(root->right);
     }
 
     // Decodes your encoded data to tree.
@@ -28,27 +25,21 @@ public:
                 q.push(tmp);
                 tmp.clear();
             }
-            else {
-                tmp += c;
-            }
+            else tmp += c;
         }
-        return decode(q, INT_MIN, INT_MAX);
+        return solve(q, INT_MIN, INT_MAX);
     }
-
-private:
-    TreeNode* decode(queue<string>& q, int minBound, int maxBound) {
+    
+    TreeNode* solve(queue<string>& q, int down, int up) {
         if (q.empty()) return nullptr;
-        string tmp = q.front();
-        int val = stoi(tmp);
-        if (val > minBound && val < maxBound) {
-            q.pop();
-            TreeNode* root = new TreeNode(val);
-            root->left = decode(q, minBound, val);
-            root->right = decode(q, val, maxBound);
-            return root;
-        }
+        int tmp = stoi(q.front());
+        if (tmp >= up || tmp <= down) return nullptr;
         else {
-            return nullptr;
+            q.pop();
+            TreeNode* root = new TreeNode(tmp);
+            root->left = solve(q, down, tmp);
+            root->right = solve(q, tmp, up);
+            return root;
         }
     }
 };

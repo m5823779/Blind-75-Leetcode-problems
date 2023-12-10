@@ -12,19 +12,18 @@
 class Solution {
 public:
     int closestValue(TreeNode* root, double target) {
-        // method 1: iterative
-        int closest = root->val;
+        TreeNode* closest = root;
         while (root) {
-            if (abs(target - root->val) < abs(target - closest)) {
-                closest = root->val;
+            double diff = abs(target - (double)root->val);
+            double pre_diff = abs(target - (double)closest->val);
+            if (diff < pre_diff || (diff == pre_diff && root->val < closest->val)) {
+                closest = root;
             }
-            if (abs(target - root->val) == abs(target - closest) && root->val < closest) close = root->val;
-
-            if (target > root->val) root = root->right;
-            else if (target < root->val) root = root->left;
+            if (root->val > target) root = root->left;
+            else if (root->val < target) root = root->right;
             else return root->val;
         }
-        return closest;
+        return closest->val;
     }
 };
 
