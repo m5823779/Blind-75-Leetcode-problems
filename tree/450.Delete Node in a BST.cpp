@@ -47,7 +47,6 @@ public:
 };
 
 
-
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -55,11 +54,11 @@ public:
         TreeNode* cur = root;
         TreeNode* pre = nullptr;
         while (cur) {
-            if (key == cur->val) break;
-
+            if (cur->val == key) break;
             pre = cur;
-            if (key > cur->val) cur = cur->right;
-            else cur = cur->left;
+
+            if (cur->val > key) cur = cur->left;
+            else cur = cur->right;
         }
 
         // target node not exist in tree
@@ -67,14 +66,13 @@ public:
         // now current node need to delete
         // first root node is the target node
         if (!pre) return solve(cur);
-        if (key > pre->val) pre->right = solve(cur);
-        if (key < pre->val) pre->left = solve(cur);
+        if (pre->val > key) pre->left = solve(cur);
+        else pre->right = solve(cur);
         return root;
     }
 
     TreeNode* solve(TreeNode* root) {
-        if (!root->left && !root->right) return nullptr;
-        else if (!root->left) {
+        if (!root->left) {
             TreeNode* tmp = root->right;
             delete root;
             return tmp;
@@ -86,7 +84,9 @@ public:
         }
         else {
             TreeNode* rightMin = root->right;
-            while (rightMin->left) rightMin = rightMin->left;
+            while (rightMin->left) {
+                rightMin = rightMin->left;
+            }
             root->val = rightMin->val;
             root->right = deleteNode(root->right, rightMin->val);
             return root;
