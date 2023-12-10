@@ -75,37 +75,44 @@ class Solution {
 public:
     int countComponents(int n, vector<vector<int>>& edges) {
         // method: Union find
-        vector<int> parent(n);
+        parent = vector<int>(n);
+        rank = vector<int>(n, 0);
         for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
-
-        for (vector<int> edge : edges) {
-            union_vertices(edge[0], edge[1], parent);
+        for (auto edge : edges) {
+            union_vertex(edge[0], edge[1]);
         }
-        
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            if (parent[i] == i) {
-                ans++;
-            }
+            if (i == find_parent(i)) ans++;
         }
         return ans;
     }
-    
 private:
-    // find the x's parent
-    int find_root(int x, vector<int>& parent) {
-        int x_root = x;
-        while (parent[x_root] != x_root) {
-            x_root = parent[x_root];
+    vector<int> parent;
+    vector<int> rank;
+    int find_parent(int x) {
+        int p = x;
+        while (parent[p] != p) {
+            p = parent[p];
         }
-        return x_root;
+        return p;
     }
-    void union_vertices(int x, int y, vector<int>& parent) {
-        int x_root = find_root(x, parent);
-        int y_root = find_root(y, parent);
-        parent[y_root] = x_root;
+
+    void union_vertex(int x, int y) {
+        int px = find_parent(x);
+        int py = find_parent(y);
+        if (rank[px] < rank[py]) {
+            parent[px] = py;
+        }
+        else if (rank[px] > rank[py]) {
+            parent[py] = px;
+        }
+        else {
+            parent[px] = py;
+            rank[py]++;
+        }
     }
     // time complexity: O(nlogn)
     // space complexity: O(n)

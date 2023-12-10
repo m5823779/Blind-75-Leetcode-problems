@@ -442,14 +442,14 @@
         `Graph` `BFS` `Topological Sort` `Kahn algorithm` [solution](./graph/210.Course%20Schedule%20II.cpp) :fire:
 
 :white_check_mark: ` Hard ` [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
-        `Graph` `BFS` `Topological Sort` [solution](./graph/269.Alien%20Dictionary.cpp) :fu:
+        `Graph` `BFS` `Topological Sort` [solution](./graph/269.Alien%20Dictionary.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
-        `Graph` `DFS` `BFS` `Topological Sort` [solution](./graph/802.Find%20Eventual%20Safe%20States.cpp) :fire:
+        `Graph` `DFS` `BFS` `Topological Sort` [solution](./graph/802.Find%20Eventual%20Safe%20States.cpp) :fire: :fu:
 
 #### Union find
 :white_check_mark: `Medium` [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp)
+        `Graph` `DFS` `Union find` [solution](./graph/323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.cpp) :fu:
 
 :white_check_mark: `Medium` [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
         `Graph` `DFS` `BFS` `Union find` [solution](./graph/547.Number%20of%20Provinces.cpp)
