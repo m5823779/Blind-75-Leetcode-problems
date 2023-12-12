@@ -735,7 +735,7 @@
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/213.House%20Robber%20II.cpp)
 
 :white_check_mark: `Medium` [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) 
-        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire:
+        `Recursion` `DP` `Memorization` `Greedy` [solution](./dynamic%20programming/300.Longest%20Increasing%20Subsequence.cpp) :fire: :fu: :fu: :fu: :fu:
 
 :white_check_mark: ` Hard ` [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
         `DP` `Hash table` `Greedy` `Binary search` [solution](./dynamic%20programming/1713.Minimum%20Operations%20to%20Make%20a%20Subsequence.cpp)
