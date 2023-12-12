@@ -714,16 +714,16 @@
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/70.Climbing%20Stairs.cpp)
 
 :white_check_mark: `Medium` [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
-        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire:
+        `Recursion` `Tree` `DP` [solution](./dynamic%20programming/91.Decode%20Ways.cpp) :fire: :fu: :fu:
 
 :white_check_mark: `Medium` [139. Word Break](https://leetcode.com/problems/word-break/) 
-        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp)
+        `Recursion` `DP` `Memorization` `Hash table` `Trie` [solution](./dynamic%20programming/139.Word%20Break.cpp) :fu: :fu: :fu:
 
 :white_check_mark: ` Hard ` [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
         `Hash table` `Recursion` `DP` `Trie` [solution](./dynamic%20programming/140.Word%20Break%20II.cpp) :fire:
 
 :white_check_mark: `Medium` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-        `DP` `Greedy`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp) :fire:
+        `DP` `Greedy`  [solution](./dynamic%20programming/53.Maximum%20Subarray.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
         `DP` [solution](./dynamic%20programming/152.Maximum%20Product%20Subarray.cpp) :fire:
