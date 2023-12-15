@@ -57,15 +57,21 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         // method 3: voting
-        int counter = 0;
-        int res = 0;
-        for (int num : nums) {
-            if (counter == 0) res = num;
-
-            if (num == res) counter += 1;
-            else counter -= 1;
+        int maj = nums[0];
+        int count = 1;
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] == maj) {
+                count++;
+            }
+            else {
+                count--;
+                if (count < 0) {
+                    count = 1;
+                    maj = nums[i];
+                }
+            }
         }
-        return res;
+        return maj;
     }
     // time complexity: O(n)
     // space ceomplexity: O(1)

@@ -47,7 +47,7 @@
         `Two pointers` `String` `DP` [solution](./two%20pointers/5.Longest%20Palindromic%20Substring.cpp) :fire:
 
 :white_check_mark: `Medium` [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-        `Two pointers` `String` `DP` [solution](./two%20pointers/647.Palindromic%20Substrings.cpp)
+        `Two pointers` `String` `DP` [solution](./two%20pointers/647.Palindromic%20Substrings.cpp) :fu:
 
 :white_check_mark: ` Easy ` [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)
         `Two pointers` `String` [solution](./two%20pointers/408.Valid%20Word%20Abbreviation.cpp)
