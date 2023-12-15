@@ -696,13 +696,13 @@
         `Recursion` `Backtracking` `Matrix` [solution](./recursion/79.Word%20Search.cpp)
 
 :white_check_mark: ` Hard ` [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
-        `Recursion` `Trie` `DFS` `Backtracking` [solution](./recursion/212.Word%20Search%20II.cpp) :fire:
+        `Recursion` `Trie` `DFS` `Backtracking` [solution](./recursion/212.Word%20Search%20II.cpp) :fire: :fu: :fu:
 
 :white_check_mark: ` Hard ` [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
-        `Recursion` `Backtracking` [solution](./recursion/37.Sudoku%20Solver.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/37.Sudoku%20Solver.cpp) :fire: :fu: :fu: :fu:
 
 :white_check_mark: ` Hard ` [51. N-Queens](https://leetcode.com/problems/n-queens/)
-        `Recursion` `Backtracking` [solution](./recursion/51.N-Queens.cpp) :fire:
+        `Recursion` `Backtracking` [solution](./recursion/51.N-Queens.cpp) :fire: :fu:
 ****
 
 ### Dynamic Programming
@@ -741,7 +741,7 @@
         `DP` `Hash table` `Greedy` `Binary search` [solution](./dynamic%20programming/1713.Minimum%20Operations%20to%20Make%20a%20Subsequence.cpp)
 
 :white_check_mark: `Medium` [322. Coin Change](https://leetcode.com/problems/coin-change/) 
-        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire:
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/322.Coin%20Change.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) 
         `Recursion` `DP` `Memorization` [solution](./dynamic%20programming/377.Combination%20Sum%20IV.cpp)
@@ -751,10 +751,10 @@
         `Recursion` `Tree` `DP` [solution](./dynamic%20programming/62.Unique%20Paths.cpp)
 
 :white_check_mark: `Medium` [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
-        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire:
+        `Recursion` `DP` [solution](./dynamic%20programming/1143.Longest%20Common%20Subsequence.cpp) :fire: :fu:
 
 :white_check_mark: ` Hard ` [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
-        `DP` [solution](./dynamic%20programming/1312.Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.cpp) :fire:
+        `DP` [solution](./dynamic%20programming/1312.Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.cpp) :fire:  :fu: :fu: :fu:
 
 :white_check_mark: `Medium` [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
         `DP` [solution](./dynamic%20programming/516.Longest%20Palindromic%20Subsequence.cpp)
@@ -769,7 +769,7 @@
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/115.Distinct%20Subsequences.cpp)
 
 :white_check_mark: ` Hard ` [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/10.Regular%20Expression%20Matching.cpp) :fire:
+        `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/10.Regular%20Expression%20Matching.cpp) :fire: :smiling_imp: :smiling_imp:
 
 :white_check_mark: ` Hard ` [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
         `Recursion` `Memorization` `DP` [solution](./dynamic%20programming/44.Wildcard%20Matching.cpp)
@@ -792,10 +792,10 @@
 
 ### Greedy
 :white_check_mark: `Medium` [55. Jump Game](https://leetcode.com/problems/jump-game/)
-        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/55.Jump%20Game.cpp) :fire:
+        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/55.Jump%20Game.cpp) :fire: :fu:
 
 :white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/45.Jump%20Game%20II.cpp)
+        `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/45.Jump%20Game%20II.cpp) :fu: :fu:
 
 :white_check_mark: `Medium` [134. Gas Station](./greedy/134.Gas%20Station.cpp)
         `Greedy` [solution](./greedy/134.Gas%20Station.cpp) :fire:

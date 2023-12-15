@@ -11,36 +11,32 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        // method 1: Iterative
-        // calculate length of linked list
         ListNode* cur = head;
-        int len = 0;
+        int l = 0;
         while (cur) {
-            len++;
+            l++;
             cur = cur->next;
         }
-
-        // how many group need to reverse
-        int group = len / k;
-
+        int g = l / k;
+        
         ListNode dummy(-1);
         dummy.next = head;
-        ListNode* tail = &dummy;
 
         cur = head;
-        for (int j = 0; j < group; j++) {
+        ListNode* tail = &dummy;
+        for (int i = 0; i < g; i++) {
             ListNode* pre = nullptr;
             ListNode* next = nullptr;
-            for (int i = 0; i < k; i++) {
+            for (int j = 0; j < k; j++) {
                 next = cur->next;
                 cur->next = pre;
                 pre = cur;
                 cur = next;
             }
-            head->next = cur;
+            ListNode* new_tail = tail->next;
+            tail->next->next = cur;
             tail->next = pre;
-            tail = head;
-            head = cur;
+            tail = new_tail;
         }
         return dummy.next;
     }

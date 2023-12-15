@@ -42,49 +42,38 @@ public:
 
 
 class MedianFinder {
-private:
-    priority_queue<int, vector<int>, less<int>> small_part;  // max heap
-    priority_queue<int, vector<int>, greater<int>> large_part;  // min heap
 public:
     // method 2: heap
-    MedianFinder() {} 
+    priority_queue<int, vector<int>, less<int>> small;  // max heap
+    priority_queue<int, vector<int>, greater<int>> large;  // min heap
+    MedianFinder() {}
+    
     void addNum(int num) {
-        if (small_part.size() == large_part.size()) {
-            if (small_part.empty()) {
-                small_part.push(num);
-                return;
-            }
-            if (!large_part.empty() && large_part.top() < num) {
-                small_part.push(large_part.top());
-                large_part.pop();
-                large_part.push(num);
-            }
-            else {
-                small_part.push(num);
-            }
+        // balance
+        if (small.size() == large.size()) small.push(num);
+        else large.push(num);
+
+        // correct
+        if (!large.empty() && large.top() < small.top()) {
+            int tmp1 = large.top();
+            int tmp2 = small.top();
+            large.pop();
+            small.pop();
+            large.push(tmp2);
+            small.push(tmp1);
         }
-        else {
-            if (!small_part.empty() && small_part.top() > num) {
-                large_part.push(small_part.top());
-                small_part.pop();
-                small_part.push(num);
-            }
-            else {
-                large_part.push(num);
-            }
-        }
-        // time complexity: O(nlog(n / 2))
-        // space complexity: O(n)
     }
+    // time complexity: O(nlog(n / 2))
+    // space complexity: O(n)
     
     double findMedian() {
-        if (small_part.size() != large_part.size()) {
-            return static_cast<double>(small_part.top());
+        if (small.size() == large.size()) {
+            int a = (double)small.top();
+            int b = (double)large.top();
+            return (a + b) / 2.0;
         }
-        else {
-            return static_cast<double>(small_part.top() + large_part.top()) / 2;
-        }
-        // time complexity: O(1)
-        // space complexity: O(1)
+        else return (double)small.top();
     }
+    // time complexity: O(1)
+    // space complexity: O(1)
 };
