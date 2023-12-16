@@ -47,79 +47,35 @@ private:
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<int> visited(n + 1, false);
-        vector<int> dis(n + 1, INT_MAX);
-        // pair< dis, node >
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        unordered_map<int, vector<pair<int, int>>> mp;
+        for(vector<int> time : times) mp[time[0]].push_back({time[1], time[2]});
+
+        vector<int> dis(n + 1, INT_MAX); // <node, distance>
         dis[k] = 0;
-        pq.push(make_pair(0, k));
 
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;  // <distance node>
+        pq.push({0, k});
         while (!pq.empty()) {
-            pair<int, int> p = pq.top();
+            pair<int, int> tmp = pq.top();
             pq.pop();
-            int visiting = p.second;
-            if (visited[visiting]) {
-                continue;
-            }
-            visited[visiting] = true;
-
-            for (vector<int> time : times) {
-                if (time[0] == visiting) {
-                    if (dis[visiting] + time[2] < dis[time[1]]) {
-                        dis[time[1]] = dis[visiting] + time[2];
-                        pq.push(make_pair(dis[time[1]], time[1]));
-                    }
+            int d = tmp.first;
+            int c = tmp.second;
+            for (auto neighbor : mp[c]) {
+                int next = d + neighbor.second;
+                if (next < dis[neighbor.first]) {
+                    dis[neighbor.first] = next;
+                    pq.push({next, neighbor.first});
                 }
             }
         }
 
-        int res = 0;
-        for(int i = 1; i <= n;i++)
-        {
-            if(dis[i] == INT_MAX)
-                return -1;
-            res = max(res, dis[i]);
-        }
-		return res;
-    }
-};
-
-
-class Solution {
-public:
-    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        // [ node : < neightbors, distance > ]
-        vector<pair<int, int>> *graph = new vector<pair<int, int>>[n + 1];
-        for (vector<int> time : times) {
-            graph[time[0]].push_back(make_pair(time[1], time[2]));
-        }
-
-        vector<int> dis(n + 1, INT_MAX);
-        // pair< dis, node >
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        dis[k] = 0;
-        pq.push(make_pair(0, k));
-
-        while (!pq.empty()) {
-            pair<int, int> p = pq.top();
-            pq.pop();
-            int visiting = p.second;
-
-            for (pair<int, int> neighbor : graph[visiting]) {
-                if (dis[visiting] + neighbor.second < dis[neighbor.first]) {
-                    dis[neighbor.first] = dis[visiting] + neighbor.second;
-                    pq.push(make_pair(dis[neighbor.first], neighbor.first));
-                }
+        int ans = INT_MIN;
+        for (int i = 1; i <= n; i++) {
+            if (dis[i] == INT_MAX) return -1;
+            else {
+                ans = max(ans, dis[i]);
             }
         }
-
-        int res = 0;
-        for(int i = 1; i <= n;i++)
-        {
-            if(dis[i] == INT_MAX)
-                return -1;
-            res = max(res, dis[i]);
-        }
-		return res;
+        return ans;
     }
 };
