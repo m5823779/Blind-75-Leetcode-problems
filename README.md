@@ -703,6 +703,9 @@
 
 :white_check_mark: ` Hard ` [51. N-Queens](https://leetcode.com/problems/n-queens/)
         `Recursion` `Backtracking` [solution](./recursion/51.N-Queens.cpp) :fire: :fu:
+
+:white_check_mark: `Medium` [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
+        `Recursion` `Backtracking` [solution](./recursion/1239.Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.cpp) :fu:
 ****
 
 ### Dynamic Programming
