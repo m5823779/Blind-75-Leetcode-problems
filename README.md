@@ -811,6 +811,9 @@
 
 :white_check_mark: `Medium` [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)
         `Greedy` `Sorting` `Graph` [solution](./greedy/2285.Maximum%20Total%20Importance%20of%20Roads.cpp) :fu:
+
+:white_check_mark: `Medium` [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+        `Greedy` [solution](./greedy/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful.cpp) :fu:
 ****
 
 ### Other
