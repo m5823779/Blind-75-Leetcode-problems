@@ -800,7 +800,7 @@
 :white_check_mark: `Medium` [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
         `Greedy` `Recursion` `DP` `Memorization` [solution](./greedy/45.Jump%20Game%20II.cpp) :fu: :fu:
 
-:white_check_mark: `Medium` [134. Gas Station](./greedy/134.Gas%20Station.cpp)
+:white_check_mark: `Medium` [134. Gas Station](https://leetcode.com/problems/gas-station/)
         `Greedy` [solution](./greedy/134.Gas%20Station.cpp) :fire:
 
 :white_check_mark: ` Hard ` [135. Candy](https://leetcode.com/problems/candy/)
