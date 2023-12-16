@@ -99,3 +99,37 @@ public:
         return root;
     }
 };
+
+
+class Solution {
+public:
+    Node* connect(Node* root) {
+        Node* next_layer = nullptr;
+        Node* pre = nullptr;
+        Node* cur = root;
+        while (cur) {
+            while (cur) {
+                if (cur->left) {
+                    if (!next_layer) next_layer = cur->left;
+                    if (pre) {
+                        pre->next = cur->left;
+                    }
+                    pre = cur->left;
+                }
+                if (cur->right) {
+                    if (!next_layer) next_layer = cur->right;
+                    if (pre) {
+                        pre->next = cur->right;
+                    }
+                    pre = cur->right;
+                }
+                cur = cur->next;
+            }
+
+            cur = next_layer;
+            next_layer = nullptr;
+            pre = nullptr;
+        }
+        return root;
+    }
+};

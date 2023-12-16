@@ -23,27 +23,32 @@ public:
 class Solution {
 public:
     int subarraysWithKDistinct(vector<int>& nums, int k) {
-        // method 2: sliding window
-        return atMostKDistinct(nums, k) - atMostKDistinct(nums, k - 1);
+        return atMost(nums, k) - atMost(nums, k - 1);
     }
 
-private:
-    int atMostKDistinct(vector<int>& nums, int k) {
-        int res = 0;
-        unordered_map<int, int> mp;
+    int atMost(vector<int>& nums, int k ) {
+        int ans = 0;
         int l = 0;
-        for (int r = 0; r < nums.size(); r++) {
-            mp[nums[r]] += 1;
-            while (mp.size() > k) {
-                mp[nums[l]] -= 1;
+        int r = 0;
+        int distinct = 0;
+        map<int, int> mp; 
+        for (r = 0; r < nums.size(); r++) {
+            if (mp[nums[r]] == 0) {
+                distinct += 1;
+            }
+            mp[nums[r]]++;
+
+            while (distinct > k) {
+                mp[nums[l]]--;
                 if (mp[nums[l]] == 0) {
-                    mp.erase(nums[l]);
+                    distinct -= 1;
                 }
                 l++;
             }
-            res += (r - l + 1);
+
+            ans += (r - l + 1);
         }
-        return res;
+        return ans;
     }
     // time compleixty: O(n)
     // space complexity: O(n)

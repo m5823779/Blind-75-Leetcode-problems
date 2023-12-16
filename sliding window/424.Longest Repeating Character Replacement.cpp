@@ -8,20 +8,16 @@ public:
         // 4. move pointer j, if (substring lenght - most appearance times character) <= k
         // 5. ans = max(ans, j - i + 1)
         
-        const int n = s.size();
         int ans = 0;
-
-        for (int i = 0; i < n; ++i) {
-            // map<char, int> m;
-            vector<int> count(26, 0);
-            int j = i;
-            
-            while (j < n) {        
-                count[s[j] - 'A']++;
-                // if (j - i + 1 - (*max_element(m.begin(), m.end(), [](auto a, auto b){ return a.second < b.second; })).second <= k) {
-                if ((j - i + 1) - *max_element(count.begin(), count.end()) > k) break;
+        
+        for (int i = 0; i < s.size(); i++) {
+            vector<int> freq(26, 0);
+            for (int j = i; j < s.size(); j++) {
+                freq[s[j] - 'A']++;
+                if (j - i + 1 - *max_element(freq.begin(), freq.end()) > k) {
+                    break;
+                } 
                 ans = max(ans, j - i + 1);
-                j++;
             }
         }
         return ans;
@@ -52,22 +48,16 @@ public:
         //      move pointer j to last element
         // 3. ans = max(ans, j - i + 1)
         
-        const int n = s.length();
-        
+        vector<int> mp(26, 0);
         int ans = 0;
-        int max_repeating = 0;
-        
-        unordered_map <char, int> counter;
-        
-        for (int i = 0, j = 0; j < n; ++j) {
-            counter[s[j]] += 1;
-            max_repeating = max(max_repeating, counter[s[j]]);
-            
-            if ((j - i + 1) - max_repeating > k) {
-                counter[s[i]] -= 1;
-                i++;
+        int l = 0;
+        for (int r = 0; r < s.size(); r++) {
+            mp[s[r] - 'A'] += 1;
+            while (r - l + 1 - (*max_element(mp.begin(), mp.end())) > k) {
+                mp[s[l] - 'A'] -= 1;
+                l++;
             }
-            ans = max(ans, j - i + 1);
+            ans = max(ans, r - l + 1);
         }
         return ans;
     }

@@ -81,53 +81,43 @@ class Solution {
 public:
     string minWindow(string s, string t) {
         // method 2: sliding window
-        unordered_map<char, int> remain;
-        for (const char& c : t) {
-            remain[c]++;
-        }
-
-        string ans = "";
-        int valid = 0;
-        int min_len = INT_MAX;
+        map<char, int> mp;
+        for (char c : t) mp[c]++;
         
+        int satisify = 0;
+        int l = 0;
+        string ans = "";
+        int len = INT_MAX;
+
         int start = 0;
         int min_start = 0;
         int min_end = 0;
 
-        for (int end = 0; end < s.size(); end++) {
-            if (remain.find(s[end]) == remain.end()) {
-                continue;    
+        for (int r = 0; r < s.size(); r++) {
+            if (mp.find(s[r]) == mp.end()) continue;
+            mp[s[r]]--;
+            if (mp[s[r]] == 0) {
+                satisify++;
             }
 
-            remain[s[end]]--;
-            if (remain[s[end]] == 0) {
-                valid += 1;
-            }
-
-            while (start <= end && valid == remain.size()) {
-                if (end - start + 1 < min_len) {
-                    min_len = end - start + 1;
-                    min_start = start;
-                    min_end = end;
+            while (l <= r && satisify == mp.size()) {
+                if (r - l + 1 <= len) {
+                    len = r - l + 1;
+                    min_start = l;
+                    min_end = r;
                 }
 
-                char tmp_char = s[start];
-                start++;
-                if (remain.find(tmp_char) == remain.end()) {
-                    continue;
+                if (mp.find(s[l]) != mp.end()) {
+                    mp[s[l]]++;
+                    if (mp[s[l]] > 0) satisify--;
                 }
-                else {
-                    remain[tmp_char]++;   
-                    if (remain[tmp_char] > 0) {
-                        valid -= 1;
-                    }
-                }
+                l++;
             }
         }
-        if (min_len != INT_MAX) {
+
+        if (len != INT_MAX) {
             ans = s.substr(min_start, min_end - min_start + 1);
         }
-        
         return ans;
         // time complexity: O(n)
         // space complexity: O(n)

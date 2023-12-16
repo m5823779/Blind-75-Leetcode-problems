@@ -805,6 +805,9 @@
 
 :white_check_mark: ` Easy ` [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)
         `Greedy` `Sorting` [solution](./greedy/1710.Maximum%20Units%20on%20a%20Truck.cpp)
+
+:white_check_mark: `Medium` [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)
+        `Greedy` `Sorting` `Graph` [solution](./greedy/2285.Maximum%20Total%20Importance%20of%20Roads.cpp) :fu:
 ****
 
 ### Other

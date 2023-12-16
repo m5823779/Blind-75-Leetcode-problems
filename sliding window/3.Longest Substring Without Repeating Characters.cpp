@@ -94,39 +94,17 @@ public:
         // 2. enumerate <i, j> which i = max(i, last_ind[s[j]], + 1)
         // 3. ans = max(ans, j - i + 1)
         
-        const int n = s.length();
-        vector<int> last_ind(128, -1);
+        int l = 0;
+        int r = 0;
+        vector<int> last(128, -1);
         int ans = 0;
-        
-        for (int i = 0, j = 0; j < n; ++j) {
-            i = max(i, last_ind[s[j]] + 1);
-            last_ind[s[j]] = j;
-            ans = max(ans, j - i + 1);
+        for (r = 0; r < s.size(); r++) {
+            l = max(l, last[s[r]] + 1);
+            last[s[r]] = r;
+            ans = max(ans, r - l + 1);
         }
         return ans;
     }
     // time complexity: O(n)
     // sapce complexity: O(128)
-};
-
-
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-        // method 2: sliding window
-        const int n = s.size();
-        unordered_map<char, int> mp;
-        int max_length = 0;
-        int start = 0;
-        for (int end = 0; end < n; end++) {
-            if (mp.find(s[end]) != mp.end()) {
-                start = max(start, mp[s[end]] + 1);
-            }
-            mp[s[end]] = end;
-            max_length = max(max_length, end - start + 1); 
-        }
-        return max_length;
-        // time complexity: O(n)
-        // space complexity: O(128)
-    }
 };
