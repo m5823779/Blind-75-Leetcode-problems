@@ -27,6 +27,37 @@ public:
     vector<vector<int>> subsets(vector<int>& nums) {
         // mehtod: recursion (backtracking)
         vector<int> sub_ans;
+        solve(nums, 0, sub_ans);
+        return ans;
+    }
+
+private:
+    vector<vector<int>> ans;
+    void solve(vector<int>& nums, int cur, vector<int> sub_ans) {
+        // base case
+        if (cur >= nums.size()) {
+            ans.push_back(sub_ans);
+            return;
+        }
+
+        // not-pick
+        solve(nums, cur + 1, sub_ans);
+
+        // pick
+        sub_ans.push_back(nums[cur]);
+        solve(nums, cur + 1, sub_ans);
+        sub_ans.pop_back();
+    }
+    // time complexity: O(n * 2^n)  // 2^n combination, each need O(n) TC
+    // space complexity: O(n)
+};
+
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        // mehtod: recursion (backtracking)
+        vector<int> sub_ans;
         for (int c = 0; c <= nums.size(); c++) {
             solve(nums, c, 0, sub_ans); 
             // 3 choose 0
@@ -56,36 +87,3 @@ private:
     // time complexity: O(n * 2^n)  // 2^n combination, each need O(n) TC
     // space complexity: O(n)
 };
-
-
-class Solution {
-public:
-    vector<vector<int>> subsets(vector<int>& nums) {
-        // mehtod: recursion (backtracking)
-        vector<int> sub_ans;
-        solve(nums, 0, sub_ans);
-        return ans;
-    }
-
-private:
-    vector<vector<int>> ans;
-    void solve(vector<int>& nums, int cur, vector<int> sub_ans) {
-        // base case
-        if (cur >= nums.size()) {
-            ans.push_back(sub_ans);
-            return;
-        }
-
-        // not-pick
-        solve(nums, cur + 1, sub_ans);
-
-        // pick
-        sub_ans.push_back(nums[cur]);
-        solve(nums, cur + 1, sub_ans);
-        sub_ans.pop_back();
-    }
-    // time complexity: O(n * 2^n)  // 2^n combination, each need O(n) TC
-    // space complexity: O(n)
-};
-
-
