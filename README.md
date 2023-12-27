@@ -472,6 +472,11 @@
 
 - [ ] `Medium` [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
         `Graph` `DFS` `BFS` `Hash table` [solution](./graph/787.Cheapest%20Flights%20Within%20K%20Stops.cpp) :fire:
+
+#### Others
+:white_check_mark: `Medium` [1615. Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)
+        `Graph` [solution](./graph/1615.Maximal%20Network%20Rank.cpp)
+
 ****
 
 ### Tree
